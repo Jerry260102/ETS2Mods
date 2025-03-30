@@ -1,0 +1,8 @@
+SiiNunit
+{
+cargo_model_match : .scs_brickc
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.flatbed/body/brick_crane.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_brick/plant_substrate_13c.sii"
+}
+}

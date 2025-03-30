@@ -1,0 +1,116 @@
+SiiNunit
+{
+ui_blend_window : _nameless.00bb06181 {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: _nameless.00bb06180
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless.01b1df800
+ my_children[1]: _nameless.16b.8300
+ my_children[2]: _nameless._.tutorial.highlight
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+desktop_hdl : _nameless.00bb06180 {
+ window_link: _nameless.00bb06181
+}
+
+ui::text_common : _nameless.01b1df800 {
+ value: "<nowrap><verbatim>@@moded_game@@</verbatim></nowrap>"
+ look_template: txt.small.center
+ text: ""
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 20
+ coords_b: 0
+ area_l: 0
+ area_r: 0
+ area_t: &c26e8f59
+ area_b: &c26e8f59
+ id: 120
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.00bb06181
+}
+
+ui_desktop_menu_bar : _nameless.16b.8300 {
+ categories_path: "/def/ui_desktop_ind_full.sii"
+ category_button_look: btn.desktop_link
+ category_button_look_left: btn.desktop_link.left
+ category_button_look_right: btn.desktop_link.right
+ category_button_look_single: btn.desktop_link.single
+ category_no_menu_button_look: btn.desktop.drive
+ category_background_look: txt.window.bcg_rect4
+ category_background_value: "@@clr_desktop_bg_main@@"
+ category_horizontal_margin: 0
+ category_item_spacing: 0
+ menu_look: txt.window.bcg_rect4
+ menu_look_value: "@@clr_desktop_bg_main@@"
+ menu_horizontal_margin: 0
+ menu_top_margin: 0
+ menu_bottom_margin: 0
+ menu_item_spacing: 0
+ menu_y_offset: 0
+ menu_to_bounds_offset: 0
+ link_button_look: btn.desktop.screen_link
+ link_tooltip_background_look: txt.window.bcg_rect4
+ link_tooltip_look: txt.normal.center
+ link_tooltip_background_value: "@@clr_desktop_bg_main@@"
+ link_tooltip_margin: 20
+ link_tooltip_y_offset: 0
+ link_tooltip_width_limit: 310
+ fitting: false
+ my_children: 0
+ coords_l: &43944000
+ coords_r: &449b5000
+ coords_t: 121
+ coords_b: -5
+ area_l: &43944000
+ area_r: &449b5000
+ area_t: 121
+ area_b: -5
+ id: 200
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.00bb06181
+}
+
+ui::text_common : _nameless._.tutorial.highlight {
+ value: FF
+ look_template: txt.dir_focus.big
+ text: ""
+ coords_l: 648
+ coords_r: 776
+ coords_t: 468
+ coords_b: 340
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 400
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.00bb06181
+}
+
+}

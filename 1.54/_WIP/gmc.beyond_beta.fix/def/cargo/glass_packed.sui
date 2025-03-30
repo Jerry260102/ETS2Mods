@@ -1,0 +1,10 @@
+cargo_data: cargo.glass_packed
+{
+	name: "@@cn_pck_glass@@"
+	group[]: inloader
+	volume: 1
+	mass: 223
+	unit_reward_per_km: 0.21735
+	unit_load_time: 30
+	body_types[]: _gls_lergled
+}

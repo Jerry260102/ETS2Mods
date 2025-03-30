@@ -1,0 +1,12 @@
+cargo_data: cargo.vent_tube
+{
+	name: "@@cn_vent_tube@@"
+	fragility: 0.3
+	group[]: construction
+	volume: 40
+	mass: 2415
+	unit_reward_per_km: 10.7
+	unit_load_time: 1200
+	body_types[]: flatbed
+	body_types[]: flatbed_cont
+}

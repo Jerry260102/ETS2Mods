@@ -1,0 +1,89 @@
+SiiNunit
+{
+
+economy: .economy
+{
+	new_game: true
+
+	player: .player
+	bank: .bank
+	game_progress: .progress
+	event_queue: .events
+	police_ctrl: .police
+	mail_ctrl: .mailbox
+	delivery_log: .delivery_log
+	used_vehicle_assortment: .used_vehicle
+	experience_points: 1000000
+ 	adr: 63
+ 	long_dist: 6
+ 	heavy: 6
+ 	fragile: 6
+ 	urgent: 6
+ 	mechanical: 6
+# @include "locked_screens.sui"
+
+	#Starting time in minutes.
+	game_time: 600
+}
+
+bank: .bank
+{
+	money_account: 99999999
+	app_enabled: true
+}
+
+
+game_progress: .progress
+{
+}
+
+
+economy_event_queue: .events
+{
+}
+
+police_ctrl: .police
+{
+ offence_timer: 6
+ offence_timer[0]: 0
+ offence_timer[1]: 0
+ offence_timer[2]: 0
+ offence_timer[3]: 0
+ offence_timer[4]: 0
+ offence_timer[5]: 0
+ offence_counter: 6
+ offence_counter[0]: 0
+ offence_counter[1]: 0
+ offence_counter[2]: 0
+ offence_counter[3]: 0
+ offence_counter[4]: 0
+ offence_counter[5]: 0
+ offence_valid: 6
+ offence_valid[0]: false
+ offence_valid[1]: false
+ offence_valid[2]: false
+ offence_valid[3]: false
+ offence_valid[4]: false
+ offence_valid[5]: false
+}
+
+
+mail_ctrl: .mailbox
+{
+}
+
+player: .player
+{
+}
+
+
+delivery_log: .delivery_log
+{
+}
+
+used_vehicle_assortment: .used_vehicle
+{
+}
+
+}
+

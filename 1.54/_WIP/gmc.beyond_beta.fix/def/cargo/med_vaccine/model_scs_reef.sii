@@ -1,0 +1,20 @@
+SiiNunit
+{
+cargo_model_match : .scs_reef
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.box/body/reefer_136.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.box/body/reefer_78.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.box/body/reefer_78bd.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.box/body/reefers_136.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.box/body/reefers_78.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.box/body/reefers_78bd.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.box/body/m_floor_136r.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_box/reefer/chassis.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_box/reefer/chassis_aero.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_box/reefer/chassis_bd.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_box/reefer/chassis_ca.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_box/reefer/chassis_hook.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_box/reefer/chassis_stw.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_box/med_vaccine.sii"
+}
+}

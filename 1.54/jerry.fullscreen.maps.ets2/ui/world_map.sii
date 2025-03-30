@@ -1,0 +1,697 @@
+SiiNunit
+{
+ui_blend_window : _nameless.008a5be61 {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: _nameless.008a5be60
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 18
+ my_children[0]: _nameless.008a5be63
+ my_children[1]: _nameless.008a5be64
+ my_children[2]: _nameless.064759892
+ my_children[3]: _nameless.064759893
+ my_children[4]: _nameless.0677cdf10
+ my_children[5]: _nameless._.route_notify
+ my_children[6]: _nameless.0677cdf10.0000
+ my_children[7]: _nameless.43e.86b0.0000
+ my_children[8]: _nameless.189.9170
+ my_children[9]: _nameless.196.96a0
+ my_children[10]: _nameless.009510e70
+ my_children[11]: _nameless.009511aa0
+ my_children[12]: _nameless.2fb.c6c0
+ my_children[13]: _nameless.1a1.a300
+ my_children[14]: _nameless.2b5.5570
+ my_children[15]: _nameless.2b5.5020
+ my_children[16]: _nameless.2b5.69a0
+ my_children[17]: _nameless.2b5.6340
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 900
+ coords_b: 0
+ area_l: -80
+ area_r: 1520
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+world_map_hdl : _nameless.008a5be60 {
+ window_link: _nameless.008a5be61
+}
+
+ui::text_common : _nameless.008a5be63 {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 860
+ coords_b: 70
+ area_l: 0
+ area_r: 0
+ area_t: 0
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::portal : _nameless.008a5be64 {
+ child_path: "/ui/world_map_map.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: false
+ my_children: 0
+ coords_l: -75
+ coords_r: 1515
+ coords_t: 855
+ coords_b: 75
+ area_l: -75
+ area_r: 1515
+ area_t: 855
+ area_b: 75
+ id: 100000
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::text : _nameless.064759892 {
+ text: "<color value=@@clr_table_bg_dark@@><img src=/material/ui/white.mat width=1 height=-1><img src=/material/ui/white.mat width=-1 yscale=stretch><img src=/material/ui/white.mat width=1 height=-1>"
+ coords_l: 1206
+ coords_r: 1515
+ coords_t: 855
+ coords_b: 732
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 400
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::button_common : _nameless.064759893 {
+ value: "@@reset_gps_pins@@"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1226
+ coords_r: 1495
+ coords_t: 772
+ coords_b: 742
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 360
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::group : _nameless.0677cdf10 {
+ fitting: true
+ my_children: 3
+ my_children[0]: _nameless.0677cdad0
+ my_children[1]: _nameless.0677cd2c1
+ my_children[2]: _nameless.0677cd110
+ coords_l: 1204
+ coords_r: 1515
+ coords_t: 697
+ coords_b: 665
+ area_l: 1204
+ area_r: 1515
+ area_t: 697
+ area_b: 665
+ id: 370
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::text : _nameless.0677cdad0 {
+ text: "<color value=@@clr_table_bg_dark@@><img src=/material/ui/white.mat width=1 height=-1><img src=/material/ui/white.mat width=-1 yscale=stretch><img src=/material/ui/white.mat width=1 height=-1>"
+ coords_l: 1238
+ coords_r: 1515
+ coords_t: 696
+ coords_b: 666
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0677cdf10
+}
+
+ui::text_common : _nameless.0677cd2c1 {
+ value: "@@append_new_pins@@"
+ look_template: txt.small.left
+ text: ""
+ coords_l: 1248
+ coords_r: 1515
+ coords_t: 696
+ coords_b: 666
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0677cdf10
+}
+
+ui::button_common : _nameless.0677cd110 {
+ value: ""
+ value2: ""
+ look_template: btn.checkbox
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 1204
+ coords_r: 1236
+ coords_t: 697
+ coords_b: 665
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 380
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0677cdf10
+}
+
+ui::text_common : _nameless._.route_notify {
+ value: ""
+ look_template: null
+ text: ""
+ coords_l: 590
+ coords_r: 846
+ coords_t: 309
+ coords_b: 255
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 420
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::group : _nameless.0677cdf10.0000 {
+ fitting: true
+ my_children: 3
+ my_children[0]: _nameless.0677cdad0.0000
+ my_children[1]: _nameless.0677cd2c1.0000
+ my_children[2]: _nameless.0677cd110.0000
+ coords_l: 1204
+ coords_r: 1515
+ coords_t: 730
+ coords_b: 698
+ area_l: 1204
+ area_r: 1515
+ area_t: 730
+ area_b: 698
+ id: 430
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::text : _nameless.0677cdad0.0000 {
+ text: "<color value=@@clr_table_bg_dark@@><img src=/material/ui/white.mat width=1 height=-1><img src=/material/ui/white.mat width=-1 yscale=stretch><img src=/material/ui/white.mat width=1 height=-1>"
+ coords_l: 1238
+ coords_r: 1515
+ coords_t: 729
+ coords_b: 699
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0677cdf10.0000
+}
+
+ui::text_common : _nameless.0677cd2c1.0000 {
+ value: "@@append_new_avoid_pins@@"
+ look_template: txt.small.left
+ text: ""
+ coords_l: 1248
+ coords_r: 1515
+ coords_t: 729
+ coords_b: 699
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0677cdf10.0000
+}
+
+ui::button_common : _nameless.0677cd110.0000 {
+ value: ""
+ value2: ""
+ look_template: btn.checkbox
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 1204
+ coords_r: 1236
+ coords_t: 730
+ coords_b: 695
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 440
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0677cdf10.0000
+}
+
+ui::text : _nameless.43e.86b0.0000 {
+ text: "<img src=/video/busy.mat right=p32 bottom=p32 ka=center>"
+ coords_l: 701
+ coords_r: 736
+ coords_t: 514
+ coords_b: 480
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 421
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::button_common : _nameless.189.9170 {
+ value: ""
+ value2: ""
+ look_template: btn.map.legend
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: -75
+ coords_r: -19
+ coords_t: 131
+ coords_b: 75
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 664
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::group : _nameless.196.96a0 {
+ fitting: false
+ my_children: 5
+ my_children[0]: _nameless.26b.5510
+ my_children[1]: _nameless.26a.5610
+ my_children[2]: _nameless.1b0.7fa0
+ my_children[3]: _nameless.1b7.b180
+ my_children[4]: _nameless.1af.32d0
+ coords_l: -75
+ coords_r: 539
+ coords_t: 669
+ coords_b: 136
+ area_l: -80
+ area_r: 534
+ area_t: 669
+ area_b: 136
+ id: 665
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::text_common : _nameless.26b.5510 {
+ value: "@@select_all@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: -21
+ coords_r: 232
+ coords_t: 175
+ coords_b: 143
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.196.96a0
+}
+
+ui::button_common : _nameless.26a.5610 {
+ value: ""
+ value2: ""
+ look_template: btn.checkbox.small
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: -65
+ coords_r: -33
+ coords_t: 175
+ coords_b: 143
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 2000
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.196.96a0
+}
+
+ui::text : _nameless.1b0.7fa0 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=fa3e3e3e>"
+ coords_l: -75
+ coords_r: 539
+ coords_t: 182
+ coords_b: 136
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.196.96a0
+}
+
+ui::portal : _nameless.1b7.b180 {
+ child_path: "/ui/map_legend_in.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: false
+ my_children: 0
+ coords_l: -75
+ coords_r: 539
+ coords_t: 669
+ coords_b: 184
+ area_l: -75
+ area_r: 539
+ area_t: 669
+ area_b: 184
+ id: 666
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.196.96a0
+}
+
+ui::group : _nameless.1af.32d0 {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless.1a6.2f30
+ my_children[1]: _nameless.1a6.5fc0
+ coords_l: 242
+ coords_r: 539
+ coords_t: 175
+ coords_b: 143
+ area_l: 242
+ area_r: 539
+ area_t: 175
+ area_b: 143
+ id: 1000
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.196.96a0
+}
+
+ui::text_common : _nameless.1a6.2f30 {
+ value: "@@reset_filtering@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: 286
+ coords_r: 539
+ coords_t: 175
+ coords_b: 143
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.1af.32d0
+}
+
+ui::button_common : _nameless.1a6.5fc0 {
+ value: ""
+ value2: ""
+ look_template: btn.reset.small
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 242
+ coords_r: 272
+ coords_t: 173
+ coords_b: 143
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1001
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.1af.32d0
+}
+
+ui::button_common : _nameless.009510e70 {
+ value: "<img src=/material/ui/button/minus.mat>"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1441
+ coords_r: 1381
+ coords_t: 105
+ coords_b: 75
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 310
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::button_common : _nameless.009511aa0 {
+ value: "<img src=/material/ui/button/plus.mat>"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1483
+ coords_r: 1515
+ coords_t: 105
+ coords_b: 75
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 300
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::overlay_point : _nameless.2fb.c6c0 {
+ overlay_anchor_type: bottomright
+ value: "right|bottom"
+ look_template: txt.overlay.anchor
+ text: ""
+ coords_l: 1060
+ coords_r: 1515
+ coords_t: 116
+ coords_b: 75
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 111
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::button_common : _nameless.1a1.a300 {
+ value: "@@clr_sel@@|100.00"
+ value2: "@@clr_sel@@|100.00"
+ look_template: btn.exploration
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: -75
+ coords_r: 153
+ coords_t: 855
+ coords_b: 823
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1777
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::text_common : _nameless.2b5.5570 {
+ value: ""
+ look_template: txt.map.info
+ text: ""
+ coords_l: 1239
+ coords_r: 1490
+ coords_t: 845
+ coords_b: 825
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 410
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::text_common : _nameless.2b5.5020 {
+ value: ""
+ look_template: txt.map.info
+ text: ""
+ coords_l: 1239
+ coords_r: 1490
+ coords_t: 830
+ coords_b: 810
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 411
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::text_common : _nameless.2b5.69a0 {
+ value: ""
+ look_template: txt.map.info
+ text: ""
+ coords_l: 1239
+ coords_r: 1490
+ coords_t: 816
+ coords_b: 796
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 412
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::text_common : _nameless.2b5.6340 {
+ value: ""
+ look_template: txt.map.info
+ text: ""
+ coords_l: 1239
+ coords_r: 1490
+ coords_t: 801
+ coords_b: 781
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 413
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+}

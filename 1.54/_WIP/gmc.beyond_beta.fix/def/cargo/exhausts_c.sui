@@ -1,0 +1,12 @@
+cargo_data: cargo.exhausts_c
+{
+	name: "@@cn_exhaust_systems@@"
+	fragility: 0.68
+	group[]: gooseneck
+	volume: 2.6
+	mass: 250.2
+	unit_reward_per_km: 0.57
+	unit_load_time: 40
+	body_types[]: container
+	body_types[]: flatbed_cont
+}

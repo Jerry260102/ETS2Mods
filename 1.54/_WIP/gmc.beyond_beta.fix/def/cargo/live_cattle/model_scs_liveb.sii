@@ -1,0 +1,9 @@
+SiiNunit
+{
+cargo_model_match : .scs_liveb
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.livestock/body/belly_painted.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.livestock/body/belly_steel.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_livestock/cows_belly.sii"
+}
+}

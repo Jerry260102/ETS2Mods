@@ -1,0 +1,12 @@
+cargo_data: cargo.olive_oil_t
+{
+	name: "@@cn_olive_oil@@"
+	fragility: 0.6
+	group[]: containers
+	group[]: liquid
+	volume: 1
+	mass: 920
+	unit_reward_per_km: 0.797
+	unit_load_time: 40
+	body_types[]: foodtank
+}

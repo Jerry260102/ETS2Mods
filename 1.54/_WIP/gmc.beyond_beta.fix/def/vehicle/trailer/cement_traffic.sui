@@ -1,0 +1,43 @@
+traffic_trailer : traffic.trailer.cement
+{
+	accessories[]: .traffic.cement.tchassis.default
+	accessories[]: .traffic.cement.trwheel0.default
+	accessories[]: .traffic.cement.trwheel1.default
+	accessories[]: .traffic.cement.trwheel2.default
+	accessories[]: .traffic.cement.paintjob.default
+
+	cargo_mass: 25000
+
+	spawn_ratio: 1
+	
+	tags[]: low
+	tags[]: cement
+	tags[]: construct
+	tags[]: heavy
+	tags[]: medium
+
+	company_paint_job: true
+}
+vehicle_accessory: .traffic.cement.tchassis.default
+{
+	data_path: "/def/vehicle/trailer/cement/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.cement.trwheel0.default
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .traffic.cement.trwheel1.default
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .traffic.cement.trwheel2.default
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .traffic.cement.paintjob.default
+{
+	data_path: "/def/vehicle/trailer/cement/company_paint_job/default.sii"
+}

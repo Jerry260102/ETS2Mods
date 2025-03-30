@@ -1,0 +1,18 @@
+
+country_data: country.data.libya
+{
+	name: "Libya"
+	name_localized: "@@Libya@@"
+	country_code: "LBY"
+	iso_country_code: lby
+	pos:(202724, 0, 196411)
+	fuel_price: 1.10
+	country_id: 120
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: false
+
+	time_zone: 120		# +1 hours in minutes
+	time_zone_name: "@@tz_eest@@"
+}
+

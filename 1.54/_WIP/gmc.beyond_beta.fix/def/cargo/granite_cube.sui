@@ -1,0 +1,12 @@
+cargo_data: cargo.granite_cube
+{
+	name: "@@cn_granite_cubes@@"
+	fragility: 0.15
+	maximum_distance: 800
+	group[]: bulk
+	volume: 1
+	mass: 2300
+	unit_reward_per_km: 0.75
+	unit_load_time: 40
+	body_types[]: dumper
+}

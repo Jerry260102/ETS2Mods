@@ -1,0 +1,12 @@
+cargo_data: cargo.plast_film_c
+{
+	name: "@@cn_plastic_film_rolls@@"
+	fragility: 0.15
+	group[]: containers
+	volume: 2.6
+	mass: 378.56
+	unit_reward_per_km: 0.4472
+	unit_load_time: 40
+	body_types[]: container
+	body_types[]: flatbed_cont
+}

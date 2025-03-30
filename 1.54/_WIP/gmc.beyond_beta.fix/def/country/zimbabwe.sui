@@ -1,0 +1,18 @@
+
+country_data: country.data.zimbabwe
+{
+	name: "Zimbabwe"
+	name_localized: "@@Zimbabwe@@"
+	country_code: "ZWE"
+	iso_country_code: zwe
+	pos:(165655.34, 2.43, 482156.22)
+	fuel_price: 1.46
+	country_id: 148
+	lights_mandatory: false
+	leftside_traffic: true
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cat@@"
+}
+

@@ -1,0 +1,22 @@
+country_data: country.data.saudia1
+{
+	country_id: 161
+
+	name: "Saudi Arabia"
+	name_localized: "@@saudia1@@"
+	country_code: "KSA"
+	iso_country_code: sau
+
+	pos:(130000, 0, 106000)
+
+	fuel_price: 0.168
+
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "AST"
+}
+
+

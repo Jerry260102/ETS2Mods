@@ -1,0 +1,21 @@
+
+country_data: country.data.iran
+{
+	name: "Iran" #ايران
+	name_localized: "@@Iran@@"
+	country_code: "IR"
+	iso_country_code: irn
+	pos:(205008, 0, 53553)
+	fuel_price: 0.26
+	country_id: 58
+	lights_mandatory: false
+	driving_tired_offence: true
+		
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "@@tz_irdt@@" #Iran Daylight Time
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 24000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}
+

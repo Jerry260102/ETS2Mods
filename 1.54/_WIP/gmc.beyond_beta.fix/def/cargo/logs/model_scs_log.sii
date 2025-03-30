@@ -1,0 +1,11 @@
+SiiNunit
+{
+cargo_model_match : .scs_log
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.log/body/steel_136.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.log/body/wood_136.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_log/chassis.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_log/logs_12m.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_log/logs_3x4m.sii"
+}
+}

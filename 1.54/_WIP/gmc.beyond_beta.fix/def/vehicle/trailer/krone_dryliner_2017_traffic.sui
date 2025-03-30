@@ -1,0 +1,48 @@
+traffic_trailer : traffic.trailer.krone.dryliner.default
+{
+	accessories[]: .krone.dryliner.default.tchassis
+	accessories[]: .krone.dryliner.default.trwheel0
+	accessories[]: .krone.dryliner.default.trwheel1
+	accessories[]: .krone.dryliner.default.trwheel2
+	accessories[]: .krone.dryliner.default.paint_job
+
+	base: traffic.trailer.scs_box.dry_van.default
+
+	cargo_mass: 20000
+	
+	tags[]: high
+	tags[]: box
+	tags[]: dryvan
+	tags[]: medium
+	tags[]: brand
+	tags[]: krone
+	tags[]: basic
+	
+	spawn_ratio: 1
+
+	company_paint_job: true
+}
+vehicle_accessory: .krone.dryliner.default.tchassis
+{
+	data_path: "/def/vehicle/trailer/krone/dryliner/chassis.sii"
+}
+vehicle_wheel_accessory: .krone.dryliner.default.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .krone.dryliner.default.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .krone.dryliner.default.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .krone.dryliner.default.paint_job
+{
+	data_path: "/def/vehicle/trailer/krone/dryliner/company_paint_job/default.sii"
+}
+

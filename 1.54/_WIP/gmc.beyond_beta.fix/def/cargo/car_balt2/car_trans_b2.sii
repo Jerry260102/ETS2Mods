@@ -1,0 +1,15 @@
+SiiNunit
+{
+trailer_def : trailer_def.car_balt2.car_trans_b2
+{
+	trailer: trailer.van_trans
+	gross_trailer_weight_limit: 13901
+	chassis_mass: 7500
+	body_mass: 0
+	axles: 3
+	volume: 100
+	body_type: _car__b2cat2
+
+	mass_ratio[]: 1
+}
+}

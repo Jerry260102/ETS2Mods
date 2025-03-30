@@ -1,0 +1,65 @@
+SiiNunit
+{
+vegetation_model : vegetmodel.narrow.tree1_jerry
+{
+	sprite_model: "/model_jerry/vegetation/poly_vegetation/sc_narrow_tree_1_sprite.pmd"
+	med_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_narrow_tree_1_high.pmd"
+	hi_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_narrow_tree_1_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)
+}
+
+vegetation_model : vegetmodel.narrow.tree2_jerry
+{
+	sprite_model: "/model_jerry/vegetation/poly_vegetation/sc_narrow_tree_2_sprite.pmd"
+	med_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_narrow_tree_2_high.pmd"
+	hi_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_narrow_tree_2_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)
+}
+
+vegetation_model : vegetmodel.narrow.birch1_jerry
+{
+	sprite_model: "/model_jerry/vegetation/poly_vegetation/sc_narrow_birch_1_sprite.pmd"
+	med_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_narrow_birch_1_high.pmd"
+	hi_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_narrow_birch_1_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)
+}
+
+vegetation_model : vegetmodel.narrow.birch2_jerry
+{
+	sprite_model: "/model_jerry/vegetation/poly_vegetation/sc_narrow_birch_2_sprite.pmd"
+	med_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_narrow_birch_2_high.pmd"
+	hi_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_narrow_birch_2_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)
+}
+
+vegetation_model : vegetmodel.low.birch1_jerry
+{
+	sprite_model: "/model_jerry/vegetation/poly_vegetation/sc_low_birch_1_sprite.pmd"
+	med_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_low_birch_1_high.pmd"
+	hi_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_low_birch_1_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)
+}
+
+vegetation_model : vegetmodel.low.tree1_jerry
+{
+	sprite_model: "/model_jerry/vegetation/poly_vegetation/sc_low_tree_1_sprite.pmd"
+	med_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_low_tree_1_high.pmd"
+	hi_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_low_tree_1_high.pmd"
+	use_collision: true
+	colbox_size: (1, 4, 1)
+}
+
+vegetation_model : vegetmodel.low.tree2_jerry
+{
+	sprite_model: "/model_jerry/vegetation/poly_vegetation/sc_low_tree_2_sprite.pmd"
+	med_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_low_tree_2_high.pmd"
+	hi_poly_model: "/model_jerry/vegetation/poly_vegetation/sc_low_tree_2_high.pmd"
+	use_collision: true
+	colbox_size: (1, 4, 1)
+}
+}

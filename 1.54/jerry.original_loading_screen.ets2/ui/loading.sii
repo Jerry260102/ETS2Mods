@@ -1,0 +1,278 @@
+SiiNunit
+{
+ui::window : _nameless.024e8d6b1 {
+ window_handler: _nameless.024e8d6b0
+ clip_children: false
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 12
+ my_children[0]: _nameless.024e8d6b2
+ my_children[1]: _nameless._.picture
+ my_children[2]: _nameless._.overlay
+ my_children[3]: _nameless._.logo
+ my_children[4]: _nameless._.loading.bar.bottom
+ my_children[5]: _nameless._.screenshot.info
+ my_children[6]: _nameless._.job.info
+ my_children[7]: _nameless._.logo.wotr
+ my_children[8]: _nameless._.gen_nav_info
+ my_children[9]: _nameless._.screenshot.location
+ my_children[10]: _nameless._.screenshot.dlc
+ my_children[11]: _nameless._.screenshot.frame
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+loading_hdl : _nameless.024e8d6b0 {
+ window_link: _nameless.024e8d6b1
+}
+
+ui::group : _nameless.024e8d6b2 {
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.loading.bar.upper
+ coords_l: 370
+ coords_r: 1070
+ coords_t: 170
+ coords_b: 159
+ area_l: 370
+ area_r: 1070
+ area_t: 170
+ area_b: 159
+ id: 100
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.024e8d6b1
+}
+
+ui::text : _nameless._.loading.bar.upper {
+ text: "<color value=@@clr_loading_bar@@><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 370
+ coords_r: 1070
+ coords_t: 170
+ coords_b: 167
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 110
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.024e8d6b2
+}
+
+ui::text_common : _nameless._.picture {
+ value: "/material/ui/loading/bar_pics/base_01.mat"
+ look_template: txt.loading.pic
+ text: ""
+ coords_l: 20
+ coords_r: 1420
+ coords_t: 798
+ coords_b: 286
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 120
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.024e8d6b1
+}
+
+ui_fullscreen : _nameless._.overlay {
+ texture: ""
+ color: (0, 0, 0)
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 10
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.024e8d6b1
+}
+
+ui::text : _nameless._.logo {
+ text: "<img src=/material/ui/loading/logo.mat xscale=stretch yscale=stretch>"
+ coords_l: 513
+ coords_r: 903
+ coords_t: 389
+ coords_b: 194
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 67
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.024e8d6b1
+}
+
+ui::text : _nameless._.loading.bar.bottom {
+ text: "<color value=@@clr_loading_bar_bg@@><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 370
+ coords_r: 1070
+ coords_t: 170
+ coords_b: 167
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.024e8d6b1
+}
+
+ui::text_common : _nameless._.screenshot.info {
+ value: RootKiller
+ look_template: txt.lscr.author
+ text: ""
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 228
+ coords_b: 202
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 201
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.024e8d6b1
+}
+
+ui::text_common : _nameless._.job.info {
+ value: "Monday 9:99 am|Computer Parts|Sillicon Valley - Santa Clara County|$ 99 999,-"
+ look_template: txt.loading.job
+ text: ""
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 150
+ coords_b: 124
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 200
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.024e8d6b1
+}
+
+ui::text : _nameless._.logo.wotr {
+ text: "<img src=/material/ui/loading/world_of_trucks_logo.mat left=p70 right=p440 top=p40 bottom=p239 xscale=stretch yscale=stretch>"
+ coords_l: 533
+ coords_r: 911
+ coords_t: 385
+ coords_b: 192
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 68
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.024e8d6b1
+}
+
+ui::text_common : _nameless._.gen_nav_info {
+ value: "@@content_change_detected@@"
+ look_template: txt.emph
+ text: ""
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 124
+ coords_b: 98
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 211
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.024e8d6b1
+}
+
+ui::text_common : _nameless._.screenshot.location {
+ value: "Famouse Bridge"
+ look_template: txt.normal.right
+ text: ""
+ coords_l: 1038
+ coords_r: 1419
+ coords_t: 286
+ coords_b: 249
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 220
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.024e8d6b1
+}
+
+ui::text_common : _nameless._.screenshot.dlc {
+ value: "Road to the Black Sea DLC"
+ look_template: txt.emph.right.top
+ text: ""
+ coords_l: 1038
+ coords_r: 1419
+ coords_t: 258
+ coords_b: 229
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 221
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.024e8d6b1
+}
+
+ui::text : _nameless._.screenshot.frame {
+ text: "<img src=/material/ui/loading/corner.mat left=1 right=0><ret>\r\n<align hstyle=right><img src=/material/ui/loading/corner.mat></align><ret>\r\n<align vstyle=bottom><img src=/material/ui/loading/corner.mat left=1 right=0 top=1 bottom=0></align><ret>\r\n<align hstyle=right vstyle=bottom><img src=/material/ui/loading/corner.mat top=1 bottom=0></align>\r\n"
+ coords_l: 15
+ coords_r: 1425
+ coords_t: 803
+ coords_b: 281
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.024e8d6b1
+}
+
+}

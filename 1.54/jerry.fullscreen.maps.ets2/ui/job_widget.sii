@@ -1,0 +1,58 @@
+SiiNunit
+{
+ui_blend_window : _nameless.012f17451 {
+ blend_x_shift: -1000
+ blend_y_shift: 0
+ window_handler: _nameless.012f17450
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless.06ea82430
+ coords_l: -75
+ coords_r: 206
+ coords_t: 855
+ coords_b: 688
+ area_l: -75
+ area_r: 206
+ area_t: 855
+ area_b: 688
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+job_widget_hdl : _nameless.012f17450 {
+ window_link: _nameless.012f17451
+}
+
+ui::button_common : _nameless.06ea82430 {
+ value: "online_job|@@online_job_resumed@@|Car components|Prague|CZ|London|UK|<color value=@@clr_wotr_blue@@><img src=/material/ui/stopwatch.mat> 23 h 45 min|15,500.-\r\n"
+ value2: ""
+ look_template: btn.dsktp_jobinf
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: -75
+ coords_r: 206
+ coords_t: 855
+ coords_b: 688
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.012f17451
+}
+
+}

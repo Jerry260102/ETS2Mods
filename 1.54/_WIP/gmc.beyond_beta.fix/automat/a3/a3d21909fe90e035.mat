@@ -1,0 +1,21 @@
+effect : "eut2.glass.rfx" {
+	additional_ambient : 0.000000
+	diffuse : { 1.000000 , 1.000000 , 1.000000 }
+	fresnel : { 0.200000 , 0.900000 }
+	shininess : 95.000000
+	specular : { 0.214041 , 0.214041 , 0.214041 }
+	queue_bias : 0
+	glass_tint_color : { 0.264948 , 0.374372 , 0.447988 }
+	glass_tint_opacity : 0.000000
+	texture : "texture_base" {
+		source : "/material/special/glass_building_01.tobj"
+		sampler : default
+	}
+	texture : "texture_reflection" {
+		source : "/material/special/vehicle_reflection.tobj"
+		mip_filter : none
+		u_address : clamp
+		v_address : clamp
+		w_address : clamp
+	}
+}

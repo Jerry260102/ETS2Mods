@@ -1,0 +1,13 @@
+cargo_data: cargo.potassium
+{
+	name: "@@cn_potassium@@"
+	adr_class: 4
+	group[]: liquid
+	group[]: gooseneck
+	volume: 1
+	mass: 200
+	unit_reward_per_km: 0.281
+	unit_load_time: 15
+	body_types[]: container
+	body_types[]: flatbed_cont
+}

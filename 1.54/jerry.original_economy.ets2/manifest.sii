@@ -1,0 +1,12 @@
+SiiNunit
+{
+    mod_package : .package_name {
+        package_version: "1.54-0.0.1"
+        display_name: "Jerry's Original Economy (ETS2)"
+        author: "Jerry GMC Master Fixer"
+        category[]: "other"
+        icon: "mod_icon.jpg"
+        description_file: "description.txt"
+        compatible_versions[]: "1.54.*"
+    }
+}

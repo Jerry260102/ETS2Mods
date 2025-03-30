@@ -1,0 +1,7 @@
+SiiNunit
+{
+company_def : .bjborgholm {
+ city:  bjborgholm
+ prefab: dlc_no_16
+}
+}

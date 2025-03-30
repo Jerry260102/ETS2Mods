@@ -1,0 +1,12 @@
+cargo_data: cargo.ammonia
+{
+	name: "@@cn_anhydrous_ammonia@@"
+	fragility: 0.6
+	adr_class: 2
+	group[]: liquid
+	volume: 1
+	mass: 730
+	unit_reward_per_km: 1.05
+	unit_load_time: 90
+	body_types[]: gastank
+}

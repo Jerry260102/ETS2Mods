@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_odense_denmark@@"
+	dlc_id: eut2_north
+}
+}

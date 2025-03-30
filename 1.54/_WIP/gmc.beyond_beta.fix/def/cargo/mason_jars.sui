@@ -1,0 +1,11 @@
+cargo_data: cargo.mason_jars
+{
+	name: "@@cn_mason_jars@@"
+	group[]: containers
+	volume: 2.6
+	mass: 222.5
+	unit_reward_per_km: 0.657
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

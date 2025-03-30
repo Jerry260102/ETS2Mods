@@ -1,0 +1,12 @@
+cargo_data: cargo.used_plast_c
+{
+	name: "@@cn_used_plastics@@"
+	fragility: 0.1
+	group[]: containers
+	volume: 2.6
+	mass: 238.42
+	unit_reward_per_km: 0.429
+	unit_load_time: 40
+	body_types[]: container
+	body_types[]: flatbed_cont
+}

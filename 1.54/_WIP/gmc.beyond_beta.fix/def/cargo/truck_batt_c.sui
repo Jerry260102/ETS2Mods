@@ -1,0 +1,12 @@
+cargo_data: cargo.truck_batt_c
+{
+	name: "@@cn_truck_battery@@"
+	fragility: 0.3
+	group[]: containers
+	volume: 2.6
+	mass: 484.12
+	unit_reward_per_km: 0.567
+	unit_load_time: 40
+	body_types[]: container
+	body_types[]: flatbed_cont
+}

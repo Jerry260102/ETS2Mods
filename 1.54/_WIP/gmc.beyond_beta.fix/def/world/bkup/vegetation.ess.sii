@@ -1,0 +1,55 @@
+SiiNunit
+{
+
+vegetation_data : veg.5064 {
+
+	name: "1_ess_sc_birches"
+
+	models[]: vegetmodel.birch.big_sc
+	models[]: vegetmodel.beech.small2
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.small.tree_sc
+	models[]: vegetmodel.beech.small3
+	models[]: vegetmodel.birch.big_sc
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.beech.small2
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.birch.big_sc
+	models[]: vegetmodel.beech.small3
+
+}
+
+vegetation_data : veg.5068 {
+
+	name: "1_ess_Bush_sc - avenue"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.big_bush1_sc
+	models[]: vegetmodel.big.bush1_sc
+	models[]: vegetmodel.medium.bush1
+
+	min_offset: 5.0
+	max_offset: 25.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5079 {
+
+	name: "1_ess_Pines sc - avenue"
+
+	models[]: vegetmodel.pine.big_sc
+	models[]: vegetmodel.pine.big_2_sc
+	models[]: vegetmodel.pine.medium_sc
+
+	min_offset: 1.0
+	max_offset: 21.0
+	density: 400.0
+
+	min_size_perc: 60
+	max_size_perc: 100
+}
+
+}

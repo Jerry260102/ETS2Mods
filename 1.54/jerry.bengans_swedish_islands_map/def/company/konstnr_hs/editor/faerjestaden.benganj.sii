@@ -1,0 +1,7 @@
+SiiNunit
+{
+company_def : .faerjestaden {
+ city: faerjestaden
+ prefab: 319
+}
+}

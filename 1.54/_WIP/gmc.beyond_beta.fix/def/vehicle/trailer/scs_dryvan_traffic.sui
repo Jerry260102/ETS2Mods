@@ -1,0 +1,43 @@
+traffic_trailer : traffic.trailer.scs_box.dry_van.default
+{
+	accessories[]: .scs_box.dry_van.default.tchassis
+	accessories[]: .scs_box.dry_van.default.trwheel0
+	accessories[]: .scs_box.dry_van.default.trwheel1
+	accessories[]: .scs_box.dry_van.default.trwheel2
+	accessories[]: .scs_box.dry_van.default.paint_job
+	cargo_mass: 20000
+	
+	tags[]: high
+	tags[]: box
+	tags[]: dryvan
+	tags[]: medium
+	tags[]: basic
+
+	spawn_ratio: 2
+
+	company_paint_job: true
+}
+vehicle_accessory: .scs_box.dry_van.default.tchassis
+{
+	data_path: "/def/vehicle/trailer/scs_box/dry_van/chassis.sii"
+}
+vehicle_wheel_accessory: .scs_box.dry_van.default.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single_385_55_alu.sii"
+}
+vehicle_wheel_accessory: .scs_box.dry_van.default.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single_385_55_alu.sii"
+}
+vehicle_wheel_accessory: .scs_box.dry_van.default.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single_385_55_alu.sii"
+}
+vehicle_paint_job_accessory: .scs_box.dry_van.default.paint_job
+{
+	data_path: "/def/vehicle/trailer/scs_box/dry_van/company_paint_job/default.sii"
+}
+

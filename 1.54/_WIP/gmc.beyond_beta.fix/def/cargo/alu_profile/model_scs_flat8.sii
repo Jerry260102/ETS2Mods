@@ -1,0 +1,10 @@
+SiiNunit
+{
+cargo_model_match : .scs_flat8
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.flatbed/body/flatbed_78.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.flatbed/body/flatbed_1_78.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.flatbed/body/flatbed_container_78.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_flatbed/aluminium_profiles_8.sii"
+}
+}

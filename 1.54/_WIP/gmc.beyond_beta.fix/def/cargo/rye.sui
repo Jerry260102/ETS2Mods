@@ -1,0 +1,12 @@
+cargo_data: cargo.rye
+{
+	name: "@@cn_rye@@"
+	fragility: 0.2
+	group[]: bulk
+	volume: 1
+	mass: 700
+	unit_reward_per_km: 0.4
+	unit_load_time: 40
+	body_types[]: dumper
+	body_types[]: silo
+}

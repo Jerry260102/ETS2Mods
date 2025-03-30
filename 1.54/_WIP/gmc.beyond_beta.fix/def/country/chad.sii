@@ -1,0 +1,18 @@
+
+country_data: country.data.chad
+{
+	name: "Chad"
+	name_localized: "@@Chad@@"
+	country_code: "TCD"
+	iso_country_code: tcd
+	pos:(202724, 0, 196411)
+	fuel_price: 1.10
+	country_id: 102
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: false
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_wat@@"
+}
+

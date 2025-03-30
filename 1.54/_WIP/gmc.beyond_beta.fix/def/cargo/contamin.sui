@@ -1,0 +1,13 @@
+cargo_data: cargo.contamin
+{
+	name: "@@cn_contamin@@"
+	fragility: 0.5
+	adr_class: 6
+	group[]: gooseneck
+	volume: 1
+	mass: 160
+	unit_reward_per_km: 0.31
+	unit_load_time: 15
+	body_types[]: container
+	body_types[]: flatbed_cont
+}

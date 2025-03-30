@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.bjfaarosund.bjfaaro {
+	price: 2
+	time: 5
+	distance: 2
+}
+}
+

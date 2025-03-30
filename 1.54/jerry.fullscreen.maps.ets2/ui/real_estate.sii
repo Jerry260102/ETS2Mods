@@ -1,0 +1,426 @@
+SiiNunit
+{
+ui_blend_window : _nameless.008a5be61 {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: _nameless.19c.f780
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 6
+ my_children[0]: _nameless.199.0370
+ my_children[1]: _nameless._.map
+ my_children[2]: _nameless._.garage_info
+ my_children[3]: _nameless._.instruction
+ my_children[4]: _nameless._.instruction.bg
+ my_children[5]: _nameless.21b.f3a0
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 900
+ coords_b: 0
+ area_l: -80
+ area_r: 1520
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+real_estate_hdl : _nameless.19c.f780 {
+ window_link: _nameless.008a5be61
+}
+
+ui::text_common : _nameless.199.0370 {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 860
+ coords_b: 70
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::portal : _nameless._.map {
+ child_path: "/ui/real_estate_map.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.tooltip
+ coords_l: -75
+ coords_r: 1515
+ coords_t: 855
+ coords_b: 75
+ area_l: -75
+ area_r: 1515
+ area_t: 855
+ area_b: 75
+ id: 100000
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::text_common : _nameless._.tooltip {
+ value: ""
+ look_template: txt.ttip_simple
+ text: ""
+ coords_l: 277
+ coords_r: 433
+ coords_t: 526
+ coords_b: 461
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 110
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.map
+}
+
+ui::group : _nameless._.garage_info {
+ fitting: false
+ my_children: 8
+ my_children[0]: _nameless.198.e390
+ my_children[1]: _nameless._.garage.options
+ my_children[2]: _nameless.198.e4a0.0000
+ my_children[3]: _nameless.198.e4a0
+ my_children[4]: _nameless.233.dae0
+ my_children[5]: _nameless._.total.price
+ my_children[6]: _nameless.22e.3570
+ my_children[7]: _nameless.295.6e10
+ coords_l: 1225
+ coords_r: 1515
+ coords_t: 855
+ coords_b: 550
+ area_l: 1225
+ area_r: 1515
+ area_t: 855
+ area_b: 550
+ id: 200
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::text_common : _nameless.198.e390 {
+ value: "@@re_info_title@@ - Amsterdam"
+ look_template: txt.normal.center
+ text: ""
+ coords_l: 1225
+ coords_r: 1515
+ coords_t: 844
+ coords_b: 823
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 201
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.garage_info
+}
+
+ui::button_row : _nameless._.garage.options {
+ row_align: center
+ label_indent: 0
+ item_distance: 30
+ min_item_width: 0
+ button_row_type: dynamic
+ value_list: "mid~~high"
+ id_list: "211~~212"
+ width_list: ""
+ list_delimiter: "~~"
+ look_template_list: ""
+ look_template: btn.pic_garage
+ button_type: radio
+ button_tab_base: -1
+ p_pml_as_reference: false
+ use_blend_buttons: false
+ fitting: false
+ my_children: 0
+ coords_l: 1265
+ coords_r: 1475
+ coords_t: 806
+ coords_b: 716
+ area_l: 1265
+ area_r: 1475
+ area_t: 806
+ area_b: 716
+ id: 210
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.garage_info
+}
+
+ui::text_common : _nameless.198.e4a0.0000 {
+ value: "@@re_info_size@@\r\n<br>@@re_info_grg_slots@@"
+ look_template: txt.normal.left.top
+ text: ""
+ coords_l: 1245
+ coords_r: 1456
+ coords_t: 701
+ coords_b: 667
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.garage_info
+}
+
+ui::text_common : _nameless.198.e4a0 {
+ value: "Small\r\n<br>3"
+ look_template: txt.normal.right.top
+ text: ""
+ coords_l: 1260
+ coords_r: 1495
+ coords_t: 701
+ coords_b: 667
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 202
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.garage_info
+}
+
+ui::text_common : _nameless.233.dae0 {
+ value: "@@clr_white@@|@@re_total@@"
+ look_template: txt.normal.color.left
+ text: ""
+ coords_l: 1245
+ coords_r: 1466
+ coords_t: 660
+ coords_b: 630
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.garage_info
+}
+
+ui::text_common : _nameless._.total.price {
+ value: "E 0,-"
+ look_template: txt.normal.right
+ text: ""
+ coords_l: 1314
+ coords_r: 1495
+ coords_t: 660
+ coords_b: 630
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 203
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.garage_info
+}
+
+ui::button_common : _nameless.22e.3570 {
+ value: "@@re_purchase@@"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1245
+ coords_r: 1495
+ coords_t: 600
+ coords_b: 570
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 220
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.garage_info
+}
+
+ui::text_common : _nameless.295.6e10 {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: 1225
+ coords_r: 1515
+ coords_t: 855
+ coords_b: 550
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.garage_info
+}
+
+ui::text_common : _nameless._.instruction {
+ value: "@@re_instruction@@"
+ look_template: txt.big.center
+ text: ""
+ coords_l: 10
+ coords_r: 1428
+ coords_t: 855
+ coords_b: 825
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+ui::text : _nameless._.instruction.bg {
+ text: "<color value=@@clr_bg_dark@@>\r\n<offset vshift=1><img src=/material/ui/white.mat width=1 height=-1>\r\n<offset vshift=-1><img src=/material/ui/white.mat yscale=stretch width=-1>\r\n<offset vshift=1><img src=/material/ui/white.mat width=1 height=-1>"
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 855
+ coords_b: 825
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 301
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::group : _nameless.21b.f3a0 {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.owned.garages
+ my_children[1]: _nameless._.available.garages
+ my_children[2]: _nameless._.icons
+ my_children[3]: _nameless._.icons.background
+ coords_l: -75
+ coords_r: 185
+ coords_t: 855
+ coords_b: 771
+ area_l: -75
+ area_r: 185
+ area_t: 855
+ area_b: 771
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008a5be61
+}
+
+ui::text_common : _nameless._.owned.garages {
+ value: "@@clr_white@@|@@re_owned@@"
+ look_template: txt.normal.color.left
+ text: ""
+ coords_l: -20
+ coords_r: 154
+ coords_t: 813
+ coords_b: 782
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.21b.f3a0
+}
+
+ui::text_common : _nameless._.available.garages {
+ value: "@@clr_white@@|@@re_available@@"
+ look_template: txt.normal.color.left
+ text: ""
+ coords_l: -20
+ coords_r: 154 
+ coords_t: 844
+ coords_b: 813
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.21b.f3a0
+}
+
+ui::text : _nameless._.icons {
+ text: "<img src=/material/ui/company_manager/garage_ico_big_n.mat left=p15 top=p15><br offset=-18>\r\n<img src=/material/ui/company_manager/real_estate_owned_garage_ico_big_d.mat left=p15 top=p15>"
+ coords_l: -65
+ coords_r: -11
+ coords_t: 844
+ coords_b: 782
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.21b.f3a0
+}
+
+ui::text_common : _nameless._.icons.background {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: -75
+ coords_r: 185
+ coords_t: 855
+ coords_b: 771
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.21b.f3a0
+}
+}

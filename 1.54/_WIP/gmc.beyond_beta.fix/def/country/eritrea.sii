@@ -1,0 +1,18 @@
+
+country_data: country.data.eritrea
+{
+	name: "Eritrea"
+	name_localized: "@@Eritrea@@"
+	country_code: "ERI"
+	iso_country_code: eri
+	pos:(175827, 0, 184619)
+	fuel_price: 0.10
+	country_id: 110
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_eest@@"
+}
+

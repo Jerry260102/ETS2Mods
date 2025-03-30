@@ -1,0 +1,17 @@
+SiiNunit
+{
+cargo_model_match : .scs_cont220
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.gooseneck/body/cont_220.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_gooseneck/black220.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/krone.boxliner/body/boxliner2x20.sii"
+	compatible_body[]: "/def/vehicle/trailer/krone/boxliner/chassis_2x20.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/wielton.containerm/body/cont_220.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kogel.port/body/container_220.sii"
+	compatible_body[]: "/def/vehicle/trailer/kogel_port_duplex/ch_3_220.sii"
+	compatible_body[]: "/def/vehicle/trailer/kogel_port_triplex/ch_3_220.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.shg/body/cont_220.sii"
+	compatible_body[]: "/def/vehicle/trailer/kassbohrer_shg/ch_3e_220.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_container/container_220_t14_potassium.sii"
+}
+}

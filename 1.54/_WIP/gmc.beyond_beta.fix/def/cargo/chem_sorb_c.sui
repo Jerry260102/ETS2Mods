@@ -1,0 +1,12 @@
+cargo_data: cargo.chem_sorb_c
+{
+	name: "@@cn_chemical_sorbent@@"
+	fragility: 0.2
+	group[]: containers
+	volume: 2.6
+	mass: 291.72
+	unit_reward_per_km: 0.5018
+	unit_load_time: 40
+	body_types[]: container
+	body_types[]: flatbed_cont
+}

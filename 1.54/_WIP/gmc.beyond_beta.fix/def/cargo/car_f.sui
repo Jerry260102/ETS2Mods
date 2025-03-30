@@ -1,0 +1,12 @@
+cargo_data: cargo.car_f
+{
+	name: "@@cn_cars@@"
+	fragility: 0.95
+	valuable: true
+	group[]: machinery
+	volume: 1
+	mass: 104
+	unit_reward_per_km: 0.243
+	unit_load_time: 30
+	body_types[]: _car__f1ca_f
+}

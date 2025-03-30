@@ -1,0 +1,95 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	templates[]:"0  111 222   "
+
+	def0[]:"<font xscale=0.8 yscale=0.8 >01</font>" 	// Bishkek
+	def0[]:"<font xscale=0.8 yscale=0.9 >02</font>"		// Osh
+	def0[]:"<font xscale=0.8 yscale=0.9 >03</font>"		// Batken Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >04</font>"		// Jalal-Abad Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >05</font>"		// Naryn Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >06</font>"		// Osh Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >07</font>"		// Talas Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >08</font>"		// Chuy Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >09</font>"		// Issyk Kul Region
+
+	def1[]:"<font yscale=1.2 >0</font>"
+	def1[]:"<font yscale=1.2 >1</font>"
+	def1[]:"<font yscale=1.2 >2</font>"
+	def1[]:"<font yscale=1.2 >3</font>"
+	def1[]:"<font yscale=1.2 >4</font>"
+	def1[]:"<font yscale=1.2 >5</font>"
+	def1[]:"<font yscale=1.2 >6</font>"
+	def1[]:"<font yscale=1.2 >7</font>"
+	def1[]:"<font yscale=1.2 >8</font>"
+	def1[]:"<font yscale=1.2 >9</font>"
+
+	def2[]:"<font xscale=1.0 yscale=1.0 >A</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >B</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >C</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >D</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >E</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >F</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >G</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >H</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >J</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >K</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >L</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >M</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >N</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >O</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >P</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >Q</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >R</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >S</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >T</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >U</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >V</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >W</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >X</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >Y</font>"
+	def2[]:"<font xscale=1.0 yscale=1.0 >Z</font>"	
+}
+
+license_plate_data : .lp.police
+{
+	type: police
+
+	templates[]:"0   111 2    "
+
+	def0[]:"<font xscale=0.8 yscale=0.8 >01</font>" 	// Bishkek
+	def0[]:"<font xscale=0.8 yscale=0.9 >02</font>"		// Osh
+	def0[]:"<font xscale=0.8 yscale=0.9 >03</font>"		// Batken Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >04</font>"		// Jalal-Abad Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >05</font>"		// Naryn Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >06</font>"		// Osh Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >07</font>"		// Talas Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >08</font>"		// Chuy Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >09</font>"		// Issyk Kul Region
+	
+	def1[]:"<font yscale=1.2 >0</font>"
+	def1[]:"<font yscale=1.2 >1</font>"
+	def1[]:"<font yscale=1.2 >2</font>"
+	def1[]:"<font yscale=1.2 >3</font>"
+	def1[]:"<font yscale=1.2 >4</font>"
+	def1[]:"<font yscale=1.2 >5</font>"
+	def1[]:"<font yscale=1.2 >6</font>"
+	def1[]:"<font yscale=1.2 >7</font>"
+	def1[]:"<font yscale=1.2 >8</font>"
+	def1[]:"<font yscale=1.2 >9</font>"
+
+	def2[]:"<font xscale=1.0 yscale=1.0 >PT</font>"
+}
+
+}

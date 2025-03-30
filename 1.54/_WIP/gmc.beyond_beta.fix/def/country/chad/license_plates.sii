@@ -1,0 +1,322 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	templates[]:"401222235"
+
+	def0[]:"01"    # Al-Batkha
+	def0[]:"02"    # Burku
+	def0[]:"03"    # Shari-Bakirmi
+	def0[]:"04"    # Kira
+	def0[]:"05"    # Khajar-Lamis
+	def0[]:"06"    # Kanim
+	def0[]:"07"    # Al-Bukhaira
+	def0[]:"08"    # Al-Harbi
+	def0[]:"09"    # Loocooni Ash-Sharki
+	def0[]:"10"    # Mandun
+	def0[]:"11"    # Mayou-Kibi Ash-Sharki
+	def0[]:"12"    # Mayou-Kibi Al-Harb
+	def0[]:"13"    # Shari Al-Afsat
+	def0[]:"14"    # Waddai
+	def0[]:"15"    # Salyamat
+	def0[]:"16"    # Tabdjili
+	def0[]:"17"    # Wadi-Fira
+	def0[]:"18"    # Ndjamena
+	def0[]:"19"    # Bakhar Al-Hazal
+	def0[]:"20"    # Innidi
+	def0[]:"21"    # Silya
+	def0[]:"22"    # Tibasti
+	def0[]:"23"    # Guera
+
+	def1[]:"V"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+	def2[]:"0"
+	
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"P"
+	def3[]:"Q"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"
+
+	def4[]:"<align right=120>"
+	def5[]:"</align>"
+}
+
+license_plate_data : .lp.truck
+{
+	type: truck
+
+	templates[]:"401222235"
+
+	def0[]:"01"    # Al-Batkha
+	def0[]:"02"    # Burku
+	def0[]:"03"    # Shari-Bakirmi
+	def0[]:"04"    # Kira
+	def0[]:"05"    # Khajar-Lamis
+	def0[]:"06"    # Kanim
+	def0[]:"07"    # Al-Bukhaira
+	def0[]:"08"    # Al-Harbi
+	def0[]:"09"    # Loocooni Ash-Sharki
+	def0[]:"10"    # Mandun
+	def0[]:"11"    # Mayou-Kibi Ash-Sharki
+	def0[]:"12"    # Mayou-Kibi Al-Harb
+	def0[]:"13"    # Shari Al-Afsat
+	def0[]:"14"    # Waddai
+	def0[]:"15"    # Salyamat
+	def0[]:"16"    # Tabdjili
+	def0[]:"17"    # Wadi-Fira
+	def0[]:"18"    # Ndjamena
+	def0[]:"19"    # Bakhar Al-Hazal
+	def0[]:"20"    # Innidi
+	def0[]:"21"    # Silya
+	def0[]:"22"    # Tibasti
+	def0[]:"23"    # Guera
+
+	def1[]:"T"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+	def2[]:"0"
+	
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"P"
+	def3[]:"Q"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"
+
+	def4[]:"<align right=120>"
+	def5[]:"</align>"
+}
+
+license_plate_data : .lp.trailer
+{
+	type: trailer
+
+	templates[]:"401222235"
+
+	def0[]:"01"    # Al-Batkha
+	def0[]:"02"    # Burku
+	def0[]:"03"    # Shari-Bakirmi
+	def0[]:"04"    # Kira
+	def0[]:"05"    # Khajar-Lamis
+	def0[]:"06"    # Kanim
+	def0[]:"07"    # Al-Bukhaira
+	def0[]:"08"    # Al-Harbi
+	def0[]:"09"    # Loocooni Ash-Sharki
+	def0[]:"10"    # Mandun
+	def0[]:"11"    # Mayou-Kibi Ash-Sharki
+	def0[]:"12"    # Mayou-Kibi Al-Harb
+	def0[]:"13"    # Shari Al-Afsat
+	def0[]:"14"    # Waddai
+	def0[]:"15"    # Salyamat
+	def0[]:"16"    # Tabdjili
+	def0[]:"17"    # Wadi-Fira
+	def0[]:"18"    # Ndjamena
+	def0[]:"19"    # Bakhar Al-Hazal
+	def0[]:"20"    # Innidi
+	def0[]:"21"    # Silya
+	def0[]:"22"    # Tibasti
+	def0[]:"23"    # Guera
+
+	def1[]:"T"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+	def2[]:"0"
+	
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"P"
+	def3[]:"Q"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"
+
+	def4[]:"<align right=120>"
+	def5[]:"</align>"
+}
+
+license_plate_data : .lp.bus
+{
+	type: bus
+
+	templates[]:"401222235"
+
+	def0[]:"01"    # Al-Batkha
+	def0[]:"02"    # Burku
+	def0[]:"03"    # Shari-Bakirmi
+	def0[]:"04"    # Kira
+	def0[]:"05"    # Khajar-Lamis
+	def0[]:"06"    # Kanim
+	def0[]:"07"    # Al-Bukhaira
+	def0[]:"08"    # Al-Harbi
+	def0[]:"09"    # Loocooni Ash-Sharki
+	def0[]:"10"    # Mandun
+	def0[]:"11"    # Mayou-Kibi Ash-Sharki
+	def0[]:"12"    # Mayou-Kibi Al-Harb
+	def0[]:"13"    # Shari Al-Afsat
+	def0[]:"14"    # Waddai
+	def0[]:"15"    # Salyamat
+	def0[]:"16"    # Tabdjili
+	def0[]:"17"    # Wadi-Fira
+	def0[]:"18"    # Ndjamena
+	def0[]:"19"    # Bakhar Al-Hazal
+	def0[]:"20"    # Innidi
+	def0[]:"21"    # Silya
+	def0[]:"22"    # Tibasti
+	def0[]:"23"    # Guera
+
+	def1[]:"B"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+	def2[]:"0"
+	
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"P"
+	def3[]:"Q"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"
+
+	def4[]:"<align right=120>"
+	def5[]:"</align>"
+}
+
+license_plate_data : .lp.police
+{
+	type: police
+
+	background_front: "police_front"
+	background_rear: "police_rear"
+
+	templates[]:"01 22223"
+
+	def0[]:"<color value=FFF4F4F4><align right=120>"
+
+	def1[]:"PN"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+	def2[]:"0"
+
+	def3[]:"</align>"
+}
+
+}

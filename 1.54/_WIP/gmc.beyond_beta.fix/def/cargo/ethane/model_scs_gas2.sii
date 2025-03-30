@@ -1,0 +1,8 @@
+SiiNunit
+{
+cargo_model_match : .scs_gas2
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.gastank/body/tank_10.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_gastank/ethane_ch2.sii"
+}
+}

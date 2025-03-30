@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_a61_e80_carcassone_france@@"
+	dlc_id: eut2_fr
+}
+}

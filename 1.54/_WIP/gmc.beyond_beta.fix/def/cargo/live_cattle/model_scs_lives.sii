@@ -1,0 +1,10 @@
+SiiNunit
+{
+cargo_model_match : .scs_lives
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.livestock/body/straight_painted.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.livestock/body/straight_steel.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_livestock/chassis.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_livestock/cows_straight.sii"
+}
+}

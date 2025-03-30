@@ -1,0 +1,11 @@
+cargo_data: cargo.conc_juice_t
+{
+	name: "@@cn_concentrate_juices@@"
+	fragility: 0.5
+	group[]: liquid
+	volume: 1
+	mass: 1306.3
+	unit_reward_per_km: 0.872
+	unit_load_time: 40
+	body_types[]: foodtank
+}

@@ -1,0 +1,22 @@
+country_data: country.data.egypt1
+{
+	country_id: 173
+
+	name: "Egypt"
+	name_localized: "@@egypt1@@"
+	country_code: "ET"
+	iso_country_code: egy
+
+	pos:(100000, 0, 103000)
+
+	fuel_price: 0.357
+
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "EET"
+}
+
+

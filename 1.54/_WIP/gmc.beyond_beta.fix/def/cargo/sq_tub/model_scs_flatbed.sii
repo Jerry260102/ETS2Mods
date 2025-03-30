@@ -1,0 +1,16 @@
+SiiNunit
+{
+cargo_model_match : .scs_flatbed
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.flatbed/body/flatbed.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.flatbed/body/flatbed_1.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.flatbed/body/flatbed_container.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_flatbed/flatbed.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_flatbed/flatbed_g.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_flatbed/flatbed_r.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_flatbed/flatbed_y.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_flatbed/flat_cont_g.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_flatbed/flat_cont_r.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_flatbed/square_tubing.sii"
+}
+}

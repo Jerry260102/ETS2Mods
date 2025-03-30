@@ -1,0 +1,37 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis
+{
+	name: "@@brand_tirsan@@ @@series_tirsan_scs@@"
+
+	detail_model: "/vehicle/trailer_eu/tirsan_scs/trailer.pmd"
+
+	model: "/vehicle/trailer_eu/tirsan_scs/trailer_lod0.pmd"
+	lods[]: "/vehicle/trailer_eu/tirsan_scs/trailer_lod1.pmd"
+	lods[]: "/vehicle/trailer_eu/tirsan_scs/trailer_lod2.pmd"
+	lods[]: "/vehicle/trailer_eu/tirsan_scs/trailer_lod3.pmd"
+	collision: "/vehicle/trailer_eu/tirsan_scs/trailer.pmc"
+	variant: default
+	look: default
+
+	trailer_brace_model: "/vehicle/trailer_owned/tirsan_scs/chassis/trailer_brace.pmd"
+	trailer_brace_anim: "/vehicle/trailer_owned/tirsan_scs/chassis/trailer_leg.pma"
+
+	extended_shadow_texture: "/vehicle/trailer_owned/tirsan_scs/ui_shadow_ch_3_13.tobj"
+	extended_shadow_intensity: 1.45
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+
+	ui_shadow: "/vehicle/trailer_owned/tirsan_scs/chassis/ui_shadow_ch_3_13.pmd"
+
+	trailer_mass: 6160.0
+
+	residual_travel[]: 0.12
+	residual_travel[]: 0.12
+	residual_travel[]: 0.12
+
+	liftable_axle[]: true
+	liftable_axle[]: false
+	liftable_axle[]: false
+}
+}

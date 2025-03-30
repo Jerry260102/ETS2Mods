@@ -1,0 +1,12 @@
+cargo_data: cargo.sodchlor
+{
+	name: "@@cn_sodchlor@@"
+	fragility: 0.5
+	adr_class: 8
+	group[]: liquid
+	volume: 0.3
+	mass: 190
+	unit_reward_per_km: 0.283
+	unit_load_time: 40
+	body_types[]: chemtank
+}

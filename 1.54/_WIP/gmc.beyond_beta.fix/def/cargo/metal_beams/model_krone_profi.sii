@@ -1,0 +1,9 @@
+SiiNunit
+{
+cargo_model_match : .krone_profi
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/krone.profilinerhd/body/profilinerhd.sii"
+	compatible_body[]: "/def/vehicle/trailer/krone/profiliner_hd/chassis.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/krone_profilinerhd/metal_beams.sii"
+}
+}

@@ -1,0 +1,18 @@
+SiiNunit
+{
+
+#################################################
+########### police
+#################################################
+
+country_traffic_info : .country.info.hilux.police1_th {
+	object: traffic.hilux.police1_th
+	spawn_frequency: 1.0
+}
+
+country_traffic_info : .country.info.hilux.police2_th {
+	object: traffic.hilux.police2_th
+	spawn_frequency: 1.0
+}
+
+}

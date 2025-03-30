@@ -1,0 +1,12 @@
+SiiNunit
+{
+cargo_model_match : .tirs_scs
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/tirsan.scs/body/curtain_side_boards_al.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/tirsan.scs/body/curtain_side_boards_al_2.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/tirsan.scs/body/curtain_side_boards_paint.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/tirsan.scs/body/curtain_side_boards_paint_2.sii"
+	compatible_body[]: "/def/vehicle/trailer/tirsan_scs/ch_3.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/tirsan_scs/dynamite.sii"
+}
+}

@@ -1,0 +1,337 @@
+SiiNunit
+{
+ui_blend_window : _nameless.0066d2231 {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: _nameless.0066d2230
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 9
+ my_children[0]: _nameless._.window.background
+ my_children[1]: _nameless._.map
+ my_children[2]: _nameless._.title.2
+ my_children[3]: _nameless._.brands
+ my_children[4]: _nameless.1cc.9ed0
+ my_children[5]: _nameless.1f0.9b80
+ my_children[6]: _nameless.2e8.6290
+ my_children[7]: _nameless._.title.2.bg
+ my_children[8]: _nameless._.tooltip
+
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 900
+ coords_b: 0
+ area_l: -80
+ area_r: 1520
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+truck_dealer_map_hdl : _nameless.0066d2230 {
+ window_link: _nameless.0066d2231
+}
+
+ui::text_common : _nameless._.window.background {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 860
+ coords_b: 70
+ area_l: -80
+ area_r: 1520
+ area_t: 860
+ area_b: 70
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::portal : _nameless._.map {
+ child_path: "/ui/truck_dealer_map.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless.0094f9b90
+ coords_l: -75
+ coords_r: 1515
+ coords_t: 855
+ coords_b: 75
+ area_l: -75
+ area_r: 1515
+ area_t: 855
+ area_b: 75
+ id: 100000
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::text_common : _nameless.0094f9b90 {
+ value: ""
+ look_template: txt.ttip_simple
+ text: ""
+ coords_l: 7
+ coords_r: 163
+ coords_t: 144
+ coords_b: 79
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 2500
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.map
+}
+
+ui::text_common : _nameless._.title.2 {
+ value: "@@tdsel_title_all@@"
+ look_template: txt.emph.big.center
+ text: ""
+ coords_l: 12
+ coords_r: 1429
+ coords_t: 855
+ coords_b: 815
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::list_common : _nameless._.brands {
+ look_template: btn.brand.logo
+ use_blend_buttons: false
+ multi_column: false
+ slider_management: false
+ item_height: 59
+ item_width: 122
+ item_gap: 6
+ max_list_height: 0
+ n_pml: ""
+ s_pml: ""
+ p_pml: ""
+ d_pml: ""
+ fitting: false
+ my_children: 0
+ coords_l: -75
+ coords_r: 47
+ coords_t: 855
+ coords_b: 223
+ area_l: -75
+ area_r: 47
+ area_t: 855
+ area_b: 223
+ id: 2
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::text_common : _nameless.1cc.9ed0 {
+ value: "@@closed_dealer_tooltip@@"
+ look_template: txt.ttip_simple
+ text: ""
+ coords_l: 728
+ coords_r: 1078
+ coords_t: 255
+ coords_b: 180
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 9
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::overlay_point : _nameless.1f0.9b80 {
+ overlay_anchor_type: bottomleft
+ value: "left|bottom"
+ look_template: txt.overlay.anchor
+ text: ""
+ coords_l: -75
+ coords_r: 46
+ coords_t: 117
+ coords_b: 75
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 91111
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::button_row : _nameless.2e8.6290 {
+ row_align: center
+ label_indent: 5
+ item_distance: 10
+ min_item_width: 300
+ button_row_type: dynamic
+ value_list: "@@tdsel_buy_online@@~~@@tdsel_visit_dealer@@~~"
+ id_list: "101~~102~~"
+ width_list: "300~~300~~"
+ list_delimiter: "~~"
+ look_template_list: ""
+ look_template: btn.normal
+ button_type: normal
+ button_tab_base: -1
+ p_pml_as_reference: false
+ use_blend_buttons: false
+ fitting: false
+ my_children: 0
+ coords_l: 98
+ coords_r: 1342
+ coords_t: 105
+ coords_b: 75
+ area_l: 98
+ area_r: 1342
+ area_t: 105
+ area_b: 75
+ id: 100
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::text : _nameless._.title.2.bg {
+ text: "<color value=@@clr_bg_dark@@>\r\n<offset vshift=1><img src=/material/ui/white.mat width=1 height=-1>\r\n<offset vshift=-1><img src=/material/ui/white.mat yscale=stretch width=-1>\r\n<offset vshift=1><img src=/material/ui/white.mat width=1 height=-1>"
+ coords_l: -20
+ coords_r: 1520
+ coords_t: 855
+ coords_b: 815
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 301
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+ }
+ ui::group : _nameless._.tooltip {
+ fitting: true
+ my_children: 4
+ my_children[0]: _nameless._.city
+ my_children[1]: _nameless._.brand
+ my_children[2]: _nameless.2ab.8de0
+ my_children[3]: _nameless._.bg 
+ coords_l: 366
+ coords_r: 690
+ coords_t: 683
+ coords_b: 476
+ area_l: 366
+ area_r: 690
+ area_t: 683
+ area_b: 476
+ id: 2510
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::text_common : _nameless._.city {
+ value: "@@clr_white@@|@@truck_dealer@@ - Prague"
+ look_template: txt.normal.color.center
+ text: ""
+ coords_l: 390
+ coords_r: 668
+ coords_t: 655
+ coords_b: 626
+ area_l: 0
+ area_r: 0
+ area_t: 0
+ area_b: 0
+ id: 2511
+ layer: 16
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.tooltip
+}
+
+ui::text_common : _nameless._.brand {
+ value: all
+ look_template: txt.brand.logo
+ text: ""
+ coords_l: 390
+ coords_r: 668
+ coords_t: 622
+ coords_b: 555
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 2512
+ layer: 16
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.tooltip
+}
+
+ui::text_common : _nameless.2ab.8de0 {
+ value: "@@tdsel_hours@@<br offset=10>\r\n@@monday@@ - @@saturday@@    8:00 - 18:00"
+ look_template: txt.normal.center.top
+ text: ""
+ coords_l: 390
+ coords_r: 668
+ coords_t: 548
+ coords_b: 488
+ area_l: 0
+ area_r: 0
+ area_t: 0
+ area_b: 0
+ id: 0
+ layer: 16
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.tooltip
+}
+
+ui::text_common : _nameless._.bg {
+ value: ""
+ look_template: txt.ttip_simple
+ text: ""
+ coords_l: 380
+ coords_r: 680
+ coords_t: 663
+ coords_b: 480
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 15
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.tooltip
+}
+
+}

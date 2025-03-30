@@ -1,0 +1,28 @@
+FullScreens All[red]*[normal] the Maps (16:9 Aspect Ratio)
+
+[green]Including:
+- Quick Jobs
+- Freight Market
+- Cargo Market
+- External Market
+- External Contracts
+- World Map
+- Quick Travel
+- Truck Dealer Map
+- Garage Purchase Map
+- Recruitment Agency Map
+- Logistics Map
+
+[red]*Currently doesn't include:
+- Driver Manager Map View
+- Garage Manager Map View
+- Truck Manager Map View
+- Trailer Manager Map View
+- Ferry Map
+
+[red]*Not Sure if these will ever be implemented due to the fact that they have a lot of
+UI elements outside of the map and not much space to expand the map into
+
+[blue]For Support/Map Combos/Reporting issues/VTC/Amazing Community,
+Check out GMC Logistics:
+[orange]https://discord.gg/gmclogistics

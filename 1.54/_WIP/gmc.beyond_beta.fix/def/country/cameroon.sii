@@ -1,0 +1,18 @@
+
+country_data: country.data.cameroon
+{
+	name: "Cameroon"
+	name_localized: "@@Cameroon@@"
+	country_code: "CMR"
+	iso_country_code: cmr
+	pos:(10983, 0, 242617)
+	fuel_price: 1.10
+	country_id: 99
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: false
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_wat@@"
+}
+

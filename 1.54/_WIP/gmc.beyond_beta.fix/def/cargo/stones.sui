@@ -1,0 +1,11 @@
+cargo_data: cargo.stones
+{
+	name: "@@cn_stones@@"
+	fragility: 0.15
+	group[]: bulk
+	volume: 1
+	mass: 2100
+	unit_reward_per_km: 0.75
+	unit_load_time: 40
+	body_types[]: dumper
+}

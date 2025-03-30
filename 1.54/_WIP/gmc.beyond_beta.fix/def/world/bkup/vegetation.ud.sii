@@ -1,0 +1,1299 @@
+SiiNunit
+{
+
+vegetation_data : veg.5000 {
+
+	name: "1_Pine_Bush - 5m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.big_bush
+
+	min_offset: 5.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5001 {
+
+	name: "1_Pine_Bush - 12m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.big_bush
+
+
+	min_offset: 12.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5003 {
+
+	name: "1_Pine_Bush - 21m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.big_bush
+
+
+	min_offset: 21.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5004 {
+
+	name: "1_Pine_Bush - 30m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.big_bush
+
+	min_offset: 30.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5005 {
+
+	name: "1_Pine_Bush - 40m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.big_bush
+
+	min_offset: 40.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5006 {
+
+	name: "1_Pine_Bush - 50m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.big_bush
+
+	min_offset: 50.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5007 {
+
+	name: "1_Pine_Bush - 70m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.big_bush
+
+	min_offset: 70.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5008 {
+
+	name: "1_Pine_Bush - 100m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+
+	min_offset: 100.0
+	max_offset: 250.0
+	density: 450.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5009 {
+
+	name: "1_Pine_Bush - 120m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+
+	min_offset: 120.0
+	max_offset: 250.0
+	density: 450.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5010 {
+
+	name: "1_Pine_Bush - 150m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+
+	min_offset: 150.0
+	max_offset: 300.0
+	density: 450.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5011 {
+
+	name: "1_Pine_Bush - 170m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+	models[]: vegetmodel.maple.tree
+
+	min_offset: 170.0
+	max_offset: 300.0
+	density: 450.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5012 {
+
+	name: "1_Pine_Bush - 190m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+	models[]: vegetmodel.maple.tree
+
+	min_offset: 190.0
+	max_offset: 300.0
+	density: 450.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5014 {
+
+	name: "1_Pine_Bush - 200-250m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+	models[]: vegetmodel.maple.tree
+
+	min_offset: 200.0
+	max_offset: 300.0
+	density: 450.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5015 {
+
+	name: "3_Pine_Spruce - 5m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.spruce.small_1
+	models[]: vegetmodel.big_bush
+
+	min_offset: 5.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5016 {
+
+	name: "3_Pine_Spruce - 12m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.spruce.small_1
+	models[]: vegetmodel.big_bush
+
+	min_offset: 12.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5017 {
+
+	name: "3_Pine_Spruce - 21m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.spruce.small_1
+
+	min_offset: 21.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5018 {
+
+	name: "3_Pine_Spruce - 30m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.spruce.small_1
+
+	min_offset: 30.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5019 {
+
+	name: "3_Pine_Spruce - 50m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.spruce.mid
+
+	min_offset: 50.0
+	max_offset: 230.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5021 {
+
+	name: "3_Pine_Spruce - 70m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.spruce.mid
+
+	min_offset: 70.0
+	max_offset: 230.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5023 {
+
+	name: "3_Pine_Spruce - 100m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.spruce.big
+
+	min_offset: 100.0
+	max_offset: 250.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5024 {
+
+	name: "3_Pine_Spruce - 120m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.spruce.big
+
+	min_offset: 120.0
+	max_offset: 280.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5025 {
+
+	name: "3_Pine_Spruce - 150m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.spruce.big
+	models[]: vegetmodel.spruce.mid
+
+	min_offset: 150.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5026 {
+
+	name: "3_Pine_Spruce - 200m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+	models[]: vegetmodel.spruce.big
+	models[]: vegetmodel.spruce.mid
+
+	min_offset: 200.0
+	max_offset: 400.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5027 {
+
+	name: "4_leaved - 5m"
+
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+	models[]: vegetmodel.maple.tree
+
+	min_offset: 5.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5028 {
+
+	name: "4_leaved - 12m"
+
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+	models[]: vegetmodel.maple.tree
+
+	min_offset: 12.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5029 {
+
+	name: "4_leaved - 21m"
+
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+	models[]: vegetmodel.maple.tree
+
+	min_offset: 21.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5030 {
+
+	name: "4_leaved - 30m"
+
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+	models[]: vegetmodel.maple.tree
+
+	min_offset: 30.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5031 {
+
+	name: "4_leaved - 40m"
+
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+	models[]: vegetmodel.maple.tree
+
+	min_offset: 40.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5032 {
+
+	name: "5_bereza - 5m"
+
+	models[]: vegetmodel.bereza
+
+	min_offset: 5.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5033 {
+
+	name: "5_bereza - 12m"
+
+	models[]: vegetmodel.bereza
+
+	min_offset: 12.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5034 {
+
+	name: "5_bereza - 21m"
+
+	models[]: vegetmodel.bereza
+
+	min_offset: 21.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5035 {
+
+	name: "5_bereza - 30m"
+
+	models[]: vegetmodel.bereza
+
+	min_offset: 30.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5036 {
+
+	name: "1_Pines - avenue 5m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+
+
+	min_offset: 5.0
+	max_offset: 25.0
+	density: 400.0
+
+	min_size_perc: 60
+	max_size_perc: 100
+}
+
+vegetation_data : veg.5037 {
+
+	name: "5_ bereza - avenue 5m"
+
+	models[]: vegetmodel.bereza
+
+	min_offset: 5.0
+	max_offset: 25.0
+	density: 400.0
+
+	min_size_perc: 60
+	max_size_perc: 100
+}
+
+vegetation_data : veg.5038 {
+
+	name: "1_Pines - avenue 1m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+
+	min_offset: 1.0
+	max_offset: 21.0
+	density: 400.0
+
+	min_size_perc: 60
+	max_size_perc: 100
+}
+
+vegetation_data : veg.5039 {
+
+	name: "5_ bereza - avenue 1m"
+
+	models[]: vegetmodel.bereza
+
+	min_offset: 1.0
+	max_offset: 21.0
+	density: 400.0
+
+	min_size_perc: 60
+	max_size_perc: 100
+}
+
+vegetation_data : veg.5040 {
+
+	name: "3_Spruce - avenue 5m"
+
+	models[]: vegetmodel.spruce.small_1
+
+	min_offset: 5.0
+	max_offset: 25.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5041 {
+
+	name: "1_Bush - avenue 5m"
+
+	models[]: vegetmodel.big_bush
+
+	min_offset: 5.0
+	max_offset: 25.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5042 {
+
+	name: "4_leaved - avenue 35m"
+
+	models[]: vegetmodel.big_bush
+
+	min_offset: 35.0
+	max_offset: 55.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5043 {
+
+	name: "1_Pines - avenue 35m"
+
+	models[]: vegetmodel.pine.big
+	models[]: vegetmodel.pine.big_2
+
+	min_offset: 35.0
+	max_offset: 55.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5044 {
+
+	name: "3_Spruce - avenue 35m"
+
+	models[]: vegetmodel.spruce.small_1
+
+	min_offset: 35.0
+	max_offset: 55.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5045 {
+
+	name: "4_leaved - 70m"
+
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+	models[]: vegetmodel.maple.tree
+
+	min_offset: 70.0
+	max_offset: 250.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5046 {
+
+	name: "4_leaved - 100m"
+
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+	models[]: vegetmodel.maple.tree
+
+	min_offset: 100.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5047 {
+
+	name: "4_leaved - 130m"
+
+	models[]: vegetmodel.big_bush
+	models[]: vegetmodel.poplar.tree
+	models[]: vegetmodel.maple.tree
+
+	min_offset: 130.0
+	max_offset: 400.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5048 {
+
+	name: "5_ bereza - avenue 30m"
+
+	models[]: vegetmodel.bereza
+
+	min_offset: 30.0
+	max_offset: 50.0
+	density: 400.0
+
+	min_size_perc: 60
+	max_size_perc: 100
+}
+
+vegetation_data : veg.5049 {
+
+	name: "1_Bush - avenue 1m"
+
+	models[]: vegetmodel.big_bush
+
+	min_offset: 1.0
+	max_offset: 21.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5050 {
+
+	name: "1_Bush - avenue 30m"
+
+	models[]: vegetmodel.big_bush
+
+	min_offset: 30.0
+	max_offset: 50.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5051 {
+
+	name: "3_Spruce - avenue 1m big"
+
+	models[]: vegetmodel.spruce.big
+
+	min_offset: 1.0
+	max_offset: 21.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5052 {
+
+	name: "3_Spruce - avenue 1m"
+
+	models[]: vegetmodel.spruce.small_1
+
+	min_offset: 1.0
+	max_offset: 21.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5054 {
+
+	name: "3_Spruce - avenue 5m big"
+
+	models[]: vegetmodel.spruce.big
+
+	min_offset: 5.0
+	max_offset: 25.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5055 {
+
+	name: "3_Spruce - avenue 35m big"
+
+	models[]: vegetmodel.spruce.big
+
+	min_offset: 35.0
+	max_offset: 55.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+
+vegetation_data : veg.5056 {
+
+	name: "sc- birches - avenue 5m dens-400"
+
+	models[]: vegetmodel.birch.big_sc
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.birch.big_sc
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.small.tree_sc
+
+	min_offset: 5.0
+	max_offset: 25.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 120
+}
+
+vegetation_data : veg.5057 {
+
+	name: "sc- birches - avenue 1m dens-400"
+
+	models[]: vegetmodel.birch.big_sc
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.birch.big_sc
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.small.tree_sc
+
+	min_offset: 1.0
+	max_offset: 21.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 120
+}
+
+vegetation_data : veg.5058 {
+
+	name: "sc- birches - avenue 35m dens-400"
+
+	models[]: vegetmodel.birch.big_sc
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.birch.big_sc
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.small.tree_sc
+
+	min_offset: 35.0
+	max_offset: 55.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 120
+}
+
+vegetation_data : veg.5059 {
+
+	name: "7_tree - avenue 35m"
+
+	models[]: vegetmodel.small.tree_sc
+
+	min_offset: 35.0
+	max_offset: 55.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 120
+}
+
+vegetation_data : veg.5060 {
+
+	name: "7_tree - avenue 5m"
+
+	models[]: vegetmodel.small.tree_sc
+
+	min_offset: 5.0
+	max_offset: 25.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 120
+}
+
+vegetation_data : veg.5061 {
+
+	name: "7_tree - avenue 1m"
+
+	models[]: vegetmodel.small.tree_sc
+
+	min_offset: 1.0
+	max_offset: 15.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 120
+}
+
+vegetation_data : veg.5062 {
+
+	name: "1_poplar - avenue 1m"
+
+	models[]: vegetmodel.poplar.tree
+
+	min_offset: 1.0
+	max_offset: 15.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 120
+}
+
+vegetation_data : veg.5063 {
+
+	name: "1_maple - avenue 1m"
+
+	models[]: vegetmodel.maple.tree
+
+	min_offset: 1.0
+	max_offset: 15.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 120
+}
+
+vegetation_data : veg.5065 {
+
+	name: "sc- birches - 21m dens-200"
+
+	models[]: vegetmodel.birch.big_sc
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.small.tree_sc
+	models[]: vegetmodel.birch.big_sc
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.birch.big_sc
+
+
+
+	min_offset: 21.0
+	max_offset: 250.0
+	density: 200.0
+
+	min_size_perc: 80
+	max_size_perc: 120
+}
+
+vegetation_data : veg.5066 {
+
+	name: "sc- birches - 30m dens-200"
+
+	models[]: vegetmodel.birch.big_sc
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.small.tree_sc
+	models[]: vegetmodel.birch.big_sc
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.birch.small_sc
+	models[]: vegetmodel.birch.big_sc
+
+
+	min_offset: 30.0
+	max_offset: 250.0
+	density: 200.0
+
+	min_size_perc: 80
+	max_size_perc: 120
+}
+
+vegetation_data : veg.5067 {
+
+	name: "zzz_Pine_forest"
+
+	models[]: vegetmodel.pine.big_sc
+	models[]: vegetmodel.pine.big_2_sc
+	models[]: vegetmodel.pine.big_2_sc
+	models[]: vegetmodel.pine.big_sc
+	models[]: vegetmodel.pine.big_sc
+
+	min_offset: 1.0
+	max_offset: 400.0
+	density: 400.0
+
+	min_size_perc: 50
+	max_size_perc: 150
+}
+
+vegetation_data : veg.5069 {
+
+	name: "z1_Bush sc - avenue 1m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.big_bush1_sc
+	models[]: vegetmodel.big.bush1_sc
+	models[]: vegetmodel.medium.bush1
+
+	min_offset: 1.0
+	max_offset: 21.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5070 {
+
+	name: "z1_Bush sc - avenue 30m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.big_bush1_sc
+	models[]: vegetmodel.big.bush1_sc
+	models[]: vegetmodel.medium.bush1
+
+	min_offset: 30.0
+	max_offset: 50.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5071 {
+
+	name: "z4_leaved sc - 5m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.poplar.tree_sc
+	models[]: vegetmodel.big_bush1_sc
+
+	min_offset: 5.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5072 {
+
+	name: "z4_leaved sc - 12m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.poplar.tree_sc
+	models[]: vegetmodel.big_bush1_sc
+
+	min_offset: 12.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5073 {
+
+	name: "z4_leaved sc - 30m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.poplar.tree_sc
+	models[]: vegetmodel.big_bush1_sc
+
+	min_offset: 27.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5074 {
+
+	name: "z4_leaved sc - 40m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.poplar.tree_sc
+	models[]: vegetmodel.big_bush1_sc
+
+	min_offset: 40.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5075 {
+
+	name: "z4_leaved sc - 70m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.poplar.tree_sc
+	models[]: vegetmodel.big_bush1_sc
+
+	min_offset: 70.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5076 {
+
+	name: "z4_leaved sc - 100m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.poplar.tree_sc
+	models[]: vegetmodel.big_bush1_sc
+
+	min_offset: 100.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5077 {
+
+	name: "z4_leaved sc - 130m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.poplar.tree_sc
+	models[]: vegetmodel.big_bush1_sc
+
+	min_offset: 130.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5078 {
+
+	name: "z1_Pines sc - avenue 5m"
+
+	models[]: vegetmodel.pine.big_sc
+	models[]: vegetmodel.pine.big_2_sc
+	models[]: vegetmodel.pine.medium_sc
+
+	min_offset: 5.0
+	max_offset: 25.0
+	density: 400.0
+
+	min_size_perc: 60
+	max_size_perc: 100
+}
+
+vegetation_data : veg.5080 {
+
+	name: "z1_Pines sc - avenue 30m"
+
+	models[]: vegetmodel.pine.big_sc
+	models[]: vegetmodel.pine.big_2_sc
+	models[]: vegetmodel.pine.medium_sc
+
+	min_offset: 30.0
+	max_offset: 50.0
+	density: 400.0
+
+	min_size_perc: 60
+	max_size_perc: 100
+}
+
+vegetation_data : veg.5081 {
+
+	name: "z1_Pine_Bush sc - 5m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.pine.big_sc
+	models[]: vegetmodel.pine.big_2_sc
+	models[]: vegetmodel.pine.medium_sc
+
+	min_offset: 5.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5082 {
+
+	name: "z1_Pine_Bush sc - 12m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.pine.big_sc
+	models[]: vegetmodel.pine.big_2_sc
+	models[]: vegetmodel.pine.medium_sc
+
+	min_offset: 12.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5083 {
+
+	name: "z1_Pine_Bush sc - 21m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.pine.big_sc
+	models[]: vegetmodel.pine.big_2_sc
+	models[]: vegetmodel.pine.medium_sc
+
+	min_offset: 21.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5084 {
+
+	name: "z1_Pine_Bush sc - 30m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.pine.big_sc
+	models[]: vegetmodel.pine.big_2_sc
+	models[]: vegetmodel.pine.medium_sc
+
+	min_offset: 30.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5085 {
+
+	name: "z1_Pine_Bush sc - 40m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.pine.big_sc
+	models[]: vegetmodel.pine.big_2_sc
+	models[]: vegetmodel.pine.medium_sc
+
+	min_offset: 40.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5086 {
+
+	name: "z1_Pine_Bush sc - 70m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.pine.big_sc
+	models[]: vegetmodel.pine.big_2_sc
+	models[]: vegetmodel.pine.medium_sc
+
+	min_offset: 70.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5087 {
+
+	name: "z1_Pine_Bush sc - 100m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.pine.big_sc
+	models[]: vegetmodel.pine.big_2_sc
+	models[]: vegetmodel.pine.medium_sc
+
+	min_offset: 100.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+vegetation_data : veg.5088 {
+
+	name: "z1_Pine_Bush sc - 130m"
+
+	models[]: vegetmodel.big_bush_sc
+	models[]: vegetmodel.pine.big_sc
+	models[]: vegetmodel.pine.big_2_sc
+	models[]: vegetmodel.pine.medium_sc
+
+	min_offset: 130.0
+	max_offset: 300.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 110
+}
+
+}

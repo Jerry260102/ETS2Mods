@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_mytilene_lesbos_greece@@"
+	dlc_id: eut2_greece
+}
+}

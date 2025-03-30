@@ -1,0 +1,12 @@
+cargo_data: cargo.rtasia_passe
+{
+	name: "@@rtasia_passe@@" #rtasia passengers
+	fragility: 0.71
+	group[]: containers
+	volume: 2.6
+	mass: 496.4
+	unit_reward_per_km: 0.313
+	unit_load_time: 3
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

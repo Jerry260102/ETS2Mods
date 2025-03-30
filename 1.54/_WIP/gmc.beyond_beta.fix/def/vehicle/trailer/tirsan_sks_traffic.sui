@@ -1,0 +1,49 @@
+traffic_trailer : traffic.tirsan_sks
+{
+	accessories[]: .tirsan_sks.chassis
+	accessories[]: .tirsan_sks.rwheel
+	accessories[]: .tirsan_sks.rwheel2
+	accessories[]: .tirsan_sks.rwheel3
+	accessories[]: .tirsan_sks.paint_job
+	
+	cargo_mass: 20000
+	
+	tags[]: low
+	tags[]: dumper
+	tags[]: construct
+	tags[]: heavy
+	tags[]: medium
+	tags[]: brand 
+	tags[]: tirsan
+	
+	spawn_ratio: 1
+
+	base: traffic.trailer.scs_dumper
+}
+
+vehicle_accessory: .tirsan_sks.chassis
+{
+	data_path: "/def/vehicle/trailer/tirsan_sks/ch_3.sii"
+}
+
+vehicle_wheel_accessory: .tirsan_sks.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single_385_65_steel.sii"
+}
+
+vehicle_wheel_accessory: .tirsan_sks.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single_385_65_steel.sii"
+}
+
+vehicle_wheel_accessory: .tirsan_sks.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single_385_65_steel.sii"
+}
+vehicle_paint_job_accessory: .tirsan_sks.paint_job
+{
+	data_path: "/def/vehicle/trailer/tirsan_sks/company_paint_job/default.sii"
+}

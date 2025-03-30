@@ -1,0 +1,18 @@
+
+country_data: country.data.kuwait
+{
+	name: "Kuwait"
+	name_localized: "@@Kuwait@@"
+	country_code: "KWT"
+	iso_country_code: kwt
+	pos:(182515, 0, 84557)
+	fuel_price: 0.12
+	country_id: 65
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "@@AST@@"
+}
+

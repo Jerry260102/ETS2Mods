@@ -1,0 +1,10 @@
+SiiNunit
+{
+cargo_model_match : .ffb_22
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/feldbinder.tsaadr/chassis/ch_3_22_al.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/feldbinder.tsaadr/chassis/ch_3_22_steel.sii"
+	compatible_body[]: "/def/vehicle/trailer/feldbinder_tsa_adr/ch_3_22.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/feldbinder_tsaadr/acid_ch22.sii"
+}
+}

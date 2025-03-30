@@ -1,0 +1,12 @@
+cargo_data: cargo.diggers
+{
+	name: "@@cn_loaders@@"
+	fragility: 0.6
+	valuable: true
+	group[]: machinery
+	volume: 50
+	mass: 23780
+	unit_reward_per_km: 22.125
+	unit_load_time: 2100
+	body_types[]: lowbed
+}

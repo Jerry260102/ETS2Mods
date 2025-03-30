@@ -1,0 +1,345 @@
+traffic_trailer : traffic.trailer.profilinehd
+{
+	accessories[]: traffic.profilinehd.tchassis
+	accessories[]: traffic.profilinehd.trwheel0
+	accessories[]: traffic.profilinehd.trwheel1
+	accessories[]: traffic.profilinehd.trwheel2
+
+	cargo_mass: 19000
+	
+	
+	tags[]: low
+	tags[]: flatbed 
+	tags[]: brick
+	tags[]: medium
+	tags[]: cargo
+	tags[]: brand
+	tags[]: krone
+
+	spawn_ratio: 0.01
+
+    base: traffic.trailer.scs_brick_r
+
+    variant[]: traffic.trailer.profilinehd.square_t
+    variant[]: traffic.trailer.profilinehd.metal_pipes
+    variant[]: traffic.trailer.profilinehd.metal_coil
+    variant[]: traffic.trailer.profilinehd.ventilator
+    variant[]: traffic.trailer.profilinehd.tubes
+    variant[]: traffic.trailer.profilinehd.hipresstank
+    variant[]: traffic.trailer.profilinehd.emptytank
+	
+}
+vehicle_accessory: traffic.profilinehd.tchassis
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner_hd/chassis.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+
+
+traffic_trailer : traffic.trailer.profilinehd.square_t
+{
+	accessories[]: traffic.profilinehd.square_t.tchassis
+	accessories[]: traffic.profilinehd.square_t.trwheel0
+	accessories[]: traffic.profilinehd.square_t.trwheel1
+	accessories[]: traffic.profilinehd.square_t.trwheel2
+
+	cargo_mass: 19000
+	
+	tags[]: low
+	tags[]: flatbed 
+	tags[]: squaret
+	tags[]: medium
+	tags[]: cargo
+	tags[]: brand
+	tags[]: krone
+	
+
+	spawn_ratio: 0.01
+    
+
+}
+vehicle_accessory: traffic.profilinehd.square_t.tchassis
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner_hd/chassis.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.square_t.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.square_t.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.square_t.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+
+
+traffic_trailer : traffic.trailer.profilinehd.metal_pipes
+{
+	accessories[]: traffic.profilinehd.metal_pipes.tchassis
+	accessories[]: traffic.profilinehd.metal_pipes.trwheel0
+	accessories[]: traffic.profilinehd.metal_pipes.trwheel1
+	accessories[]: traffic.profilinehd.metal_pipes.trwheel2
+
+	cargo_mass: 19000
+	
+	tags[]: low
+	tags[]: flatbed 
+	tags[]: tubes
+	tags[]: medium
+	tags[]: cargo
+	tags[]: brand
+	tags[]: krone
+	
+    
+	spawn_ratio: 0.01
+
+}
+vehicle_accessory: traffic.profilinehd.metal_pipes.tchassis
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner_hd/chassis.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.metal_pipes.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.metal_pipes.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.metal_pipes.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+
+
+traffic_trailer : traffic.trailer.profilinehd.metal_coil
+{
+	accessories[]: traffic.profilinehd.metal_coil.tchassis
+	accessories[]: traffic.profilinehd.metal_coil.trwheel0
+	accessories[]: traffic.profilinehd.metal_coil.trwheel1
+	accessories[]: traffic.profilinehd.metal_coil.trwheel2
+
+	cargo_mass: 19000
+	
+	tags[]: low
+	tags[]: flatbed 
+	tags[]: coil
+	tags[]: medium
+	tags[]: cargo
+	tags[]: brand
+	tags[]: krone
+	
+    
+	spawn_ratio: 0.01
+
+}
+vehicle_accessory: traffic.profilinehd.metal_coil.tchassis
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner_hd/chassis.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.metal_coil.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.metal_coil.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.metal_coil.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+
+
+traffic_trailer : traffic.trailer.profilinehd.ventilator
+{
+	accessories[]: traffic.profilinehd.ventilator.tchassis
+	accessories[]: traffic.profilinehd.ventilator.trwheel0
+	accessories[]: traffic.profilinehd.ventilator.trwheel1
+	accessories[]: traffic.profilinehd.ventilator.trwheel2
+
+	cargo_mass: 19000
+	
+	tags[]: low
+	tags[]: flatbed 
+	tags[]: ventilator
+	tags[]: medium
+	tags[]: cargo
+	tags[]: brand
+	tags[]: krone
+	
+    
+	spawn_ratio: 0.01
+
+}
+vehicle_accessory: traffic.profilinehd.ventilator.tchassis
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner_hd/chassis.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.ventilator.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.ventilator.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.ventilator.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+
+traffic_trailer : traffic.trailer.profilinehd.tubes
+{
+	accessories[]: traffic.profilinehd.tubes.tchassis
+	accessories[]: traffic.profilinehd.tubes.trwheel0
+	accessories[]: traffic.profilinehd.tubes.trwheel1
+	accessories[]: traffic.profilinehd.tubes.trwheel2
+
+	cargo_mass: 19000
+	
+	tags[]: low
+	tags[]: flatbed 
+	tags[]: tubes
+	tags[]: medium
+	tags[]: cargo
+	tags[]: brand
+	tags[]: krone
+	
+    
+	spawn_ratio: 0.01
+
+}
+vehicle_accessory: traffic.profilinehd.tubes.tchassis
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner_hd/chassis.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.tubes.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.tubes.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.tubes.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+
+
+traffic_trailer : traffic.trailer.profilinehd.hipresstank
+{
+	accessories[]: traffic.profilinehd.hipresstank.tchassis
+	accessories[]: traffic.profilinehd.hipresstank.trwheel0
+	accessories[]: traffic.profilinehd.hipresstank.trwheel1
+	accessories[]: traffic.profilinehd.hipresstank.trwheel2
+
+	cargo_mass: 19000
+	
+	tags[]: low
+	tags[]: flatbed 
+	tags[]: hp_tamk
+	tags[]: medium
+	tags[]: cargo
+	tags[]: brand
+	tags[]: krone
+	
+    
+	spawn_ratio: 0.01
+
+}
+vehicle_accessory: traffic.profilinehd.hipresstank.tchassis
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner_hd/chassis.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.hipresstank.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.hipresstank.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.hipresstank.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+
+
+traffic_trailer : traffic.trailer.profilinehd.emptytank
+{
+	accessories[]: traffic.profilinehd.emptytank.tchassis
+	accessories[]: traffic.profilinehd.emptytank.trwheel0
+	accessories[]: traffic.profilinehd.emptytank.trwheel1
+	accessories[]: traffic.profilinehd.emptytank.trwheel2
+
+	cargo_mass: 19000
+	
+	tags[]: low
+	tags[]: flatbed 
+	tags[]: empty_tank
+	tags[]: medium
+	tags[]: cargo
+	tags[]: brand
+	tags[]: krone
+	
+    
+	spawn_ratio: 0.01
+
+}
+vehicle_accessory: traffic.profilinehd.emptytank.tchassis
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner_hd/chassis.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.emptytank.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.emptytank.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: traffic.profilinehd.emptytank.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+

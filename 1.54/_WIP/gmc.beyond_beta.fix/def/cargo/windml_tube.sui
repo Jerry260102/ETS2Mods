@@ -1,0 +1,12 @@
+cargo_data: cargo.windml_tube
+{
+	name: "@@cn_windmill_tube@@"
+	fragility: 0.4
+	group[]: machinery
+	volume: 45
+	mass: 9810
+	unit_reward_per_km: 14.7
+	unit_load_time: 1100
+	body_types[]: lowboy
+	body_types[]: lowbed
+}

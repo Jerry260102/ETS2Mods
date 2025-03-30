@@ -1,0 +1,271 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	templates[]:"30010005425"
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"B"
+	def1[]:"J"
+	def1[]:"D"
+	def1[]:"S"
+	def1[]:"Z"
+	def1[]:"T"
+	def1[]:"Q"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"V"
+	def1[]:"H"
+	def1[]:"Y"
+	
+	def2[]:"10"    # Tehran City
+	def2[]:"11"
+	def2[]:"20"
+	def2[]:"22"
+	def2[]:"33"
+	def2[]:"40"
+	def2[]:"44"
+	def2[]:"55"
+	def2[]:"66"
+	def2[]:"77"
+	def2[]:"88"
+	def2[]:"99"
+	def2[]:"15"    # East Azerbaijan
+	def2[]:"25"
+	def2[]:"35"
+	def2[]:"21"    # Tehran Alborz
+	def2[]:"30"
+	def2[]:"38"
+	def2[]:"68"
+	def2[]:"78"
+	def2[]:"17"    # West Azerbaijan
+	def2[]:"27"
+	def2[]:"37"
+	def2[]:"19"    # Kermanshah	
+	def2[]:"29"
+	def2[]:"51"    # Kurdistan
+	def2[]:"61"
+	def2[]:"87"    # Zanjan
+	def2[]:"97"
+	def2[]:"18"    # Hamadan
+	def2[]:"28"
+	def2[]:"79"    # Qazvin
+	def2[]:"89"
+	def2[]:"47"    # Markazi
+	def2[]:"57"
+	def2[]:"31"    # Lorestan
+	def2[]:"41"
+	def2[]:"98"    # Ilam
+	def2[]:"71"    # Chahar Mahaal and Bakhtiari
+	def2[]:"81"
+	def2[]:"84"    # Hormozgan
+	def2[]:"94"
+	def2[]:"14"    # Khuzestan
+	def2[]:"24"
+	def2[]:"34"
+	def2[]:"49"    # Kohgiluye and Boyer-Ahmad
+	def2[]:"46"    # Gilan
+	def2[]:"56"
+	def2[]:"76"
+	def2[]:"16"    # Qom
+	def2[]:"13"    # Isfahan
+	def2[]:"23"
+	def2[]:"43"
+	def2[]:"53"
+	def2[]:"67"
+	def2[]:"54"    # Yazd
+	def2[]:"64"
+	def2[]:"63"    # Fars
+	def2[]:"73"
+	def2[]:"83"
+	def2[]:"93"
+	def2[]:"86"    # Semnan
+	def2[]:"96"
+	def2[]:"12"    # Razavi Khorasan
+	def2[]:"32"
+	def2[]:"42"
+	def2[]:"36"
+	def2[]:"74"
+	def2[]:"85"    # Sistan and Baluchestan
+	def2[]:"95"
+	def2[]:"26"    # Bojnord
+	def2[]:"52"    # Birjand
+	def2[]:"62"    # Mazandaran
+	def2[]:"72"
+	def2[]:"82"
+	def2[]:"92"
+	def2[]:"45"    # Kerman
+	def2[]:"65"
+	def2[]:"75"
+	def2[]:"48"    # Bushehr
+	def2[]:"58"
+	def2[]:"59"    # Gorgan
+	def2[]:"69"
+	
+	def3[]:"<font xscale=1 yscale=1><align left=-40>"
+	def4[]:"<font xscale=1 yscale=1><align right=150>"
+	
+	def5[]:"</align></font>"
+}
+
+license_plate_data : .lp.police
+{
+	type: police
+
+	background_front: police_front
+	background_rear: police_rear
+
+	templates[]:"30010005425"
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"P"
+	
+	def2[]:"11"    # Police always use 11
+	
+	def3[]:"<color value=FFFFFFFF><font xscale=0.6 yscale=0.6><align left=-40>"
+	def4[]:"<font xscale=0.55 yscale=0.55><align right=150>"
+	
+	def5[]:"</align></font>"
+}
+
+license_plate_data : .lp.bus
+{
+	type: bus
+
+	background_front: bus_front
+	background_rear: bus_rear
+
+	templates[]:"30010005425"
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"O"
+	
+	def2[]:"10"    # Tehran City
+	def2[]:"11"
+	def2[]:"20"
+	def2[]:"22"
+	def2[]:"33"
+	def2[]:"40"
+	def2[]:"44"
+	def2[]:"55"
+	def2[]:"66"
+	def2[]:"77"
+	def2[]:"88"
+	def2[]:"99"
+	def2[]:"15"    # East Azerbaijan
+	def2[]:"25"
+	def2[]:"35"
+	def2[]:"21"    # Tehran Alborz
+	def2[]:"30"
+	def2[]:"38"
+	def2[]:"68"
+	def2[]:"78"
+	def2[]:"17"    # West Azerbaijan
+	def2[]:"27"
+	def2[]:"37"
+	def2[]:"19"    # Kermanshah	
+	def2[]:"29"
+	def2[]:"51"    # Kurdistan
+	def2[]:"61"
+	def2[]:"87"    # Zanjan
+	def2[]:"97"
+	def2[]:"18"    # Hamadan
+	def2[]:"28"
+	def2[]:"79"    # Qazvin
+	def2[]:"89"
+	def2[]:"47"    # Markazi
+	def2[]:"57"
+	def2[]:"31"    # Lorestan
+	def2[]:"41"
+	def2[]:"98"    # Ilam
+	def2[]:"71"    # Chahar Mahaal and Bakhtiari
+	def2[]:"81"
+	def2[]:"84"    # Hormozgan
+	def2[]:"94"
+	def2[]:"14"    # Khuzestan
+	def2[]:"24"
+	def2[]:"34"
+	def2[]:"49"    # Kohgiluye and Boyer-Ahmad
+	def2[]:"46"    # Gilan
+	def2[]:"56"
+	def2[]:"76"
+	def2[]:"16"    # Qom
+	def2[]:"13"    # Isfahan
+	def2[]:"23"
+	def2[]:"43"
+	def2[]:"53"
+	def2[]:"67"
+	def2[]:"54"    # Yazd
+	def2[]:"64"
+	def2[]:"63"    # Fars
+	def2[]:"73"
+	def2[]:"83"
+	def2[]:"93"
+	def2[]:"86"    # Semnan
+	def2[]:"96"
+	def2[]:"12"    # Razavi Khorasan
+	def2[]:"32"
+	def2[]:"42"
+	def2[]:"36"
+	def2[]:"74"
+	def2[]:"85"    # Sistan and Baluchestan
+	def2[]:"95"
+	def2[]:"26"    # Bojnord
+	def2[]:"52"    # Birjand
+	def2[]:"62"    # Mazandaran
+	def2[]:"72"
+	def2[]:"82"
+	def2[]:"92"
+	def2[]:"45"    # Kerman
+	def2[]:"65"
+	def2[]:"75"
+	def2[]:"48"    # Bushehr
+	def2[]:"58"
+	def2[]:"59"    # Gorgan
+	def2[]:"69"
+	
+	def3[]:"<font xscale=0.6 yscale=0.6><align left=-40>"
+	def4[]:"<font xscale=0.55 yscale=0.55><align right=150>"
+	
+	def5[]:"</align></font>"
+}
+
+}

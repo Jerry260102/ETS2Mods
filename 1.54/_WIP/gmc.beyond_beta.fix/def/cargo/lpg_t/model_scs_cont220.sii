@@ -1,0 +1,11 @@
+SiiNunit
+{
+cargo_model_match : .scs_cont220
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.gooseneck/body/cont_220.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_gooseneck/black220.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/krone.boxliner/body/boxliner2x20.sii"
+	compatible_body[]: "/def/vehicle/trailer/krone/boxliner/chassis_2x20.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_container/container_220_t50_lpg.sii"
+}
+}

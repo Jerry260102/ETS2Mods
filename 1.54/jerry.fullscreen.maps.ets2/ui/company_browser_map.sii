@@ -1,0 +1,296 @@
+SiiNunit
+{
+ui::window : _nameless.wnd {
+ window_handler: null
+ clip_children: false
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless.2a0.4060
+ my_children[1]: _nameless._.route.filter
+ my_children[2]: _nameless._.filters_grou.p
+ coords_l: 440
+ coords_r: 1520
+ coords_t: 860
+ coords_b: 10
+ area_l: 440
+ area_r: 1520
+ area_t: 860
+ area_b: 10
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui_job_map : _nameless.2a0.4060 {
+ show_country_names: true
+ zoom_allowed: false
+ map_config_path: ""
+ fitting: false
+ my_children: 0
+ coords_l: 440
+ coords_r: 1510
+ coords_t: 860
+ coords_b: 10
+ area_l: 341
+ area_r: 1209
+ area_t: 797
+ area_b: 42
+ id: 100000
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::group : _nameless._.route.filter {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.dark.bg
+ my_children[1]: _nameless._.source.filter
+ my_children[2]: _nameless._.destination.filter
+ my_children[3]: _nameless._.close.filter
+ coords_l: 990
+ coords_r: 1388
+ coords_t: 910
+ coords_b: 862
+ area_l: 990
+ area_r: 1388
+ area_t: 910
+ area_b: 862
+ id: 6000
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless._.dark.bg {
+ value: "@@clr_table_bg_dark@@"
+ look_template: txt.window.bcg_rect
+ text: ""
+ coords_l: 990
+ coords_r: 1388
+ coords_t: 910
+ coords_b: 862
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.route.filter
+}
+
+ui::text_common : _nameless._.source.filter {
+ value: "From:|Southampton (UK)| "
+ look_template: txt.route.filter.route_point
+ text: ""
+ coords_l: 1004
+ coords_r: 1187
+ coords_t: 907
+ coords_b: 871
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 6001
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.route.filter
+}
+
+ui::text_common : _nameless._.destination.filter {
+ value: "From:|Southampton (UK)| "
+ look_template: txt.route.filter.route_point
+ text: ""
+ coords_l: 1187
+ coords_r: 1358
+ coords_t: 907
+ coords_b: 871
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 6002
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.route.filter
+}
+
+ui::button_common : _nameless._.close.filter {
+ value: ""
+ value2: ""
+ look_template: btn.closewin
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1359
+ coords_r: 1389
+ coords_t: 904
+ coords_b: 869
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 6003
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.route.filter
+}
+
+ui::group : _nameless._.filters_grou.p {
+ fitting: false
+ my_children: 5
+ my_children[0]: _nameless.1f9.1660
+ my_children[1]: _nameless.1b9.33d0
+ my_children[2]: _nameless.1b9.4450
+ my_children[3]: _nameless.1b9.45d0
+ my_children[4]: _nameless.1b9.36d0
+ coords_l: 582
+ coords_r: 980
+ coords_t: 910
+ coords_b: 862
+ area_l: 582
+ area_r: 980
+ area_t: 910
+ area_b: 862
+ id: 5000
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless.1f9.1660 {
+ value: "@@clr_table_bg_dark@@"
+ look_template: txt.window.bcg_rect
+ text: ""
+ coords_l: 582
+ coords_r: 980
+ coords_t: 910
+ coords_b: 862
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.filters_grou.p
+}
+
+ui::button_common : _nameless.1b9.33d0 {
+ value: aport_pcc
+ value2: ""
+ look_template: btn_company.filter.btn
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 598
+ coords_r: 718
+ coords_t: 910
+ coords_b: 862
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 5001
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.filters_grou.p
+}
+
+ui::button_common : _nameless.1b9.4450 {
+ value: toys
+ value2: ""
+ look_template: btn_cargo.filter.btn
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 731
+ coords_r: 811
+ coords_t: 910
+ coords_b: 862
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 5002
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.filters_grou.p
+}
+
+ui::button_common : _nameless.1b9.45d0 {
+ value: container
+ value2: ""
+ look_template: btn_trailer.filter.btn
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 823
+ coords_r: 893
+ coords_t: 910
+ coords_b: 862
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 5003
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.filters_grou.p
+}
+
+ui::button_common : _nameless.1b9.36d0 {
+ value: ""
+ value2: ""
+ look_template: btn.closewin
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 945
+ coords_r: 975
+ coords_t: 903
+ coords_b: 873
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 5004
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.filters_grou.p
+}
+
+}

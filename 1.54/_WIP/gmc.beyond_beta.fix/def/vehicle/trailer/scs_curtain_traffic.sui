@@ -1,0 +1,82 @@
+traffic_trailer : traffic.trailer.scs_box.curtain.default
+{
+	accessories[]: .scs_box.curtain.default.tchassis
+	accessories[]: .scs_box.curtain.default.trwheel0
+	accessories[]: .scs_box.curtain.default.trwheel1
+	accessories[]: .scs_box.curtain.default.trwheel2
+	accessories[]: .scs_box.curtain.default.paint_job
+
+	spawn_ratio: 2.0
+
+	cargo_mass: 20000
+	
+	tags[]: high
+	tags[]: box
+	tags[]: curtainsider
+	tags[]: medium
+
+	company_paint_job: true
+	
+}
+vehicle_accessory: .scs_box.curtain.default.tchassis
+{
+	data_path: "/def/vehicle/trailer/scs_box/curtain_sider/chassis.sii"
+}
+vehicle_wheel_accessory: .scs_box.curtain.default.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+vehicle_wheel_accessory: .scs_box.curtain.default.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+vehicle_wheel_accessory: .scs_box.curtain.default.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+vehicle_paint_job_accessory: .scs_box.curtain.default.paint_job
+{
+	data_path: "/def/vehicle/trailer/scs_box/curtain_sider/company_paint_job/default.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_trailer : .traffic.trailer.scs_box.curtain.2axle
+{
+	accessories[]: .scs_box.curtain.2axle.tchassis
+	accessories[]: .scs_box.curtain.2axle.trwheel0
+	accessories[]: .scs_box.curtain.2axle.trwheel1
+	accessories[]: .scs_box.curtain.2axle.paint_job
+
+	spawn_ratio: 1
+	
+	cargo_mass: 20000
+	
+	tags[]: high
+	tags[]: box
+	tags[]: curtainsider
+	tags[]: medium
+
+	company_paint_job: true
+}
+vehicle_accessory: .scs_box.curtain.2axle.tchassis
+{
+	data_path: "/def/vehicle/trailer/scs_box/curtain_sider/chassis_2axle.sii"
+}
+vehicle_wheel_accessory: .scs_box.curtain.2axle.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+vehicle_wheel_accessory: .scs_box.curtain.2axle.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+vehicle_paint_job_accessory: .scs_box.curtain.2axle.paint_job
+{
+	data_path: "/def/vehicle/trailer/scs_box/curtain_sider/company_paint_job/default.sii"
+}

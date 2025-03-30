@@ -1,0 +1,12 @@
+cargo_data: cargo.brake_fluid
+{
+	name: "@@cn_brake_fluid@@"
+	fragility: 0.3
+	group[]: containers
+	volume: 2.6
+	mass: 177.2
+	unit_reward_per_km: 0.51
+	unit_load_time: 78
+	body_types[]: container
+	body_types[]: flatbed_cont
+}

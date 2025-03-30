@@ -1,0 +1,11 @@
+cargo_data: cargo.live_cattle
+{
+	name: "@@cn_live_cattle@@"
+	maximum_distance: 600
+	group[]: livestock
+	volume: 10
+	mass: 2720
+	unit_reward_per_km: 4.2
+	unit_load_time: 300
+	body_types[]: livestock
+}

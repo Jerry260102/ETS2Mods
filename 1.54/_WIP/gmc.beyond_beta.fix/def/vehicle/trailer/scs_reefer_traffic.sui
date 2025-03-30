@@ -1,0 +1,45 @@
+traffic_trailer : traffic.trailer.scs_box.reefer.default
+{
+	accessories[]: .scs_box.reefer.default.tchassis
+	accessories[]: .scs_box.reefer.default.trwheel0
+	accessories[]: .scs_box.reefer.default.trwheel1
+	accessories[]: .scs_box.reefer.default.trwheel2
+	accessories[]: .scs_box.reefer.default.paint_job
+
+	spawn_ratio: 2.0
+
+	cargo_mass: 20000
+	
+	tags[]: high
+	tags[]: box
+	tags[]: reefer
+	tags[]: medium
+	tags[]: basic
+	
+
+	company_paint_job: true
+}
+vehicle_accessory: .scs_box.reefer.default.tchassis
+{
+	data_path: "/def/vehicle/trailer/scs_box/reefer/chassis.sii"
+}
+vehicle_wheel_accessory: .scs_box.reefer.default.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single_385_55_alu.sii"
+}
+vehicle_wheel_accessory: .scs_box.reefer.default.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single_385_55_alu.sii"
+}
+vehicle_wheel_accessory: .scs_box.reefer.default.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single_385_55_alu.sii"
+}
+vehicle_paint_job_accessory: .scs_box.reefer.default.paint_job
+{
+	data_path: "/def/vehicle/trailer/scs_box/reefer/company_paint_job/default.sii"
+}
+

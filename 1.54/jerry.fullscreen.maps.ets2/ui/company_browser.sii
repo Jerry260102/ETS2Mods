@@ -1,0 +1,1158 @@
+SiiNunit
+{
+ui_blend_window : _nameless.wnd {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: _nameless.1ac.7760
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 10
+ my_children[0]: _nameless._.background
+ my_children[1]: _nameless._.map
+ my_children[2]: _nameless._.company
+ my_children[3]: _nameless._.cargo
+ my_children[4]: _nameless._.trailer
+ my_children[5]: _nameless._.overlay
+ my_children[6]: _nameless._.warning
+# my_children[7]: _nameless._.button_info
+ my_children[7]: _nameless._.city_tooltip
+ my_children[8]: _nameless._.gamepad_zone.s
+ my_children[9]: _nameless._.left.bcg
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 900
+ coords_b: 0
+ area_l: -80
+ area_r: 1520
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+company_browser_hdl : _nameless.1ac.7760 {
+ window_link: _nameless.wnd
+}
+
+ui::text_common : _nameless._.background {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 860
+ coords_b: 0
+ area_l: -80
+ area_r: 1520
+ area_t: 860
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::portal : _nameless._.map {
+ child_path: "/ui/company_browser_map.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: false
+ my_children: 0
+ coords_l: 444
+ coords_r: 1515
+ coords_t: 855
+ coords_b: 5
+ area_l: 444
+ area_r: 1515
+ area_t: 855
+ area_b: 5
+ id: 100000
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::group : _nameless._.company {
+ fitting: true
+ my_children: 6
+ my_children[0]: _nameless._.company_txt
+ my_children[1]: _nameless._.company_sear.ch
+ my_children[2]: _nameless._.company_sear.ch_x
+ my_children[3]: _nameless._.company_impo.rt
+ my_children[4]: _nameless._.company_expo.rt
+ my_children[5]: _nameless._.company_list
+ coords_l: -75
+ coords_r: 424
+ coords_t: 829
+ coords_b: 549
+ area_l: -75
+ area_r: 424
+ area_t: 829
+ area_b: 549
+ id: 100
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless._.company_txt {
+ value: "@@cb_company@@"
+ look_template: txt.emph.left
+ text: ""
+ coords_l: -75
+ coords_r: 72
+ coords_t: 829
+ coords_b: 797
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.company
+}
+
+ui::inputline_common : _nameless._.company_sear.ch {
+ look_template: inp.input_left
+ cursor: ""
+ stretch_cursor: false
+ lang_id: ""
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ p_pml: ""
+ d_pml: "<offset vshift=3><margin left=11 right=-11><align hstyle=left vstyle=center bottom=-3><color value=@@clr_txt_d@@><font face=/font/normal.font>%s</font></align></margin><ret>\n<color value=@@clr_inputline_border_d@@><img src=/material/ui/white.mat xscale=stretch height=2><ret>\n<offset vshift=2><img src=/material/ui/white.mat width=2 height=-2><img src=/material/ui/white.mat width=-2 height=-2 color=@@clr_inputline_bg_d@@><img src=/material/ui/white.mat width=2 height=-2><ret>\n<align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=2></align>"
+ limit: 0
+ multiline: false
+ selection_color: 4281954447
+ ime_color: 2701131775
+ allowed_characters: ""
+ show_language_indicator: false
+ password: false
+ password_character: x
+ make_uppercase: false
+ default_text: "@@search@@..."
+ coords_l: 139
+ coords_r: 349
+ coords_t: 829
+ coords_b: 799
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 101
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.company
+}
+
+ui::button_common : _nameless._.company_sear.ch_x {
+ value: ""
+ value2: ""
+ look_template: btn.input.clear
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 326
+ coords_r: 342
+ coords_t: 822
+ coords_b: 806
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 102
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.company
+}
+
+ui::button_common : _nameless._.company_impo.rt {
+ value: "<img src=/material/ui/button/import.mat left=p1 right=p31>"
+ value2: "<img src=/material/ui/button/import.mat left=p1 right=p31>"
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 394
+ coords_r: 424
+ coords_t: 829
+ coords_b: 799
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 105
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.company
+}
+
+ui::button_common : _nameless._.company_expo.rt {
+ value: "<img src=/material/ui/button/export.mat left=p1 right=p31>"
+ value2: "<img src=/material/ui/button/export.mat left=p1 right=p31>"
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 359
+ coords_r: 389
+ coords_t: 829
+ coords_b: 799
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 104
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.company
+}
+
+ui::list_common : _nameless._.company_list {
+ look_template: btn.company.list.btn
+ use_blend_buttons: false
+ multi_column: true
+ slider_management: false
+ item_height: 40
+ item_width: 110
+ item_gap: 10
+ max_list_height: 0
+ n_pml: ""
+ s_pml: ""
+ p_pml: ""
+ d_pml: ""
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless.1fc.50c0
+ coords_l: -74
+ coords_r: 396
+ coords_t: 789
+ coords_b: 549
+ area_l: 27
+ area_r: 497
+ area_t: 789
+ area_b: 549
+ id: 106
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.company
+}
+
+ui::slider_common : _nameless.1fc.50c0 {
+ value: ""
+ look_template: sld.slider4
+ n_background: ""
+ s_background: ""
+ d_background: ""
+ s_pml: ""
+ n_pml: ""
+ p_pml: ""
+ d_pml: ""
+ gamepad_s_pml: ""
+ gamepad_n_pml: "<align hstyle=center><offset vshift=3>@@imj_med_scroll_j_y@@</align>"
+ gamepad_p_pml: ""
+ gamepad_d_pml: ""
+ n_property: ""
+ d_property: ""
+ action_on_drag: true
+ tick: 1
+ margin: 2
+ dynamic_handle: true
+ minimal_handle_size: 32
+ move_to_point: false
+ coords_l: 404
+ coords_r: 426
+ coords_t: 789
+ coords_b: 549
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1060
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.company_list
+}
+
+ui::group : _nameless._.cargo {
+ fitting: true
+ my_children: 9
+ my_children[0]: _nameless._.cargo_txt
+ my_children[1]: _nameless._.cargo_search
+ my_children[2]: _nameless._.cargo_search._x
+ my_children[3]: _nameless._.cargo_list
+ my_children[4]: _nameless._.cargo_export
+ my_children[5]: _nameless._.cargo_impor.t
+ my_children[6]: _nameless._.adr
+ my_children[7]: _nameless._.fragile
+ my_children[8]: _nameless._.highvalue
+ coords_l: -75
+ coords_r: 424
+ coords_t: 529
+ coords_b: 115
+ area_l: -75
+ area_r: 424
+ area_t: 529
+ area_b: 115
+ id: 200
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless._.cargo_txt {
+ value: "@@cb_cargo@@"
+ look_template: txt.emph.left
+ text: ""
+ coords_l: -75
+ coords_r: 72
+ coords_t: 529
+ coords_b: 497
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cargo
+}
+
+ui::inputline_common : _nameless._.cargo_search {
+ look_template: inp.input_left
+ cursor: ""
+ stretch_cursor: false
+ lang_id: ""
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ p_pml: ""
+ d_pml: "<offset vshift=3><margin left=11 right=-11><align hstyle=left vstyle=center bottom=-3><color value=@@clr_txt_d@@><font face=/font/normal.font>%s</font></align></margin><ret>\n<color value=@@clr_inputline_border_d@@><img src=/material/ui/white.mat xscale=stretch height=2><ret>\n<offset vshift=2><img src=/material/ui/white.mat width=2 height=-2><img src=/material/ui/white.mat width=-2 height=-2 color=@@clr_inputline_bg_d@@><img src=/material/ui/white.mat width=2 height=-2><ret>\n<align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=2></align>"
+ limit: 0
+ multiline: false
+ selection_color: 4281954447
+ ime_color: 2701131775
+ allowed_characters: ""
+ show_language_indicator: false
+ password: false
+ password_character: x
+ make_uppercase: false
+ default_text: "@@search@@..."
+ coords_l: 29
+ coords_r: 239
+ coords_t: 529
+ coords_b: 499
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 201
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cargo
+}
+
+ui::button_common : _nameless._.cargo_search._x {
+ value: ""
+ value2: ""
+ look_template: btn.input.clear
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 216
+ coords_r: 232
+ coords_t: 522
+ coords_b: 506
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 202
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cargo
+}
+
+ui::list_common : _nameless._.cargo_list {
+ look_template: btn_cargo.list.btn
+ use_blend_buttons: false
+ multi_column: true
+ slider_management: false
+ item_height: 86
+ item_width: 86
+ item_gap: 10
+ max_list_height: 0
+ n_pml: ""
+ s_pml: ""
+ p_pml: ""
+ d_pml: ""
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless.1fc.20f0
+ coords_l: -74
+ coords_r: 396
+ coords_t: 489
+ coords_b: 115
+ area_l: 27
+ area_r: 497
+ area_t: 489
+ area_b: 115
+ id: 206
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cargo
+}
+
+ui::slider_common : _nameless.1fc.20f0 {
+ value: ""
+ look_template: sld.slider4
+ n_background: ""
+ s_background: ""
+ d_background: ""
+ s_pml: ""
+ n_pml: ""
+ p_pml: ""
+ d_pml: ""
+ gamepad_s_pml: ""
+ gamepad_n_pml: "<align hstyle=center><offset vshift=3>@@imj_med_scroll_j_y@@</align>"
+ gamepad_p_pml: ""
+ gamepad_d_pml: ""
+ n_property: ""
+ d_property: ""
+ action_on_drag: true
+ tick: 1
+ margin: 2
+ dynamic_handle: true
+ minimal_handle_size: 32
+ move_to_point: false
+ coords_l: 404
+ coords_r: 426
+ coords_t: 489
+ coords_b: 114
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 2060
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cargo_list
+}
+
+ui::button_common : _nameless._.cargo_export {
+ value: "<img src=/material/ui/button/export.mat left=p1 right=p31>"
+ value2: "<img src=/material/ui/button/export.mat left=p1 right=p31>"
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 249
+ coords_r: 279
+ coords_t: 529
+ coords_b: 499
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 204
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cargo
+}
+
+ui::button_common : _nameless._.cargo_impor.t {
+ value: "<img src=/material/ui/button/import.mat left=p1 right=p31>"
+ value2: "<img src=/material/ui/button/import.mat left=p1 right=p31>"
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 284
+ coords_r: 314
+ coords_t: 529
+ coords_b: 499
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 205
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cargo
+}
+
+ui::button_common : _nameless._.adr {
+ value: "<img src=/material/ui/cargo_logo/adr.mat color=@@clr_cargo_logo@@ width=24 height=24>"
+ value2: "<img src=/material/ui/cargo_logo/adr.mat color=@@clr_cargo_logo@@ width=24 height=24>"
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 324
+ coords_r: 354
+ coords_t: 529
+ coords_b: 499
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 207
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cargo
+}
+
+ui::button_common : _nameless._.fragile {
+ value: "<img src=/material/ui/cargo_logo/fragile.mat color=@@clr_cargo_logo@@ width=24 height=24>"
+ value2: "<img src=/material/ui/cargo_logo/fragile.mat color=@@clr_cargo_logo@@ width=24 height=24>"
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 359
+ coords_r: 389
+ coords_t: 529
+ coords_b: 499
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 208
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cargo
+}
+
+ui::button_common : _nameless._.highvalue {
+ value: "<img src=/material/ui/cargo_logo/highvalue.mat color=@@clr_cargo_logo@@ width=24 height=24>"
+ value2: "<img src=/material/ui/cargo_logo/highvalue.mat color=@@clr_cargo_logo@@ width=24 height=24>"
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 394
+ coords_r: 424
+ coords_t: 529
+ coords_b: 499
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 209
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cargo
+}
+
+ui::group : _nameless._.trailer {
+ fitting: true
+ my_children: 3
+ my_children[0]: _nameless._.trailer_txt
+ my_children[1]: _nameless._.trailer_butt.ons
+ my_children[2]: _nameless._.tooltip_text._hack
+ coords_l: -75
+ coords_r: 445
+ coords_t: 114
+ coords_b: &41fffffc
+ area_l: -75
+ area_r: 445
+ area_t: 114
+ area_b: &41fffffc
+ id: 300
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless._.trailer_txt {
+ value: "@@cb_trailer@@"
+ look_template: txt.emph.left
+ text: ""
+ coords_l: -75
+ coords_r: 72
+ coords_t: 114
+ coords_b: 82
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer
+}
+
+ui::button_row : _nameless._.trailer_butt.ons {
+ row_align: left
+ label_indent: 0
+ item_distance: 4
+ min_item_width: 0
+ button_row_type: dynamic
+ value_list: "dryvan~refrigerated~tr_tank~container~bulk~flatbed~lowbed~inloader~livestock~"
+ id_list: "302~303~304~305~306~307~308~309~310"
+ width_list: 60
+ list_delimiter: "~"
+ look_template_list: ""
+ look_template: btn.cargo_logo.dif_color
+ button_type: radio
+ button_tab_base: -1
+ p_pml_as_reference: false
+ use_blend_buttons: false
+ fitting: false
+ my_children: 0
+ coords_l: -72
+ coords_r: 445
+ coords_t: 86
+ coords_b: &41fffffc
+ area_l: -72
+ area_r: 445
+ area_t: 86
+ area_b: &41fffffc
+ id: 301
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer
+}
+
+ui::group : _nameless._.tooltip_text._hack {
+ fitting: true
+ my_children: 9
+ my_children[0]: _nameless.235.83f0
+ my_children[1]: _nameless.1ff.1780
+ my_children[2]: _nameless.235.8290
+ my_children[3]: _nameless.2ac.1620
+ my_children[4]: _nameless.2ab.fec0
+ my_children[5]: _nameless.2ac.0020
+ my_children[6]: _nameless.2ac.0de0
+ my_children[7]: _nameless.2ac.09c0
+ my_children[8]: _nameless.2ac.0c80
+ coords_l: -74
+ coords_r: 419
+ coords_t: 82
+ coords_b: 32
+ area_l: -74
+ area_r: 419
+ area_t: 82
+ area_b: 32
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer
+}
+
+ui::text : _nameless.235.83f0 {
+ text: ""
+ coords_l: -74
+ coords_r: -20
+ coords_t: 82
+ coords_b: 32
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 3302
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.tooltip_text._hack
+}
+
+ui::text : _nameless.1ff.1780 {
+ text: ""
+ coords_l: -19
+ coords_r: 35
+ coords_t: 82
+ coords_b: 32
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 3303
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.tooltip_text._hack
+}
+
+ui::text : _nameless.235.8290 {
+ text: ""
+ coords_l: 36
+ coords_r: 90
+ coords_t: 82
+ coords_b: 32
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 3304
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.tooltip_text._hack
+}
+
+ui::text : _nameless.2ac.1620 {
+ text: ""
+ coords_l: 91
+ coords_r: 145
+ coords_t: 82
+ coords_b: 32
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 3305
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.tooltip_text._hack
+}
+
+ui::text : _nameless.2ab.fec0 {
+ text: ""
+ coords_l: 146
+ coords_r: 200
+ coords_t: 82
+ coords_b: 32
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 3306
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.tooltip_text._hack
+}
+
+ui::text : _nameless.2ac.0020 {
+ text: ""
+ coords_l: 201
+ coords_r: 254
+ coords_t: 82
+ coords_b: 32
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 3307
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.tooltip_text._hack
+}
+
+ui::text : _nameless.2ac.0de0 {
+ text: ""
+ coords_l: 256
+ coords_r: 309
+ coords_t: 82
+ coords_b: 32
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 3308
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.tooltip_text._hack
+}
+
+ui::text : _nameless.2ac.09c0 {
+ text: ""
+ coords_l: 311
+ coords_r: 364
+ coords_t: 82
+ coords_b: 32
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 3309
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.tooltip_text._hack
+}
+
+ui::text : _nameless.2ac.0c80 {
+ text: ""
+ coords_l: 366
+ coords_r: 419
+ coords_t: 82
+ coords_b: 32
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 3310
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.tooltip_text._hack
+}
+
+ui::group : _nameless._.overlay {
+ fitting: true
+ my_children: 1
+ my_children[0]: _nameless.23c.1760
+ coords_l: 833
+ coords_r: 1138
+ coords_t: 69
+ coords_b: 27
+ area_l: 833
+ area_r: 1138
+ area_t: 69
+ area_b: 27
+ id: 700
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::overlay_point : _nameless.23c.1760 {
+ overlay_anchor_type: bottomcenter
+ value: "center|bottom"
+ look_template: txt.overlay.anchor
+ text: ""
+ coords_l: 833
+ coords_r: 1138
+ coords_t: 47
+ coords_b: 5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1111
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.overlay
+}
+
+ui::group : _nameless._.warning {
+ fitting: true
+ my_children: 1
+ my_children[0]: _nameless._.filter.warning
+ coords_l: &443ce000
+ coords_r: &4497f000
+ coords_t: 777
+ coords_b: 727
+ area_l: &443ce000
+ area_r: &4497f000
+ area_t: 777
+ area_b: 727
+ id: 400
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless._.filter.warning {
+ value: "<img src=/material/ui/attention_yellow_round.mat><offset hshift=10 vshift=7>@@cb_filter_warning@@"
+ look_template: txt.ttip_simple
+ text: ""
+ coords_l: &443ce000
+ coords_r: &4497f000
+ coords_t: 777
+ coords_b: 727
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 5005
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.warning
+}
+
+#ui::button_common : _nameless._.button_info {
+# value: ""
+# value2: ""
+# look_template: btn.info
+# n_pml: ""
+# s_pml: ""
+# s2_pml: ""
+# d_pml: ""
+# p_pml: ""
+# button_type: normal
+# coords_l: 1485
+# coords_r: 1515
+# coords_t: 35
+# coords_b: 5
+# area_l: 1
+# area_r: 0
+# area_t: 0
+# area_b: 1
+# id: 1112
+# layer: 8
+# tab: -1
+# pointer: -1
+# my_parent: _nameless.wnd
+#}
+
+ui::text_common : _nameless._.city_tooltip {
+ value: ""
+ look_template: txt.ttip_simple
+ text: ""
+ coords_l: 636
+ coords_r: 792
+ coords_t: 265
+ coords_b: 200
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 110
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::group : _nameless._.gamepad_zone.s {
+ fitting: true
+ my_children: 8
+ my_children[0]: _nameless._.company_head.er
+ my_children[1]: _nameless._.company_body
+ my_children[2]: _nameless._.cargo_header
+ my_children[3]: _nameless._.cargo_body
+ my_children[4]: _nameless._.trailers
+ my_children[5]: _nameless._.map_body
+ my_children[6]: _nameless._.economy_filt.er
+ my_children[7]: _nameless._.city_filter
+ coords_l: -500
+ coords_r: 1940
+ coords_t: 1400
+ coords_b: -500
+ area_l: -500
+ area_r: 1940
+ area_t: 1400
+ area_b: -500
+ id: 500
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.company_head.er {
+ text: ""
+ coords_l: -500
+ coords_r: 550
+ coords_t: 908
+ coords_b: 789
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 501
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.gamepad_zone.s
+}
+
+ui::text : _nameless._.company_body {
+ text: ""
+ coords_l: -500
+ coords_r: 550
+ coords_t: 789
+ coords_b: 552
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 502
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.gamepad_zone.s
+}
+
+ui::text : _nameless._.cargo_header {
+ text: ""
+ coords_l: -500
+ coords_r: 550
+ coords_t: 551
+ coords_b: 490
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 503
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.gamepad_zone.s
+}
+
+ui::text : _nameless._.cargo_body {
+ text: ""
+ coords_l: -500
+ coords_r: 550
+ coords_t: 489
+ coords_b: 153
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 504
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.gamepad_zone.s
+}
+
+ui::text : _nameless._.trailers {
+ text: ""
+ coords_l: -500
+ coords_r: 550
+ coords_t: 154
+ coords_b: -68
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 505
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.gamepad_zone.s
+}
+
+ui::text : _nameless._.map_body {
+ text: ""
+ coords_l: 550
+ coords_r: 1940
+ coords_t: 1400
+ coords_b: -500
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 506
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.gamepad_zone.s
+}
+
+ui::text : _nameless._.economy_filt.er {
+ text: ""
+ coords_l: 580
+ coords_r: 980
+ coords_t: 847
+ coords_b: 798
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 508
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.gamepad_zone.s
+}
+
+ui::text : _nameless._.city_filter {
+ text: ""
+ coords_l: 995
+ coords_r: 1392
+ coords_t: 847
+ coords_b: 798
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 507
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.gamepad_zone.s
+}
+
+ui::text_common : _nameless._.left.bcg {
+ value: "@@clr_bg_dark@@"
+ look_template: txt.background.flat
+ text: ""
+ coords_l: -80
+ coords_r: 438
+ coords_t: 840
+ coords_b: 17
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+}

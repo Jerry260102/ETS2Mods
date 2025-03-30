@@ -1,0 +1,12 @@
+cargo_data: cargo.wheat
+{
+	name: "@@cn_wheat@@"
+	fragility: 0.2
+	group[]: bulk
+	volume: 1
+	mass: 650
+	unit_reward_per_km: 0.4
+	unit_load_time: 25
+	body_types[]: dumper
+	body_types[]: silo
+}

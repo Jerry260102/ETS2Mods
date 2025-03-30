@@ -1,0 +1,11 @@
+cargo_data: cargo.olive_tree
+{
+	name: "@@cn_olive_trees@@"
+	fragility: 0.3
+	group[]: construction
+	volume: 2.6
+	mass: 140
+	unit_reward_per_km: 0.642
+	unit_load_time: 78
+	body_types[]: flatbed_brck
+}

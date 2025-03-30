@@ -1,0 +1,10 @@
+SiiNunit
+{
+cargo_model_match : .kogel_cool
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/kogel.cool/body/reefer_13.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kogel.cool/body/reefer_15.sii"
+	compatible_body[]: "/def/vehicle/trailer/kogel_cool/cargo_13_3.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/kogel_cool/med_vaccine.sii"
+}
+}

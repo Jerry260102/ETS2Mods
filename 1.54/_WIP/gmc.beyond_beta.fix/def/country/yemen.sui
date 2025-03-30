@@ -1,0 +1,18 @@
+
+country_data: country.data.yemen
+{
+	name: "Yemen"
+	name_localized: "@@Yemen@@"
+	country_code: "YEM"
+	iso_country_code: yem
+	pos:(212296, 0, 177155)
+	fuel_price: 0.10
+	country_id: 92
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_eest@@"
+}
+

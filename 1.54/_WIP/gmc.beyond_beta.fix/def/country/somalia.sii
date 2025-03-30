@@ -1,0 +1,18 @@
+
+country_data: country.data.somalia
+{
+	name: "Somalia"
+	name_localized: "@@Somalia@@"
+	country_code: "SOM"
+	iso_country_code: som
+	pos:(250601, 0, 218507)
+	fuel_price: 0.10
+	country_id: 136
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_eest@@"
+}
+

@@ -1,0 +1,12 @@
+cargo_data: cargo.rta_cotton
+{
+	name: "@@rta_cotton@@"
+	fragility: 0.3
+	group[]: containers
+	volume: 2.6
+	mass: 412.7
+	unit_reward_per_km: 0.603
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

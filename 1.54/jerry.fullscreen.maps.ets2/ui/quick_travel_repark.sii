@@ -1,0 +1,263 @@
+SiiNunit
+{
+ui_blend_window : _nameless.008103681 {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: _nameless.008103680
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 11
+ my_children[0]: _nameless._.window.bg
+ my_children[1]: _nameless._.tooltip
+ my_children[2]: _nameless._.portal
+ my_children[3]: _nameless._.confirm.btn
+ my_children[4]: _nameless._.screen.description
+ my_children[5]: _nameless._.price.box.txt
+ my_children[6]: _nameless._.price.box.bg
+ my_children[7]: _nameless._.controls.box
+ my_children[8]: _nameless.200.a250
+ my_children[9]: _nameless.23a.da40
+ my_children[10]: _nameless._.screen.description.bg
+
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 900
+ coords_b: 0
+ area_l: -80
+ area_r: 1520
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+quick_travel_hdl : _nameless.008103680 {
+ window_link: _nameless.008103681
+}
+
+ui::text_common : _nameless._.window.bg {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 900
+ coords_b: 0
+ area_l: -80
+ area_r: 1520
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::text_common : _nameless._.tooltip {
+ value: ""
+ look_template: txt.ttip_simple
+ text: ""
+ coords_l: 261
+ coords_r: 417
+ coords_t: 553
+ coords_b: 488
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 110
+ layer: 55
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::portal : _nameless._.portal {
+ child_path: "/ui/quick_travel_map.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: false
+ my_children: 0
+ coords_l: -75
+ coords_r: 1515
+ coords_t: 855
+ coords_b: 5
+ area_l: -75
+ area_r: 1515
+ area_t: 855
+ area_b: 5
+ id: 100000
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::button_common : _nameless._.confirm.btn {
+ value: "@@confirm_quick_travel@@"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 535
+ coords_r: 905
+ coords_t: 35
+ coords_b: 5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 111
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::text_common : _nameless._.screen.description {
+ value: "<align hstyle=center vstyle=center><img src=/material/ui/icon/arrow_select.mat><offset vshift=6>@@select_quick_travel_destination@@</align>"
+ look_template: txt.big.center
+ text: ""
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 855
+ coords_b: 825
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 302
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::text_common : _nameless._.price.box.txt {
+ value: ""
+ look_template: txt.big.center
+ text: ""
+ coords_l: 545
+ coords_r: 895
+ coords_t: 820
+ coords_b: 780
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 300
+ layer: 101
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::text : _nameless._.price.box.bg {
+ text: "<color value=@@clr_bg_dark@@>\r\n<offset vshift=1><img src=/material/ui/white.mat width=1 height=-1>\r\n<offset vshift=-1><img src=/material/ui/white.mat yscale=stretch width=-1>\r\n<offset vshift=1><img src=/material/ui/white.mat width=1 height=-1>"
+ coords_l: 535
+ coords_r: 905
+ coords_t: 820
+ coords_b: 780
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 301
+ layer: 100
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::overlay_point : _nameless._.controls.box {
+ overlay_anchor_type: bottomleft
+ value: "left|bottom"
+ look_template: txt.overlay.anchor
+ text: ""
+ coords_l: -75
+ coords_r: 133
+ coords_t: 54
+ coords_b: 5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 91111
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::text_common : _nameless.200.a250 {
+ value: "@@quick_travel_t@@"
+ look_template: txt.title.center
+ text: ""
+ coords_l: 7
+ coords_r: 1433
+ coords_t: 890
+ coords_b: 858
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 10
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::button_common : _nameless.23a.da40 {
+ value: ""
+ value2: ""
+ look_template: btn.help
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 13
+ coords_r: 45
+ coords_t: 887
+ coords_b: 855
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 21
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::text : _nameless._.screen.description.bg {
+ text: "<color value=@@clr_bg_dark@@>\r\n<offset vshift=1><img src=/material/ui/white.mat width=1 height=-1>\r\n<offset vshift=-1><img src=/material/ui/white.mat yscale=stretch width=-1>\r\n<offset vshift=1><img src=/material/ui/white.mat width=1 height=-1>"
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 855
+ coords_b: 825
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 301
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+}

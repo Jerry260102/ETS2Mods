@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_ap66_los_barrios_de_luna_spain@@"
+	dlc_id: eut2_iberia
+}
+}

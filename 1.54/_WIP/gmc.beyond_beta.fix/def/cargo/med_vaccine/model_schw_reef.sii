@@ -1,0 +1,9 @@
+SiiNunit
+{
+cargo_model_match : .schw_reef
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/schwmuller.reefer/body/reefer.sii"
+	compatible_body[]: "/def/vehicle/trailer/schw_reefer/chassis.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/schw_reefer/med_vaccine.sii"
+}
+}

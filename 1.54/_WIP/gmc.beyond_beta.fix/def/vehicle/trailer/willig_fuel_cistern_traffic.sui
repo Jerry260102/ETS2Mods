@@ -1,0 +1,47 @@
+traffic_trailer : traffic.trailer.willig.fuel_cistern
+{
+	accessories[]: .traffic.willig.fuel_cistern.tchassis.default
+	accessories[]: .traffic.willig.fuel_cistern.trwheel0.default
+	accessories[]: .traffic.willig.fuel_cistern.trwheel1.default
+	accessories[]: .traffic.willig.fuel_cistern.trwheel2.default
+	accessories[]: .traffic.willig.fuel_cistern.paintjob.default
+	cargo_mass: 22000		
+
+	company_paint_job: true
+
+	spawn_ratio: 1
+	
+	tags[]: low
+	tags[]: cistern
+	tags[]: fuel
+	tags[]: chemical
+	tags[]: medium
+	
+}
+
+vehicle_accessory: .traffic.willig.fuel_cistern.tchassis.default
+{
+	data_path: "/def/vehicle/trailer/willig/fuel_cistern/chassis.sii"
+}
+
+vehicle_wheel_accessory: .traffic.willig.fuel_cistern.trwheel0.default
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .traffic.willig.fuel_cistern.trwheel1.default
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .traffic.willig.fuel_cistern.trwheel2.default
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+} 
+vehicle_paint_job_accessory: .traffic.willig.fuel_cistern.paintjob.default
+{
+	data_path: "/def/vehicle/trailer/willig/fuel_cistern/company_paint_job/default.sii"
+}

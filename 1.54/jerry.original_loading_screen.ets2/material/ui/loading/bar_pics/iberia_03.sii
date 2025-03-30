@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_a49_e1_portugal_border_spain@@"
+	dlc_id: eut2_iberia
+}
+}

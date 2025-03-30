@@ -1,0 +1,19 @@
+SiiNunit
+{
+
+mover_model : mover.towingshipd {
+	mover_name: "Towing ship D"
+	model_desc: "/model/mover/towing_ship_d.pmd"
+}
+
+mover_model : mover.rubberduck {
+	mover_name: "Rubberduck"
+	model_desc: "/model/boat/rubberduck.pmd"
+}
+
+mover_model : mover.tugduck {
+	mover_name: "Tugduck"
+	model_desc: "/model/mover/rubberduck.pmd"
+}
+
+}

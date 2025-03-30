@@ -1,0 +1,17 @@
+SiiNunit
+{
+cargo_model_match : .schmitz_scs
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/schmitz.scs/body/curtain_8.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/schmitz.scs/body/curtain_8_paint.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/schmitz.scs/body/curtain_13.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/schmitz.scs/body/curtain_13_ecofix.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/schmitz.scs/body/curtain_13_euro_combi.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/schmitz.scs/body/curtain_13_euro_combi_paint.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/schmitz.scs/body/curtain_13_paint.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/schmitz.scs/body/curtain_15.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/schmitz.scs/body/curtain_15_paint.sii"
+	compatible_body[]: "/def/vehicle/trailer/schmitz_scs/universal_13_3.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/schmitz_scs/explosives.sii"
+}
+}

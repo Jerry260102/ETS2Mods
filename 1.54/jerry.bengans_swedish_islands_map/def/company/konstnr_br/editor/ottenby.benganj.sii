@@ -1,0 +1,7 @@
+SiiNunit
+{
+company_def : .bjottenby {
+ city:  bjottenby
+ prefab: 321
+}
+}

@@ -1,0 +1,1457 @@
+SiiNunit
+{
+ui_blend_window : _nameless.008103681 {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: _nameless.008103680
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 23
+ my_children[0]: _nameless.008103682
+ my_children[1]: _nameless.008103685
+ my_children[2]: _nameless.008103686
+ my_children[3]: _nameless._.nextpage
+ my_children[4]: _nameless._.prepage
+ my_children[5]: _nameless.008103689
+ my_children[6]: _nameless.0081036825
+ my_children[7]: _nameless.0081036826
+ my_children[8]: _nameless.0081036836
+ my_children[9]: _nameless.0081036837
+ my_children[10]: _nameless.008103683c
+ my_children[11]: _nameless.008103683d
+ my_children[12]: _nameless.00d445210
+ my_children[13]: _nameless._.route_notify
+ my_children[14]: _nameless._.cargo.top.button
+ my_children[15]: _nameless._.cargo.group
+ my_children[16]: _nameless._.search
+ my_children[17]: _nameless._.cargo.top.button.arrow
+ my_children[18]: _nameless._.job.empty.screen
+ my_children[19]: _nameless._.input.clear.button
+ my_children[20]: _nameless._.view.global.cargo.market.button
+ my_children[21]: _nameless.2c7.19e0
+ my_children[22]: _nameless._.icontt
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 900
+ coords_b: 0
+ area_l: -80
+ area_r: 1520
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+cargo_market_hdl : _nameless.008103680 {
+ window_link: _nameless.008103681
+}
+
+ui::text_common : _nameless.008103682 {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 860
+ coords_b: 70
+ area_l: -80
+ area_r: 1520
+ area_t: 860
+ area_b: 70
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::portal : _nameless.008103685 {
+ child_path: "/ui/job_view.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: false
+ my_children: 0
+ coords_l: 897
+ coords_r: 1515
+ coords_t: 800
+ coords_b: 194
+ area_l: 897
+ area_r: 1515
+ area_t: 800
+ area_b: 194
+ id: 200
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::button_common : _nameless.008103686 {
+ value: "@@select_job_offer@@"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 897
+ coords_r: 1515
+ coords_t: 120
+ coords_b: 90
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 300
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::button_common : _nameless._.nextpage {
+ value: "0|1"
+ value2: ""
+ look_template: btn.page.arrow
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1465
+ coords_r: 1515
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 220
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::button_common : _nameless._.prepage {
+ value: "1|0"
+ value2: ""
+ look_template: btn.page.arrow
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 897
+ coords_r: 947
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 210
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::group : _nameless.008103689 {
+ fitting: false
+ my_children: 27
+ my_children[0]: _nameless._.p0
+ my_children[1]: _nameless._.p1
+ my_children[2]: _nameless._.p2
+ my_children[3]: _nameless._.p3
+ my_children[4]: _nameless._.p4
+ my_children[5]: _nameless._.p5
+ my_children[6]: _nameless._.p6
+ my_children[7]: _nameless._.p7
+ my_children[8]: _nameless._.p8
+ my_children[9]: _nameless._.p9
+ my_children[10]: _nameless._.p10
+ my_children[11]: _nameless._.p11
+ my_children[12]: _nameless._.p12
+ my_children[13]: _nameless._.p13
+ my_children[14]: _nameless._.p14
+ my_children[15]: _nameless._.p15
+ my_children[16]: _nameless._.p16
+ my_children[17]: _nameless._.p17
+ my_children[18]: _nameless._.p18
+ my_children[19]: _nameless._.p19
+ my_children[20]: _nameless._.p20
+ my_children[21]: _nameless._.p21
+ my_children[22]: _nameless._.p22
+ my_children[23]: _nameless._.p23
+ my_children[24]: _nameless._.p24
+ my_children[25]: _nameless._.p25
+ my_children[26]: _nameless._.p26
+ coords_l: 951
+ coords_r: 1461
+ coords_t: 172
+ coords_b: 140
+ area_l: 951
+ area_r: 1461
+ area_t: 172
+ area_b: 140
+ id: 215
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::button_common : _nameless._.p0 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 951
+ coords_r: 967
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 230
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p1 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 970
+ coords_r: 986
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 231
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p2 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 989
+ coords_r: 1005
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 232
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p3 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1008
+ coords_r: 1024
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 233
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p4 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1027
+ coords_r: 1043
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 234
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p5 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1046
+ coords_r: 1062
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 235
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p6 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1065
+ coords_r: 1081
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 236
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p7 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1084
+ coords_r: 1100
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 237
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p8 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1103
+ coords_r: 1119
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 238
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p9 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1122
+ coords_r: 1138
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 239
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p10 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1141
+ coords_r: 1157
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 240
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p11 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1160
+ coords_r: 1176
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 241
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p12 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1179
+ coords_r: 1195
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 242
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p13 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1198
+ coords_r: 1214
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 243
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p14 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1217
+ coords_r: 1233
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 244
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p15 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1236
+ coords_r: 1252
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 245
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p16 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1255
+ coords_r: 1271
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 246
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p17 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1274
+ coords_r: 1290
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 247
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p18 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1293
+ coords_r: 1309
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 248
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p19 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1312
+ coords_r: 1328
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 249
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p20 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1331
+ coords_r: 1347
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 250
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p21 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1350
+ coords_r: 1366
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 251
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p22 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1369
+ coords_r: 1385
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 252
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p23 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1388
+ coords_r: 1404
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 253
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p24 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1407
+ coords_r: 1423
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 254
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p25 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1426
+ coords_r: 1442
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 255
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::button_common : _nameless._.p26 {
+ value: ""
+ value2: ""
+ look_template: btn.page
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1445
+ coords_r: 1461
+ coords_t: 172
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 256
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103689
+}
+
+ui::text_common : _nameless.0081036825 {
+ value: "@@sort_by@@:"
+ look_template: txt.normal.right
+ text: ""
+ coords_l: 897
+ coords_r: 950
+ coords_t: 840
+ coords_b: 810
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::droplist_common : _nameless.0081036826 {
+ look_template: btn.listbox.sorting
+ use_blend_buttons: false
+ list_management: false
+ n_pml: ""
+ s_pml: ""
+ p_pml: ""
+ d_pml: ""
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.ui.comp.list
+ coords_l: 955
+ coords_r: 1189
+ coords_t: 840
+ coords_b: 810
+ area_l: 955
+ area_r: 1189
+ area_t: 840
+ area_b: 810
+ id: 400
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::list_common : _nameless._.ui.comp.list {
+ look_template: btn.list.item.sorting
+ use_blend_buttons: false
+ multi_column: false
+ slider_management: false
+ item_height: 25
+ item_width: 0
+ item_gap: 0
+ max_list_height: 0
+ n_pml: ""
+ s_pml: ""
+ p_pml: ""
+ d_pml: ""
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless.0081036828
+ coords_l: 956
+ coords_r: 1189
+ coords_t: 809
+ coords_b: 359
+ area_l: 956
+ area_r: 1189
+ area_t: 809
+ area_b: 359
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0081036826
+}
+
+ui::text_common : _nameless.0081036828 {
+ value: ""
+ look_template: txt.frame
+ text: ""
+ coords_l: 956
+ coords_r: 1189
+ coords_t: 809
+ coords_b: 359
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.ui.comp.list
+}
+
+ui::text_common : _nameless.0081036836 {
+ value: ""
+ look_template: txt.ttip_simple
+ text: ""
+ coords_l: 261
+ coords_r: 417
+ coords_t: 553
+ coords_b: 488
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 110
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::portal : _nameless.0081036837 {
+ child_path: "/ui/map_view.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: false
+ my_children: 0
+ coords_l: -75
+ coords_r: 892
+ coords_t: 855
+ coords_b: 75
+ area_l: -75
+ area_r: 892
+ area_t: 855
+ area_b: 75
+ id: 100000
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::text_common : _nameless.008103683c {
+ value: "L1 V1<br>L1<br>V1"
+ look_template: txt.small.left
+ text: ""
+ coords_l: 659
+ coords_r: 873
+ coords_t: 850
+ coords_b: 777
+ area_l: 12
+ area_r: 12
+ area_t: 3
+ area_b: 3
+ id: 410
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::text : _nameless.008103683d {
+ text: "<color value=@@clr_bg_dark@@><img src=/material/ui/white.mat width=1 height=-1><img src=/material/ui/white.mat width=-1 yscale=stretch><img src=/material/ui/white.mat width=1 height=-1>"
+ coords_l: 647
+ coords_r: 885
+ coords_t: 850
+ coords_b: 777
+ area_l: 12
+ area_r: 12
+ area_t: 3
+ area_b: 3
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::group : _nameless.00d445210 {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless.00d445f7d
+ my_children[1]: _nameless.00d445f7e
+ my_children[2]: _nameless.00d445f7f
+ my_children[3]: _nameless.00d445f710
+ coords_l: 13
+ coords_r: 141
+ coords_t: 135
+ coords_b: 7
+ area_l: 13
+ area_r: 141
+ area_t: 135
+ area_b: 7
+ id: 500
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::text_common : _nameless.00d445f7d {
+ value: "1|@@jobf_hint_1@@"
+ look_template: txt.hhint_up
+ text: ""
+ coords_l: 236
+ coords_r: 703
+ coords_t: 712
+ coords_b: 647
+ area_l: 16
+ area_r: 16
+ area_t: 0
+ area_b: 0
+ id: 501
+ layer: 20
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.00d445210
+}
+
+ui::text_common : _nameless.00d445f7e {
+ value: "2|@@jobf_hint_2@@"
+ look_template: txt.hhint_down
+ text: ""
+ coords_l: 940
+ coords_r: 1360
+ coords_t: 804
+ coords_b: 739
+ area_l: &c2d9ee50
+ area_r: &c2d9ee50
+ area_t: -2
+ area_b: -2
+ id: 502
+ layer: 20
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.00d445210
+}
+
+ui::text_common : _nameless.00d445f7f {
+ value: "3|@@jobf_hint_3@@"
+ look_template: txt.hhint_left
+ text: ""
+ coords_l: 526
+ coords_r: 801
+ coords_t: 430
+ coords_b: 380
+ area_l: 0
+ area_r: 0
+ area_t: 19
+ area_b: 19
+ id: 503
+ layer: 20
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.00d445210
+}
+
+ui::text_common : _nameless.00d445f710 {
+ value: "4|@@jobf_hint_4b@@"
+ look_template: txt.hhint_up
+ text: ""
+ coords_l: 1064
+ coords_r: 1421
+ coords_t: 186
+ coords_b: 121
+ area_l: &c3e7e520
+ area_r: &c3e7e520
+ area_t: 31
+ area_b: 31
+ id: 504
+ layer: 20
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.00d445210
+}
+
+ui::text_common : _nameless._.route_notify {
+ value: ""
+ look_template: null
+ text: ""
+ coords_l: 206
+ coords_r: 666
+ coords_t: 154
+ coords_b: 100
+ area_l: 1
+ area_r: 1
+ area_t: -76
+ area_b: -76
+ id: 420
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::button_common : _nameless._.cargo.top.button {
+ value: all
+ value2: all
+ look_template: btn.cargo_top
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: -70
+ coords_r: 54
+ coords_t: 850
+ coords_b: 756
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 470
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::group : _nameless._.cargo.group {
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless.396.4b70
+ coords_l: -70
+ coords_r: 52
+ coords_t: 751
+ coords_b: 280
+ area_l: -70
+ area_r: 52
+ area_t: 751
+ area_b: 280
+ id: 472
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::text_common : _nameless.396.4b70 {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: -70
+ coords_r: 52
+ coords_t: 747
+ coords_b: 615
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cargo.group
+}
+
+ui::inputline_common : _nameless._.search {
+ look_template: inp.input_left
+ cursor: ""
+ stretch_cursor: false
+ lang_id: ""
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ p_pml: ""
+ d_pml: "<offset vshift=3><margin left=11 right=-11><align hstyle=left vstyle=center bottom=-3><color value=@@clr_txt_d@@><font face=/font/normal.font>%s</font></align></margin><ret>\n<color value=@@clr_inputline_border_d@@><img src=/material/ui/white.mat xscale=stretch height=2><ret>\n<offset vshift=2><img src=/material/ui/white.mat width=2 height=-2><img src=/material/ui/white.mat width=-2 height=-2 color=@@clr_inputline_bg_d@@><img src=/material/ui/white.mat width=2 height=-2><ret>\n<align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=2></align>"
+ limit: 0
+ multiline: false
+ selection_color: 4281954447
+ ime_color: 2701131775
+ allowed_characters: ""
+ show_language_indicator: true
+ password: false
+ password_character: x
+ make_uppercase: false
+ default_text: "@@search@@..."
+ coords_l: 1287
+ coords_r: 1515
+ coords_t: 840
+ coords_b: 809
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 402
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::text : _nameless._.cargo.top.button.arrow {
+ text: "<align hstyle=center vstyle=center><img src=/material/ui/button/arrow_overlay.mat top=1 bottom=0></align>"
+ coords_l: -70
+ coords_r: 52
+ coords_t: 786
+ coords_b: 756  
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 471
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::group : _nameless._.job.empty.screen {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless.3a7.d2d0
+ my_children[1]: _nameless.43e.86b0
+ coords_l: 1003
+ coords_r: 1419
+ coords_t: 578
+ coords_b: 454
+ area_l: 1003
+ area_r: 1419
+ area_t: 578
+ area_b: 454
+ id: 380
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::text_common : _nameless.3a7.d2d0 {
+ value: "@@no_job_found@@"
+ look_template: txt.normal.center
+ text: ""
+ coords_l: 1013
+ coords_r: 1408
+ coords_t: 558
+ coords_b: 453
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 381
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.job.empty.screen
+}
+
+ui::text : _nameless.43e.86b0 {
+ text: ""
+ coords_l: 1003
+ coords_r: 1419
+ coords_t: 578
+ coords_b: 454
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 382
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.job.empty.screen
+}
+
+ui::button_common : _nameless._.input.clear.button {
+ value: ""
+ value2: ""
+ look_template: btn.input.clear
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1491
+ coords_r: 1507
+ coords_t: 832
+ coords_b: 816
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 403
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::button_common : _nameless._.view.global.cargo.market.button {
+ value: "@@view_global_cargo_market@@"
+ value2: "@@view_global_cargo_market@@"
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1013
+ coords_r: 1408
+ coords_t: 431
+ coords_b: 401
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 390
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::overlay_point : _nameless.2c7.19e0 {
+ overlay_anchor_type: bottomleft
+ value: "left|bottom"
+ look_template: txt.overlay.anchor
+ text: ""
+ coords_l: -70
+ coords_r: 195
+ coords_t: 128
+ coords_b: 80
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 91111
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::group : _nameless._.icontt {
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless.008100db3f
+ coords_l: 1149
+ coords_r: 1299
+ coords_t: 704
+ coords_b: 629
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 810
+ layer: 1001
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008103681
+}
+
+ui::text_common : _nameless.008100db3f {
+ value: ""
+ look_template: txt.ttip_simple
+ text: ""
+ coords_l: 1149
+ coords_r: 1299
+ coords_t: 704
+ coords_b: 629
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 811
+ layer: 1001
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.icontt
+}
+
+}

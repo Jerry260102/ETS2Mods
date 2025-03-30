@@ -1,0 +1,337 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	templates[]: "0000   11  "  # Giza Governorate
+	templates[]: "000   111 "   # Cairo Governorate
+	templates[]: "0000  11A  "  # Cairo Governorate
+	templates[]: "0000  11S  "  # Alexandria Governorate
+	templates[]: "0000  11K  "  # Qalyubia Governorate
+	templates[]: "0000  11R  "  # Sharqia Governorate
+	templates[]: "0000  11M  "  # Monufia Governorate
+	templates[]: "0000  11B  "  # Beheira Governorate
+	templates[]: "0000  11D  "  # Dakahlia Governorate
+	templates[]: "0000  11E  "  # Gharbia Governorate
+	templates[]: "0000  11L  "  # Kafr El Sheikh Governorate
+	templates[]: "0000  11F  "  # Faiyum Governorate
+	templates[]: "0000  11W  "  # Beni Suef Governorate
+	templates[]: "0000  11N  "  # Minya Governorate
+	templates[]: "0000  11Y  "  # Asyut Governorate
+	templates[]: "0000  11H  "  # Sohag Governorate
+	templates[]: "0000  1AC  "  # Qena Governorate
+	templates[]: "0000  1KC  "  # Luxor Governorate
+	templates[]: "0000  1WC  "  # Aswan Governorate
+	templates[]: "0000  1DT  "  # Damietta Governorate
+	templates[]: "0000  1ET  "  # Port Said Governorate
+	templates[]: "0000  1BT  "  # Port Said Governorate
+	templates[]: "0000  1CT  "  # Ismailia Governorate
+	templates[]: "0000  1ST  "  # Suez Governorate
+	templates[]: "0000  1RT  "  # Red Sea Governorate
+	templates[]: "0000  1AT  "  # North Sinai Governorate
+	templates[]: "0000  1GT  "  # South Sinai Governorate
+	templates[]: "0000  1HG  "  # Matrouh Governorate
+	templates[]: "0000  1BG  "  # New Valley Governorate
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"G"
+	def1[]:"D"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"C"
+	def1[]:"T"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"H"
+	def1[]:"W"
+	def1[]:"Y"
+}
+
+license_plate_data : .lp.truck
+{
+	type: truck
+
+	background_front: "truck_front"
+	background_rear: "truck_rear"
+
+	templates[]: "0000   11  "  # Giza Governorate
+	templates[]: "000   111 "   # Cairo Governorate
+	templates[]: "0000  11A  "  # Cairo Governorate
+	templates[]: "0000  11S  "  # Alexandria Governorate
+	templates[]: "0000  11K  "  # Qalyubia Governorate
+	templates[]: "0000  11R  "  # Sharqia Governorate
+	templates[]: "0000  11M  "  # Monufia Governorate
+	templates[]: "0000  11B  "  # Beheira Governorate
+	templates[]: "0000  11D  "  # Dakahlia Governorate
+	templates[]: "0000  11E  "  # Gharbia Governorate
+	templates[]: "0000  11L  "  # Kafr El Sheikh Governorate
+	templates[]: "0000  11F  "  # Faiyum Governorate
+	templates[]: "0000  11W  "  # Beni Suef Governorate
+	templates[]: "0000  11N  "  # Minya Governorate
+	templates[]: "0000  11Y  "  # Asyut Governorate
+	templates[]: "0000  11H  "  # Sohag Governorate
+	templates[]: "0000  1AC  "  # Qena Governorate
+	templates[]: "0000  1KC  "  # Luxor Governorate
+	templates[]: "0000  1WC  "  # Aswan Governorate
+	templates[]: "0000  1DT  "  # Damietta Governorate
+	templates[]: "0000  1ET  "  # Port Said Governorate
+	templates[]: "0000  1BT  "  # Port Said Governorate
+	templates[]: "0000  1CT  "  # Ismailia Governorate
+	templates[]: "0000  1ST  "  # Suez Governorate
+	templates[]: "0000  1RT  "  # Red Sea Governorate
+	templates[]: "0000  1AT  "  # North Sinai Governorate
+	templates[]: "0000  1GT  "  # South Sinai Governorate
+	templates[]: "0000  1HG  "  # Matrouh Governorate
+	templates[]: "0000  1BG  "  # New Valley Governorate
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"G"
+	def1[]:"D"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"C"
+	def1[]:"T"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"H"
+	def1[]:"W"
+	def1[]:"Y"
+}
+
+license_plate_data : .lp.trailer
+{
+	type: trailer
+
+	background_rear: "trailer"
+
+	templates[]: "0000   11  "  # Giza Governorate
+	templates[]: "000   111 "   # Cairo Governorate
+	templates[]: "0000  11A  "  # Cairo Governorate
+	templates[]: "0000  11S  "  # Alexandria Governorate
+	templates[]: "0000  11K  "  # Qalyubia Governorate
+	templates[]: "0000  11R  "  # Sharqia Governorate
+	templates[]: "0000  11M  "  # Monufia Governorate
+	templates[]: "0000  11B  "  # Beheira Governorate
+	templates[]: "0000  11D  "  # Dakahlia Governorate
+	templates[]: "0000  11E  "  # Gharbia Governorate
+	templates[]: "0000  11L  "  # Kafr El Sheikh Governorate
+	templates[]: "0000  11F  "  # Faiyum Governorate
+	templates[]: "0000  11W  "  # Beni Suef Governorate
+	templates[]: "0000  11N  "  # Minya Governorate
+	templates[]: "0000  11Y  "  # Asyut Governorate
+	templates[]: "0000  11H  "  # Sohag Governorate
+	templates[]: "0000  1AC  "  # Qena Governorate
+	templates[]: "0000  1KC  "  # Luxor Governorate
+	templates[]: "0000  1WC  "  # Aswan Governorate
+	templates[]: "0000  1DT  "  # Damietta Governorate
+	templates[]: "0000  1ET  "  # Port Said Governorate
+	templates[]: "0000  1BT  "  # Port Said Governorate
+	templates[]: "0000  1CT  "  # Ismailia Governorate
+	templates[]: "0000  1ST  "  # Suez Governorate
+	templates[]: "0000  1RT  "  # Red Sea Governorate
+	templates[]: "0000  1AT  "  # North Sinai Governorate
+	templates[]: "0000  1GT  "  # South Sinai Governorate
+	templates[]: "0000  1HG  "  # Matrouh Governorate
+	templates[]: "0000  1BG  "  # New Valley Governorate
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"G"
+	def1[]:"D"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"C"
+	def1[]:"T"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"H"
+	def1[]:"W"
+	def1[]:"Y"
+}
+
+license_plate_data : .lp.bus
+{
+	type: bus
+
+	background_front: "bus_front"
+	background_rear: "bus_rear"
+
+	templates[]: "0000   11  "  # Giza Governorate
+	templates[]: "000   111 "   # Cairo Governorate
+	templates[]: "0000  11A  "  # Cairo Governorate
+	templates[]: "0000  11S  "  # Alexandria Governorate
+	templates[]: "0000  11K  "  # Qalyubia Governorate
+	templates[]: "0000  11R  "  # Sharqia Governorate
+	templates[]: "0000  11M  "  # Monufia Governorate
+	templates[]: "0000  11B  "  # Beheira Governorate
+	templates[]: "0000  11D  "  # Dakahlia Governorate
+	templates[]: "0000  11E  "  # Gharbia Governorate
+	templates[]: "0000  11L  "  # Kafr El Sheikh Governorate
+	templates[]: "0000  11F  "  # Faiyum Governorate
+	templates[]: "0000  11W  "  # Beni Suef Governorate
+	templates[]: "0000  11N  "  # Minya Governorate
+	templates[]: "0000  11Y  "  # Asyut Governorate
+	templates[]: "0000  11H  "  # Sohag Governorate
+	templates[]: "0000  1AC  "  # Qena Governorate
+	templates[]: "0000  1KC  "  # Luxor Governorate
+	templates[]: "0000  1WC  "  # Aswan Governorate
+	templates[]: "0000  1DT  "  # Damietta Governorate
+	templates[]: "0000  1ET  "  # Port Said Governorate
+	templates[]: "0000  1BT  "  # Port Said Governorate
+	templates[]: "0000  1CT  "  # Ismailia Governorate
+	templates[]: "0000  1ST  "  # Suez Governorate
+	templates[]: "0000  1RT  "  # Red Sea Governorate
+	templates[]: "0000  1AT  "  # North Sinai Governorate
+	templates[]: "0000  1GT  "  # South Sinai Governorate
+	templates[]: "0000  1HG  "  # Matrouh Governorate
+	templates[]: "0000  1BG  "  # New Valley Governorate
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"G"
+	def1[]:"D"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"C"
+	def1[]:"T"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"H"
+	def1[]:"W"
+	def1[]:"Y"
+}
+
+license_plate_data : .lp.police
+{
+	type: police
+
+	background_front: "police_front"
+	background_rear: "police_rear"
+
+	templates[]: "0000   11  "  # Giza Governorate
+	templates[]: "000   111 "   # Cairo Governorate
+	templates[]: "0000  11A  "  # Cairo Governorate
+	templates[]: "0000  11S  "  # Alexandria Governorate
+	templates[]: "0000  11K  "  # Qalyubia Governorate
+	templates[]: "0000  11R  "  # Sharqia Governorate
+	templates[]: "0000  11M  "  # Monufia Governorate
+	templates[]: "0000  11B  "  # Beheira Governorate
+	templates[]: "0000  11D  "  # Dakahlia Governorate
+	templates[]: "0000  11E  "  # Gharbia Governorate
+	templates[]: "0000  11L  "  # Kafr El Sheikh Governorate
+	templates[]: "0000  11F  "  # Faiyum Governorate
+	templates[]: "0000  11W  "  # Beni Suef Governorate
+	templates[]: "0000  11N  "  # Minya Governorate
+	templates[]: "0000  11Y  "  # Asyut Governorate
+	templates[]: "0000  11H  "  # Sohag Governorate
+	templates[]: "0000  1AC  "  # Qena Governorate
+	templates[]: "0000  1KC  "  # Luxor Governorate
+	templates[]: "0000  1WC  "  # Aswan Governorate
+	templates[]: "0000  1DT  "  # Damietta Governorate
+	templates[]: "0000  1ET  "  # Port Said Governorate
+	templates[]: "0000  1BT  "  # Port Said Governorate
+	templates[]: "0000  1CT  "  # Ismailia Governorate
+	templates[]: "0000  1ST  "  # Suez Governorate
+	templates[]: "0000  1RT  "  # Red Sea Governorate
+	templates[]: "0000  1AT  "  # North Sinai Governorate
+	templates[]: "0000  1GT  "  # South Sinai Governorate
+	templates[]: "0000  1HG  "  # Matrouh Governorate
+	templates[]: "0000  1BG  "  # New Valley Governorate
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"G"
+	def1[]:"D"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"C"
+	def1[]:"T"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"H"
+	def1[]:"W"
+	def1[]:"Y"
+}
+
+}

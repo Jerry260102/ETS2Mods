@@ -1,0 +1,12 @@
+SiiNunit
+{
+cargo_model_match : .kass_sll
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.sll/body/low_2_short.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.sll/body/low_3_short.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.sll/body/low_wood_3_short.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.sll/body/low_wood_2_short.sii"
+	compatible_body[]: "/def/vehicle/trailer/kassbohrer_sll/ch_3.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/kassbohrer_sll/tractor.sii"
+}
+}

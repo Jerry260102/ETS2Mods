@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_a2_e79_hemus_motorway_bulgaria@@"
+	dlc_id: eut2_balkane
+}
+}

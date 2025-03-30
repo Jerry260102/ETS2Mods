@@ -1,0 +1,7 @@
+SiiNunit
+{
+company_def : .bjpalmelund {
+ city:  bjpalmelund
+ prefab: dlc_no_20
+}
+}

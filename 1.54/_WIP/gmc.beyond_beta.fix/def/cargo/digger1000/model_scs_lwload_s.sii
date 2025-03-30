@@ -1,0 +1,11 @@
+SiiNunit
+{
+cargo_model_match : .scs_lwload_s
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.lowloader/body/short.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_lowloader/ch_2.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_lowloader/ch_4.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_lowloader/ch_4_2.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_lowloader/wheel_loader.sii"
+}
+}

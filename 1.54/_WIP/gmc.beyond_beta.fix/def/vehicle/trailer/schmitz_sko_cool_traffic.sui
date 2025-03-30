@@ -1,0 +1,48 @@
+traffic_trailer : traffic.trailer.sch_sko_col
+{
+	accessories[]: .sch_sko_col.chassis
+	accessories[]: .sch_sko_col.rwheel
+	accessories[]: .sch_sko_col.rwheel2
+	accessories[]: .sch_sko_col.rwheel3
+	accessories[]: .sch_sko_col.paint_job
+
+	spawn_ratio: 1.2
+	
+	tags[]: high
+	tags[]: box
+	tags[]: reefer
+	tags[]: medium
+	tags[]: basic
+	tags[]: schmitz
+	
+	company_paint_job: true
+
+}
+
+vehicle_accessory: .sch_sko_col.chassis
+{
+    	data_path: "/def/vehicle/trailer/schmitz_sko/cool_3_13.sii"
+}
+
+vehicle_wheel_accessory: .sch_sko_col.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/t_wheel/single_385_65_alu_schmitz.sii"
+}
+
+vehicle_wheel_accessory: .sch_sko_col.rwheel2
+{
+	offset: 2
+    	data_path: "/def/vehicle/t_wheel/single_385_65_alu_schmitz.sii"
+}
+
+vehicle_wheel_accessory: .sch_sko_col.rwheel3
+{
+	offset: 4
+    	data_path: "/def/vehicle/t_wheel/single_385_65_alu_schmitz.sii"
+}
+
+vehicle_paint_job_accessory: .sch_sko_col.paint_job
+{
+    	data_path: "/def/vehicle/trailer/schmitz_sko/company_paint_job/default.sii"
+}

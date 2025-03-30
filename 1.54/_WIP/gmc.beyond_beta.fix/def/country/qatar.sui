@@ -1,0 +1,18 @@
+
+country_data: country.data.qatar
+{
+	name: "Qatar"
+	name_localized: "@@Qatar@@"
+	country_code: "QAT"
+	iso_country_code: qat
+	pos:(211220, 0, 97265)
+	fuel_price: 0.53
+	country_id: 78
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "@@AST@@"
+}
+

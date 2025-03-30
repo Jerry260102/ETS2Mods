@@ -1,0 +1,12 @@
+cargo_data: cargo.metal_pipes
+{
+	name: "@@cn_pipes@@"
+	fragility: 0.15
+	group[]: construction
+	volume: 40
+	mass: 12190
+	unit_reward_per_km: 9.75
+	unit_load_time: 1200
+	body_types[]: flatbed
+	body_types[]: flatbed_cont
+}

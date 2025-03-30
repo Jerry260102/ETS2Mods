@@ -1,0 +1,285 @@
+SiiNunit
+{
+ui_blend_window : _nameless.2680.c838 {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: _nameless.18f.a650
+ clip_children: false
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.bcg.text
+ my_children[1]: _nameless._.sections.group
+ coords_l: -200
+ coords_r: 1600
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+desktop_top_bar_hdl : _nameless.18f.a650 {
+ window_link: _nameless.2680.c838
+}
+
+ui::text_common : _nameless._.bcg.text {
+ value: "@@clr_desktop_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 900
+ coords_b: 860
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2680.c838
+}
+
+ui::group : _nameless._.sections.group {
+ fitting: false
+ my_children: 9
+ my_children[0]: _nameless._.personal.profile.info
+ my_children[1]: _nameless._.company.info
+ my_children[2]: _nameless._.home.button
+ my_children[3]: _nameless._.screen.history.group
+ my_children[4]: _nameless._.notification.group
+ my_children[5]: _nameless._.country.info
+ my_children[6]: _nameless._.bank.info.button
+ my_children[7]: _nameless._.date.time.info.text
+ my_children[8]: _nameless._.burger.menu.button
+ coords_l: 7
+ coords_r: 1433
+ coords_t: 900
+ coords_b: 860
+ area_l: 7
+ area_r: 1433
+ area_t: 900
+ area_b: 860
+ id: 100
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2680.c838
+}
+
+ui::button_common : _nameless._.personal.profile.info {
+ value: ""
+ value2: ""
+ look_template: btn.desktop.top_bar.personal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 14
+ coords_r: 270
+ coords_t: 900
+ coords_b: 860
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 110
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sections.group
+}
+
+ui::button_common : _nameless._.company.info {
+ value: "logo_0||"
+ value2: ""
+ look_template: btn.desktop.top_bar.company
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 270
+ coords_r: 526
+ coords_t: 900
+ coords_b: 860
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 120
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sections.group
+}
+
+ui::button_common : _nameless._.home.button {
+ value: ""
+ value2: ""
+ look_template: btn.desktop.top_bar.home
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: -31
+ coords_r: 13
+ coords_t: 900
+ coords_b: 860
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 130
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sections.group
+}
+
+ui::group : _nameless._.screen.history.group {
+ fitting: false
+ my_children: 0
+ coords_l: 14
+ coords_r: 475
+ coords_t: 900
+ coords_b: 860
+ area_l: 111
+ area_r: 572
+ area_t: 900
+ area_b: 860
+ id: 140
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sections.group
+}
+
+ui::group : _nameless._.notification.group {
+ fitting: false
+ my_children: 0
+ coords_l: 732
+ coords_r: 1132
+ coords_t: 900
+ coords_b: 860
+ area_l: 637
+ area_r: 1037
+ area_t: 900
+ area_b: 860
+ id: 150
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sections.group
+}
+
+ui::button_common : _nameless._.country.info {
+ value: cze
+ value2: ""
+ look_template: btn.desktop.top_bar.country
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1136
+ coords_r: 1200
+ coords_t: 900
+ coords_b: 860
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 160
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sections.group
+}
+
+ui::button_common : _nameless._.bank.info.button {
+ value: 1M
+ value2: ""
+ look_template: btn.desktop.top_bar.bank
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1220
+ coords_r: 1360
+ coords_t: 900
+ coords_b: 860
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 170
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sections.group
+}
+
+ui::text_common : _nameless._.date.time.info.text {
+ value: "Tue|10:00 am"
+ look_template: txt.desktop.top_bar.date_time
+ text: ""
+ coords_l: 1380
+ coords_r: 1520
+ coords_t: 900
+ coords_b: 860
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 180
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sections.group
+}
+
+ui::button_common : _nameless._.burger.menu.button {
+ value: ""
+ value2: ""
+ look_template: btn.desktop.top_bar.burger_menu
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: -80
+ coords_r: -32
+ coords_t: 900
+ coords_b: 860
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 190
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sections.group
+}
+
+}

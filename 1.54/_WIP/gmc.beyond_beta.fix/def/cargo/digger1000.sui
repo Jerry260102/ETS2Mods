@@ -1,0 +1,13 @@
+cargo_data: cargo.digger1000
+{
+	name: "@@cn_wheel_loader@@"
+	fragility: 0.6
+	valuable: true
+	group[]: machinery
+	volume: 50
+	mass: 15400
+	unit_reward_per_km: 22.155
+	unit_load_time: 2100
+	body_types[]: lowboy
+	body_types[]: lowbed
+}

@@ -1,0 +1,12 @@
+cargo_data: cargo.vans_id
+{
+	name: "@@cn_vans@@"
+	fragility: 0.95
+	valuable: true
+	group[]: machinery
+	volume: 1
+	mass: 61.5
+	unit_reward_per_km: 0.2115
+	unit_load_time: 30
+	body_types[]: _van__idvaid
+}

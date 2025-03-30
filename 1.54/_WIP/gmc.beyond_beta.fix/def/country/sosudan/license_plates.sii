@@ -1,0 +1,202 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	templates[]:"01 222 334"
+
+	def0[]:"<font xscale=0.85 yscale=0.9>"
+	
+	def1[]:"SSD"
+	
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+	
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"P"
+	def3[]:"Q"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"	
+
+    def4[]:"</font>"
+}
+
+license_plate_data : .lp.truck
+{
+	type: truck
+
+	templates[]:"01 222 334"
+
+	def0[]:"<font xscale=0.85 yscale=0.9>"
+	
+	def1[]:"SSD"
+	
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+	
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"P"
+	def3[]:"Q"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"	
+
+    def4[]:"</font>"
+}
+
+license_plate_data : .lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222 334"
+
+	def0[]:"<font xscale=0.85 yscale=0.9>"
+	
+	def1[]:"SSD"
+	
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+	
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"P"
+	def3[]:"Q"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"	
+
+    def4[]:"</font>"
+}
+
+license_plate_data : .lp.police
+{
+	type: police
+
+	background_front: "police_front"
+	background_rear: "police_rear"
+
+	templates[]:"01 222 334"
+
+	def0[]:"<color value=FFFFFFFF><font xscale=0.8 yscale=0.9><align left=10>"
+	
+	def1[]:"SSPS"
+	
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+	
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"P"
+	def3[]:"Q"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"	
+
+    def4[]:"</align></font>"
+}
+
+}

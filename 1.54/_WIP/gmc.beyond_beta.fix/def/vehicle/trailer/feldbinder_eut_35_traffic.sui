@@ -1,0 +1,50 @@
+traffic_trailer : traffic.trailer.ffb_eut35
+{
+	accessories[]: .ffb_eut35.chassis
+	accessories[]: .ffb_eut35.rwheel
+	accessories[]: .ffb_eut35.rwheel2
+	accessories[]: .ffb_eut35.rwheel3
+	accessories[]: .ffb_eut35.paint_job
+
+	cargo_mass: 20000
+
+	spawn_ratio: 1.2
+
+	tags[]: low
+	tags[]: short
+	tags[]: cistern
+	tags[]: silo
+	tags[]: brand 
+	tags[]: feldbinder 
+	
+	company_paint_job: true
+
+}
+
+vehicle_accessory: .ffb_eut35.chassis
+{
+	data_path: "/def/vehicle/trailer/feldbinder_eut/ch_3_35.sii"
+}
+
+vehicle_wheel_accessory: .ffb_eut35.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .ffb_eut35.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .ffb_eut35.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_paint_job_accessory: .ffb_eut35.paint_job
+{
+	data_path: "/def/vehicle/trailer/feldbinder_eut/company_paint_job/default.sii"
+}

@@ -1,0 +1,13 @@
+cargo_data: cargo.big_bag_seed
+{
+	name: "@@cn_big_bags_seeds@@"
+	fragility: 0.2
+	group[]: containers
+	volume: 2.6
+	mass: 584.5
+	unit_reward_per_km: 0.585
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+	body_types[]: flatbed_brck
+}

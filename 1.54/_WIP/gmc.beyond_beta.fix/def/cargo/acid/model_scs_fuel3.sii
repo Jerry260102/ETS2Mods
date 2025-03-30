@@ -1,0 +1,9 @@
+SiiNunit
+{
+cargo_model_match : .scs_fuel3
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.chemtank/chassis/ch_3.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_chemtank/chassis.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_chemtank/acid_ch3.sii"
+}
+}

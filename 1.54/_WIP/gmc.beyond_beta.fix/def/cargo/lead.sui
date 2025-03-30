@@ -1,0 +1,13 @@
+cargo_data: cargo.lead
+{
+	name: "@@cn_lead@@"
+	fragility: 0.5
+	adr_class: 6
+	group[]: gooseneck
+	volume: 1
+	mass: 230
+	unit_reward_per_km: 0.295
+	unit_load_time: 15
+	body_types[]: container
+	body_types[]: flatbed_cont
+}

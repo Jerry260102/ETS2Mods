@@ -1,0 +1,9 @@
+SiiNunit
+{
+cargo_model_match : .schw_log
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/schwmuller.slidepost/body/slidepost.sii"
+	compatible_body[]: "/def/vehicle/trailer/schw_slidepost/chassis.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/schw_slidepost/large_tubes.sii"
+}
+}

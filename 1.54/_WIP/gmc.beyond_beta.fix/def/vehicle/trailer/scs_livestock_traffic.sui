@@ -1,0 +1,40 @@
+traffic_trailer : traffic.trailer.scs_livestk
+{
+	accessories[]: .traffic.scs_livestk.tchassis
+	accessories[]: .traffic.scs_livestk.trwheel0
+	accessories[]: .traffic.scs_livestk.trwheel1
+	accessories[]: .traffic.scs_livestk.trwheel2
+	accessories[]: .traffic.scs_livestk.paintjob
+	cargo_mass: 25000
+	
+	tags[]: livestock
+	tags[]: medium
+	tags[]: high
+
+	spawn_ratio: 1.05
+
+	company_paint_job: true
+}
+vehicle_accessory: .traffic.scs_livestk.tchassis
+{
+	data_path: "/def/vehicle/trailer/scs_livestock/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.scs_livestk.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+vehicle_wheel_accessory: .traffic.scs_livestk.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+vehicle_wheel_accessory: .traffic.scs_livestk.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+vehicle_paint_job_accessory: .traffic.scs_livestk.paintjob
+{
+	data_path: "/def/vehicle/trailer/scs_livestock/company_paint_job/default.sii"
+}

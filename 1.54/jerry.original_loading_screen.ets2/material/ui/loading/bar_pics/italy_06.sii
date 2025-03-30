@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_a24_e80_san_gregorio_da_sassola_italy@@"
+	dlc_id: eut2_it
+}
+}

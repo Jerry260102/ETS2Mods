@@ -1,0 +1,12 @@
+cargo_data: cargo.stone_wool
+{
+	name: "@@cn_stone_wool@@"
+	fragility: 0.1
+	group[]: containers
+	volume: 2.6
+	mass: 160
+	unit_reward_per_km: 0.531
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

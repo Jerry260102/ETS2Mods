@@ -1,0 +1,72 @@
+SiiNunit
+{
+editor_data : .edit_data {
+
+	autosave_interval: 15 #minutes
+	autosave_notify_interval: 15 #seconds
+
+	startpos_model: "/model2/editor_start_model.pmd"
+	startpos_rotate_speed: 2.0
+
+	stamp_count_warning: 40
+	road_length_warning: 330
+
+	sub_mode_types[]: 39 #bezier patch
+	sub_mode_types[]: 2  #buildings_item
+	sub_mode_types[]: 45 #camera_path_item
+	sub_mode_types[]: 23 #camera_point_item
+	sub_mode_types[]: 12 #city_item
+	sub_mode_types[]: 44 #curve_item
+	sub_mode_types[]: 8  #cut_plane_item
+	sub_mode_types[]: 46 #cutscene_item
+	sub_mode_types[]: 43 #far model
+	sub_mode_types[]: 19 #ferry_item
+#	sub_mode_types[]: 49 #gate_item
+	sub_mode_types[]: 47 #hookup_item
+	sub_mode_types[]: 42 #map_area_item
+	sub_mode_types[]: 18 #map_overlay_item
+	sub_mode_types[]: 5  #model_item
+	sub_mode_types[]: 9  #mover_item
+	sub_mode_types[]: 11 #no_weather_item
+	sub_mode_types[]: 4  #prefab_item
+	sub_mode_types[]: 3  #road_item
+	sub_mode_types[]: 36 #sign_item
+	sub_mode_types[]: 21 #sound_item
+	sub_mode_types[]: 1  #terrain_item
+	sub_mode_types[]: 38 #traffic_area_item
+	sub_mode_types[]: 41 #trajectory
+	sub_mode_types[]: 34 #trigger_item
+	sub_mode_types[]: 48 #visibility_area_item
+
+	map_import_offset: (-43402, 0, -28089)
+
+	source_name[]: "base"
+	source_tag[]: ""
+
+	source_name[]: "north"
+	source_tag[]: "no"
+
+	source_name[]: "balkan_e"
+	source_tag[]: "blke"
+
+	source_name[]: "iberia"
+	source_tag[]: "ibe"
+
+	source_name[]: "russia"
+	source_tag[]: "rus"
+
+	bcg_map_name[]: "/map/bjmap.mbd"
+	bcg_material[]: "/material/editor/europe.mat"
+	bcg_size_x[]: 247656
+	bcg_size_y[]: 211000
+	bcg_offset_x[]: 27800
+	bcg_offset_y[]: -17750
+
+# For INTERNAL members: Please for added custom map use "/mod_internal/base/def/editor_data_custom.sii".
+# This one below going to be overriden.
+
+# For MODERS: Custom maps should be added to file below.
+@include "editor_data_custom.sui"
+
+}
+}

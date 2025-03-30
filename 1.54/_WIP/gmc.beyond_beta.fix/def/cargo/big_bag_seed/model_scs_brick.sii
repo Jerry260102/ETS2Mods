@@ -1,0 +1,12 @@
+SiiNunit
+{
+cargo_model_match : .scs_brick
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.flatbed/body/brick.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_brick/blue.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_brick/red.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_brick/green.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_brick/yellow.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_brick/big_bags_13.sii"
+}
+}

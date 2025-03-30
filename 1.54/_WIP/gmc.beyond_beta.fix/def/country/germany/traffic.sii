@@ -1,0 +1,364 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+#
+# NOTE: To override a traffic info in your mod, just create a new definition
+# in your definition file (see above) with the same value for 'object' attribute as the one being overridden
+# For each 'object' the LAST LOADED traffic info is used
+#
+
+#################################################
+########### car
+#################################################
+
+country_traffic_info : .country.info.traffic.a3 {
+	object: traffic.a3
+	spawn_ratio: 2.00
+}
+
+country_traffic_info : .country.info.traffic.audi_a6 {
+	object: traffic.audi_a6
+	spawn_ratio: 2.00
+}
+
+country_traffic_info : .country.info.traffic.bmw5 {
+	object: traffic.bmw5
+	spawn_ratio: 3.00
+}
+
+country_traffic_info : .country.info.traffic.mercedes_ce {
+	object: traffic.mercedes_ce
+	spawn_ratio: 3.00
+}
+
+country_traffic_info : .country.info.traffic.astra {
+	object: traffic.astra
+	spawn_ratio: 2.00
+}
+
+country_traffic_info : .country.info.traffic.scout_fav {
+	object: traffic.scout_fav
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.golf {
+	object: traffic.golf
+	spawn_ratio: 3.00
+}
+
+country_traffic_info : .country.info.traffic.punto {
+	object: traffic.punto
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.qashqai {
+	object: traffic.qashqai
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.jaguar_xf {
+	object: traffic.jaguar_xf
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.lancer_x {
+	object: traffic.lancer_x
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.passat_cc {
+	object: traffic.passat_cc
+	spawn_ratio: 2.00
+}
+
+country_traffic_info : .country.info.traffic.citroen_c4 {
+	object: traffic.citroen_c4
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.megane {
+	object: traffic.megane
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.mini {
+	object: traffic.mini
+	spawn_ratio: 3.00
+}
+
+country_traffic_info : .country.info.traffic.peugeot_407 {
+	object: traffic.peugeot_407
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.range_rover {
+	object: traffic.range_rover
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.kia_ceed {
+	object: traffic.kia_ceed
+	spawn_ratio: 2.00
+}
+
+country_traffic_info : .country.info.traffic.tourer {
+	object: traffic.tourer
+	spawn_ratio: 0.2
+}
+
+country_traffic_info : .country.info.traffic.p3008 {
+	object: traffic.p3008
+	spawn_ratio: 0
+}
+
+country_traffic_info : .country.info.traffic.talisman {
+	object: traffic.talisman
+	spawn_ratio: 0.5
+}
+
+country_traffic_info : .country.info.traffic.duck {
+	object: traffic.duck
+	spawn_ratio: 0
+}
+country_traffic_info : .country.info.traffic.ducato.box {
+	object: traffic.ducato.box
+	spawn_ratio: 0.70
+}
+country_traffic_info : .country.info.traffic.ducato.plat {
+	object: traffic.ducato.plat
+	spawn_ratio: 0.05
+}
+country_traffic_info : .country.info.traffic.ducato {
+	object: traffic.ducato
+	spawn_ratio: 0.4
+}
+country_traffic_info : .country.info.traffic.captur {
+	object: traffic.captur
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.a_romeo_159 {
+	object: traffic.a_romeo_159
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.k_ceed_c {
+	object: traffic.k_ceed_c
+	spawn_ratio: 0.50
+}
+
+country_traffic_info : .country.info.traffic.octavia_iii {
+	object: traffic.octavia_iii
+	spawn_ratio: 3.00
+}
+
+
+country_traffic_info : .country.info.traffic.volvo_xc70 {
+	object: traffic.volvo_xc70
+	spawn_ratio: 0.50
+}
+
+country_traffic_info : .country.info.traffic.vw_touran {
+	object: traffic.vw_touran
+	spawn_ratio: 3.00
+}
+### balt
+
+country_traffic_info : .country.info.traffic.superb.combi {
+	object: traffic.superb.combi
+	spawn_ratio: 3.0
+}
+country_traffic_info : .country.info.traffic.laguna {
+	object: traffic.laguna
+	spawn_ratio: 0.0
+}
+
+
+country_traffic_info : .country.info.traffic.transit_16
+{
+	object: traffic.transit_16
+	spawn_ratio: 0.30
+}
+country_traffic_info : .country.info.traffic.transit_16t
+{
+	object: traffic.transit_16.trailer
+	spawn_ratio: 0.05
+}
+
+#################################################
+########### VAN
+#################################################
+
+country_traffic_info : .country.info.traffic.crafter.cmp_zi {
+	object: traffic.crafter.cmp_zi
+	spawn_ratio: 1.0
+}
+
+#################################################
+########### police
+#################################################
+
+country_traffic_info : .country.info.traffic.passat_cc.pol_de {
+	object: traffic.passat_cc.pol_de
+	spawn_ratio: 0.50
+}
+
+country_traffic_info : .country.info.traffic.combi.betrude_m5.22.pol_de {
+	object: traffic.combi.betrude_m5.22.pol_de
+	spawn_ratio: 1.00
+}
+
+country_traffic_info : .country.info.traffic.passat_2014.pol_de {
+	object: traffic.passat_2014.pol_de
+	spawn_ratio: 0.50
+}
+
+
+
+########## ambulance
+
+country_traffic_info : .country.info.traffic.crafter.de
+{
+	object: traffic.crafter.de
+	spawn_ratio: 1.0
+}
+
+country_traffic_info : .country.info.traffic.crafter.de_de
+{
+	object: traffic.crafter.de_de
+	spawn_ratio: 1.0
+}
+
+
+
+
+########## tram/train
+
+country_traffic_info : .country.info.traffic.flexity.de_ha
+{
+	object: traffic.flexity.de_ha
+	spawn_ratio: 1.0
+}
+
+country_traffic_info : .country.info.traffic.skytrain
+{
+	object: traffic.skytrain
+	spawn_ratio: 1.0
+}
+
+
+country_traffic_info : .country.info.traffic.traxx_d_de {
+	object: traffic.traxx_d_de
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.traxx_de {
+	object: traffic.traxx_de
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.ice {
+	object: traffic.ice_loco
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.traffic.frt.de {
+	object: traffic.frt.de
+	spawn_ratio: 1.00
+}
+country_traffic_info : .country.info.traffic.db143_loco {
+	object: traffic.db143_loco
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.regiode_loco {
+	object: traffic.regiode_loco
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.duwag_f_loco {
+	object: traffic.duwag_f_loco
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.duwag_h_loco {
+	object: traffic.duwag_h_loco
+	spawn_ratio: 1
+}
+country_traffic_info : .country.info.traffic.duwag_s_loco {
+	object: traffic.duwag_s_loco
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.hkl_loco.de_nu {
+	object: traffic.hkl_loco.de_nu
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.incentro.de_er {
+	object: traffic.incentro.de_er
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.hkl_loco.de_br {
+	object: traffic.hkl_loco.de_br
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.hkl_loco.de_ka {
+	object: traffic.hkl_loco.de_ka
+	spawn_ratio: 1
+}
+country_traffic_info : .country.info.traffic.hkl_loco.de_le {
+	object: traffic.hkl_loco.de_le
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.hkl_loco.de_mg {
+	object: traffic.hkl_loco.de_mg
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.hkl_loco.de_dr {
+	object: traffic.hkl_loco.de_dr
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.hkl_loco.de_be {
+	object: traffic.hkl_loco.de_be
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.hkl_loco.de_mu {
+	object: traffic.hkl_loco.de_mu
+	spawn_ratio: 1
+}
+
+country_traffic_info : .country.info.traffic.hkl_loco.de_ma {
+	object: traffic.hkl_loco.de_ma
+	spawn_ratio: 1
+}
+
+########## Fire Departement
+
+country_traffic_info : .country.info.traffic.dagger.de
+{
+	object: traffic.dagger.de
+	spawn_ratio: 1.0
+}
+
+country_traffic_info : .country.info.traffic.t815.de
+{
+	object: traffic.t815.de
+	spawn_ratio: 1
+}
+
+
+
+}

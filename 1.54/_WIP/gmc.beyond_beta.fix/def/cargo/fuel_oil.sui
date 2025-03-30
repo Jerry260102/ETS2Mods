@@ -1,0 +1,12 @@
+cargo_data: cargo.fuel_oil
+{
+	name: "@@cn_fuel_oil@@"
+	fragility: 0.2
+	adr_class: 3
+	group[]: liquid
+	volume: 1
+	mass: 857
+	unit_reward_per_km: 1.21
+	unit_load_time: 40
+	body_types[]: fueltank
+}

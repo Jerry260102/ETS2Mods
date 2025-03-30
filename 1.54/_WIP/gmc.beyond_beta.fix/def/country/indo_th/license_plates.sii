@@ -1,0 +1,556 @@
+SiiNunit
+{
+# LP (License Plate) Indonesia // Plat Nomor Indonesia
+# folder/file required (wajib pakai juga) : "material/ui/lp/indonesia/"
+#					   				      : "def/world/semaphore_model.sii & semaphore_profil.sii"
+# Game version : 1.23 - 1.30 - 1.35
+
+# Created by Septian_MR
+# Creator of PJ Indo Map (Pejindo Blogs)
+
+license_plate_data : .lp.car
+{
+	type: car 
+	
+	# This is number slots // Ini slot angka yang akan tercetak
+	# example : AG-2809-SMR
+	
+	templates[]:"03-41-22"
+	templates[]:"03-41-222"
+	templates[]:"03-411-22"
+	templates[]:"03-4111-22"
+
+	def0[]:"<color value=FFFFFFFF>" # White font // Buat teks berwarna putih
+	
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	# KODE PLAT SESUAI REGION/DAERAH MASING-MASING (Bisa dihapus bila tidak perlu)
+	
+	# Pulau Jawa : Jawa Tengah
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"K"
+	def3[]:"R"
+	def3[]:"AA"
+	def3[]:"AD"
+	
+	# Pulau Jawa : Yogyakarta
+	def3[]:"AB"
+	
+	# Pulau Jawa : DKI Jakarta
+	def3[]:"B"
+	
+	# Pulau Jawa : Jawa Barat
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"T"
+	def3[]:"Z"
+	
+	# Pulau Jawa : Banten
+	def3[]:"A"
+	
+	# Pulau Jawa : Jawa Timur
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"S"
+	def3[]:"W"
+	def3[]:"AE"
+	def3[]:"AG"
+	
+	# Bali
+	def3[]:"DK"
+	
+	# Kep. Nusa Tenggara : NTB & NTT
+	def3[]:"DR"
+	def3[]:"EA"
+	def3[]:"DH"
+	def3[]:"EB"
+	def3[]:"ED"
+	
+	# Kalimantan
+	def3[]:"KB"
+	def3[]:"DA"
+	def3[]:"KH"
+	def3[]:"KT"
+	def3[]:"KU"
+	
+	# Sulawesi
+	def3[]:"DB"
+	def3[]:"DL"
+	def3[]:"DM"
+	def3[]:"DN"
+	def3[]:"DT"
+	def3[]:"DD"
+	def3[]:"DC"
+	
+	# Papua
+	def3[]:"PA"
+	def3[]:"PB"
+	
+	# Maluku
+	def3[]:"DE"
+	def3[]:"DG"
+	
+	# Sumatra
+	def3[]:"BL"
+	def3[]:"BB"
+	def3[]:"BK"
+	def3[]:"BA"
+	def3[]:"BM"
+	def3[]:"BH"
+	def3[]:"BD"
+	def3[]:"BP"
+	def3[]:"BG"
+	def3[]:"BN"
+	def3[]:"BE"
+	
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+
+}
+
+license_plate_data : .lp.truck
+{
+	type: truck
+
+	templates[]:"03-41-22"
+	templates[]:"03-41-222"
+	templates[]:"03-411-22"
+	templates[]:"03-4111-22"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	# KODE PLAT SESUAI REGION/DAERAH MASING-MASING (Bisa dihapus bila tidak perlu)
+	
+	# Pulau Jawa : Jawa Tengah
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"K"
+	def3[]:"R"
+	def3[]:"AA"
+	def3[]:"AD"
+	
+	# Pulau Jawa : Yogyakarta
+	def3[]:"AB"
+	
+	# Pulau Jawa : DKI Jakarta
+	def3[]:"B"
+	
+	# Pulau Jawa : Jawa Barat
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"T"
+	def3[]:"Z"
+	
+	# Pulau Jawa : Banten
+	def3[]:"A"
+	
+	# Pulau Jawa : Jawa Timur
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"S"
+	def3[]:"W"
+	def3[]:"AE"
+	def3[]:"AG"
+	
+	# Bali
+	def3[]:"DK"
+	
+	# Kep. Nusa Tenggara : NTB & NTT
+	def3[]:"DR"
+	def3[]:"EA"
+	def3[]:"DH"
+	def3[]:"EB"
+	def3[]:"ED"
+	
+	# Kalimantan
+	def3[]:"KB"
+	def3[]:"DA"
+	def3[]:"KH"
+	def3[]:"KT"
+	def3[]:"KU"
+	
+	# Sulawesi
+	def3[]:"DB"
+	def3[]:"DL"
+	def3[]:"DM"
+	def3[]:"DN"
+	def3[]:"DT"
+	def3[]:"DD"
+	def3[]:"DC"
+	
+	# Papua
+	def3[]:"PA"
+	def3[]:"PB"
+	
+	# Maluku
+	def3[]:"DE"
+	def3[]:"DG"
+	
+	# Sumatra
+	def3[]:"BL"
+	def3[]:"BB"
+	def3[]:"BK"
+	def3[]:"BA"
+	def3[]:"BM"
+	def3[]:"BH"
+	def3[]:"BD"
+	def3[]:"BP"
+	def3[]:"BG"
+	def3[]:"BN"
+	def3[]:"BE"
+	
+	def4[]:"8"
+	def4[]:"9"
+
+}
+
+license_plate_data : .lp.bus
+{
+	type: bus
+
+	templates[]:"03-41-22"
+	templates[]:"03-41-222"
+	templates[]:"03-411-22"
+	templates[]:"03-4111-22"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	# KODE PLAT SESUAI REGION/DAERAH MASING-MASING (Bisa dihapus bila tidak perlu)
+	
+	# Pulau Jawa : Jawa Tengah
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"K"
+	def3[]:"R"
+	def3[]:"AA"
+	def3[]:"AD"
+	
+	# Pulau Jawa : Yogyakarta
+	def3[]:"AB"
+	
+	# Pulau Jawa : DKI Jakarta
+	def3[]:"B"
+	
+	# Pulau Jawa : Jawa Barat
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"T"
+	def3[]:"Z"
+	
+	# Pulau Jawa : Banten
+	def3[]:"A"
+	
+	# Pulau Jawa : Jawa Timur
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"S"
+	def3[]:"W"
+	def3[]:"AE"
+	def3[]:"AG"
+	
+	# Bali
+	def3[]:"DK"
+	
+	# Kep. Nusa Tenggara : NTB & NTT
+	def3[]:"DR"
+	def3[]:"EA"
+	def3[]:"DH"
+	def3[]:"EB"
+	def3[]:"ED"
+	
+	# Kalimantan
+	def3[]:"KB"
+	def3[]:"DA"
+	def3[]:"KH"
+	def3[]:"KT"
+	def3[]:"KU"
+	
+	# Sulawesi
+	def3[]:"DB"
+	def3[]:"DL"
+	def3[]:"DM"
+	def3[]:"DN"
+	def3[]:"DT"
+	def3[]:"DD"
+	def3[]:"DC"
+	
+	# Papua
+	def3[]:"PA"
+	def3[]:"PB"
+	
+	# Maluku
+	def3[]:"DE"
+	def3[]:"DG"
+	
+	# Sumatra
+	def3[]:"BL"
+	def3[]:"BB"
+	def3[]:"BK"
+	def3[]:"BA"
+	def3[]:"BM"
+	def3[]:"BH"
+	def3[]:"BD"
+	def3[]:"BP"
+	def3[]:"BG"
+	def3[]:"BN"
+	def3[]:"BE"
+	
+	def4[]:"7"
+
+}
+
+
+license_plate_data : .lp.police
+{
+	type: police
+
+	templates[]:"03-41-22"
+	templates[]:"03-41-222"
+	templates[]:"03-411-22"
+	
+	def0[]:"<color value=FFFFFFFF>"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	# KODE PLAT SESUAI REGION/DAERAH MASING-MASING (Bisa dihapus bila tidak perlu)
+	
+	# Pulau Jawa : Jawa Tengah
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"K"
+	def3[]:"R"
+	def3[]:"AA"
+	def3[]:"AD"
+	
+	# Pulau Jawa : Yogyakarta
+	def3[]:"AB"
+	
+	# Pulau Jawa : DKI Jakarta
+	def3[]:"B"
+	
+	# Pulau Jawa : Jawa Barat
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"T"
+	def3[]:"Z"
+	
+	# Pulau Jawa : Banten
+	def3[]:"A"
+	
+	# Pulau Jawa : Jawa Timur
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"S"
+	def3[]:"W"
+	def3[]:"AE"
+	def3[]:"AG"
+	
+	# Bali
+	def3[]:"DK"
+	
+	# Kep. Nusa Tenggara : NTB & NTT
+	def3[]:"DR"
+	def3[]:"EA"
+	def3[]:"DH"
+	def3[]:"EB"
+	def3[]:"ED"
+	
+	# Kalimantan
+	def3[]:"KB"
+	def3[]:"DA"
+	def3[]:"KH"
+	def3[]:"KT"
+	def3[]:"KU"
+	
+	# Sulawesi
+	def3[]:"DB"
+	def3[]:"DL"
+	def3[]:"DM"
+	def3[]:"DN"
+	def3[]:"DT"
+	def3[]:"DD"
+	def3[]:"DC"
+	
+	# Papua
+	def3[]:"PA"
+	def3[]:"PB"
+	
+	# Maluku
+	def3[]:"DE"
+	def3[]:"DG"
+	
+	# Sumatra
+	def3[]:"BL"
+	def3[]:"BB"
+	def3[]:"BK"
+	def3[]:"BA"
+	def3[]:"BM"
+	def3[]:"BH"
+	def3[]:"BD"
+	def3[]:"BP"
+	def3[]:"BG"
+	def3[]:"BN"
+	def3[]:"BE"
+	
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+}
+
+}

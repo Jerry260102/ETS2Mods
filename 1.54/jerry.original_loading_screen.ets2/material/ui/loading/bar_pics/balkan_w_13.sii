@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_dubrovnik_croatia@@"
+	dlc_id: eut2_balkanw
+}
+}

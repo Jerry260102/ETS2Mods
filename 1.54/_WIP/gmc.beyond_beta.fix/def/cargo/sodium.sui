@@ -1,0 +1,13 @@
+cargo_data: cargo.sodium
+{
+	name: "@@cn_sodium@@"
+	adr_class: 4
+	group[]: liquid
+	group[]: gooseneck
+	volume: 1
+	mass: 190
+	unit_reward_per_km: 0.263
+	unit_load_time: 15
+	body_types[]: container
+	body_types[]: flatbed_cont
+}

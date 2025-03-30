@@ -1,0 +1,9 @@
+SiiNunit
+{
+cargo_model_match : .scs_lwbed_l
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.lowbed/body/long.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_lowbed/ch_4_1.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_lowbed/wheel_backhoe_loader_long.sii"
+}
+}

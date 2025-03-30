@@ -1,0 +1,12 @@
+cargo_data: cargo.metal_cans
+{
+	name: "@@cn_metal_cans@@"
+	fragility: 0.2
+	group[]: containers
+	volume: 2.6
+	mass: 287.7
+	unit_reward_per_km: 0.376
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

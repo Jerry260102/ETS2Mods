@@ -1,0 +1,8 @@
+SiiNunit
+{
+accessory_paint_job_data : .paint_job
+{
+	base_color: (0.4969, 0.0097, 0.0318)
+	stock: true
+}
+}

@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "road_swe_147.tobj"
+	texture_name : "texture"
+}

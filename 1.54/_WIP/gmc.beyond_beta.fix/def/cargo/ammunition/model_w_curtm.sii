@@ -1,0 +1,10 @@
+SiiNunit
+{
+cargo_model_match : .w_curtm
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/wielton.curtainm/body/curtain.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/wielton.curtainm/body/curtain_side_boards.sii"
+	compatible_body[]: "/def/vehicle/trailer/wielton_curtain_master/ch_3.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_box/ammunition.sii"
+}
+}

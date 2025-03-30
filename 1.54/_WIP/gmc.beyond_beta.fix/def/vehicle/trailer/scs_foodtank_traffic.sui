@@ -1,0 +1,93 @@
+traffic_trailer : traffic.trailer.scs_fodt
+{
+	accessories[]: .scs_fodt.chassis
+	accessories[]: .scs_fodt.rwheel
+	accessories[]: .scs_fodt.rwheel2
+	accessories[]: .scs_fodt.rwheel3
+	accessories[]: .scs_fodt.paint_job
+	
+	cargo_mass: 8000
+	
+	tags[]: low
+	tags[]: cistern
+	tags[]: food
+	tags[]: short
+	
+	company_paint_job: true
+
+	spawn_ratio: 1
+
+}
+
+vehicle_accessory: .scs_fodt.chassis
+{
+    	data_path: "/def/vehicle/trailer/scs_foodtank/chassis.sii"
+}
+
+vehicle_wheel_accessory: .scs_fodt.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/t_wheel/single_385_65_steel.sii"
+}
+
+vehicle_wheel_accessory: .scs_fodt.rwheel2
+{
+	offset: 2
+    	data_path: "/def/vehicle/t_wheel/single_385_65_steel.sii"
+}
+
+vehicle_wheel_accessory: .scs_fodt.rwheel3
+{
+	offset: 4
+    	data_path: "/def/vehicle/t_wheel/single_385_65_steel.sii"
+}
+
+vehicle_paint_job_accessory: .scs_fodt.paint_job
+{
+    	data_path: "/def/vehicle/trailer/scs_foodtank/company_paint_job/default.sii"
+}
+
+
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+traffic_trailer : .traffic.trailer.scs_fodta
+{
+	accessories[]: .scs_fodta.chassis
+	accessories[]: .scs_fodta.rwheel
+	accessories[]: .scs_fodta.rwheel2
+	accessories[]: .scs_fodta.rwheel3
+	accessories[]: .scs_fodta.paint_job
+	
+	cargo_mass: 8000
+	company_paint_job: true
+	spawn_ratio: 1
+}
+
+vehicle_accessory: .scs_fodta.chassis
+{
+    	data_path: "/def/vehicle/trailer/scs_foodtank/chassis_a.sii"
+}
+
+vehicle_wheel_accessory: .scs_fodta.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/t_wheel/single_385_65_steel.sii"
+}
+
+vehicle_wheel_accessory: .scs_fodta.rwheel2
+{
+	offset: 2
+    	data_path: "/def/vehicle/t_wheel/single_385_65_steel.sii"
+}
+
+vehicle_wheel_accessory: .scs_fodta.rwheel3
+{
+	offset: 4
+    	data_path: "/def/vehicle/t_wheel/single_385_65_steel.sii"
+}
+
+vehicle_paint_job_accessory: .scs_fodta.paint_job
+{
+    	data_path: "/def/vehicle/trailer/scs_foodtank/company_paint_job/default.sii"
+}

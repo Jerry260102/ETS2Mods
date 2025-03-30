@@ -1,0 +1,12 @@
+cargo_data: cargo.propane
+{
+	name: "@@cn_propane@@"
+	fragility: 0.5
+	adr_class: 2
+	group[]: liquid
+	volume: 1
+	mass: 493
+	unit_reward_per_km: 0.65
+	unit_load_time: 40
+	body_types[]: gastank
+}

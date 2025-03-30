@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_a1_kamnik_savinja_alps_slovenia@@"
+	dlc_id: eut2_balkanw
+}
+}

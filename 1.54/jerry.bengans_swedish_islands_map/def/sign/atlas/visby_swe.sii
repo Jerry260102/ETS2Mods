@@ -1,0 +1,18 @@
+SiiNunit
+{
+image_atlas : atlas.visby.swe
+{
+  atlas_name: "visby swe"
+  material_path: "/material/sign/atlas/swe/visby_swe.mat"
+  
+  # names
+  images_names: 1
+  images_names[0]: "visby swe"
+  
+  # left right bottom top
+  images_coords: 1
+  images_coords[0]: (0, 128, 128, 0)
+
+
+}
+}

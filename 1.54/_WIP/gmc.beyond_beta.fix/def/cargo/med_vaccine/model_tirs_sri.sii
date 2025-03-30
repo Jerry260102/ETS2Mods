@@ -1,0 +1,9 @@
+SiiNunit
+{
+cargo_model_match : .tirs_sri
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/tirsan.sri/body/reefer.sii"
+	compatible_body[]: "/def/vehicle/trailer/tirsan_sri/ch_3.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/tirsan_sri/med_vaccine.sii"
+}
+}

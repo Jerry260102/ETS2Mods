@@ -1,0 +1,21 @@
+
+country_data: country.data.turkmenistan
+{
+	name: "Türkmenistan"
+	name_localized: "@@Türkmenistan@@"
+	country_code: "TM"
+	iso_country_code: tkm
+	pos:(199854, 0, 7010)
+	fuel_price: 0.05
+	country_id: 88
+	lights_mandatory: false
+	driving_tired_offence: true
+		
+	time_zone: 300		# +5 hours in minutes
+	time_zone_name: "@@tz_tmt@@" #Turkmenistan Time
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 24000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}
+

@@ -1,0 +1,22 @@
+
+country_data: country.data.thailand
+{
+	name: "Thailand"
+	name_localized: "@@Thailand@@"
+	country_code: "TH"
+	iso_country_code: tha
+	pos:(475591, 0, -80846)
+	fuel_price: 0.65
+	country_id: 86
+	lights_mandatory: true
+	leftside_traffic: true
+	driving_tired_offence: true
+		
+	time_zone: 420		# +7 hours in minutes
+	time_zone_name: "@@tz_thb@@" #Thailand Bangkok Time
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 24000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}
+

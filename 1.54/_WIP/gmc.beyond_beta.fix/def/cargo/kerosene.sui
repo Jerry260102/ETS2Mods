@@ -1,0 +1,12 @@
+cargo_data: cargo.kerosene
+{
+	name: "@@cn_kerosene@@"
+	fragility: 0.5
+	adr_class: 3
+	group[]: liquid
+	volume: 1
+	mass: 786
+	unit_reward_per_km: 1.2
+	unit_load_time: 40
+	body_types[]: fueltank
+}

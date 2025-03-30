@@ -1,0 +1,9 @@
+SiiNunit
+{
+cargo_model_match : .schw_low
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/schwmuller.lowloader/body/lowloader.sii"
+	compatible_body[]: "/def/vehicle/trailer/schw_lowloader/chassis.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/schw_lowloader/wind_plant_tube.sii"
+}
+}

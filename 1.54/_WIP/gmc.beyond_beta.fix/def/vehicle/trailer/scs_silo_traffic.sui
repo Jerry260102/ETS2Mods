@@ -1,0 +1,43 @@
+traffic_trailer : traffic.trailer.scs_silo
+{
+	accessories[]: .traffic.scs_silo.tchassis.default
+	accessories[]: .traffic.scs_silo.trwheel0.default
+	accessories[]: .traffic.scs_silo.trwheel1.default
+	accessories[]: .traffic.scs_silo.trwheel2.default
+	accessories[]: .traffic.scs_silo.paintjob.default
+	cargo_mass: 25000
+	
+	tags[]: low
+	tags[]: silo
+	tags[]: construct
+	tags[]: heavy
+	tags[]: medium
+
+	company_paint_job: true
+
+	spawn_ratio: 1
+
+}
+vehicle_accessory: .traffic.scs_silo.tchassis.default
+{
+	data_path: "/def/vehicle/trailer/scs_silo/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.scs_silo.trwheel0.default
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+vehicle_wheel_accessory: .traffic.scs_silo.trwheel1.default
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+vehicle_wheel_accessory: .traffic.scs_silo.trwheel2.default
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+vehicle_paint_job_accessory: .traffic.scs_silo.paintjob.default
+{
+	data_path: "/def/vehicle/trailer/scs_silo/company_paint_job/default.sii"
+}

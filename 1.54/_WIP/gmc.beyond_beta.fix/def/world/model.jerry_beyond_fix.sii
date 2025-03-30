@@ -1,0 +1,32 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+model_def : model.xmas_4s008
+{
+	model_desc: "/model2/vehicles/jeep_wrangler/jeep_wrangler.pmd"
+	name: "jeep wrangler xmas"
+
+	static_lod_path: 2
+	static_lod_name: 2
+	static_lod_path[0]: "/model2/vehicles/jeep_wrangler/jeep_wrangler_lod1.pmd"
+	static_lod_name[0]: "LOD from 90m"
+
+	dynamic_lod_desc: 2
+	dynamic_lod_dist: 2
+	dynamic_lod_desc[0]: "/model2/vehicles/jeep_wrangler/jeep_wrangler_lod1.pmd"
+	dynamic_lod_dist[0]: 90
+
+	static_lod_path[1]: "/model2/vehicles/jeep_wrangler/jeep_wrangler_lod2.pmd"
+	static_lod_name[1]: "LOD from 150m"
+
+	dynamic_lod_desc[1]: "/model2/vehicles/jeep_wrangler/jeep_wrangler_lod2.pmd"
+	dynamic_lod_dist[1]: 150
+}
+}

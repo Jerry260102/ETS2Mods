@@ -1,0 +1,12 @@
+SiiNunit
+{
+cargo_model_match : .schmitz_sko
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/schmitz.sko/body/reefer_8.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/schmitz.sko/body/reefer_13.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/schmitz.sko/body/reefer_13_euro_combi.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/schmitz.sko/body/reefer_15.sii"
+	compatible_body[]: "/def/vehicle/trailer/schmitz_sko/cool_3_13.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/schmitz_sko/med_vaccine.sii"
+}
+}

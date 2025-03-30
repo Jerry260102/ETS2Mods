@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_d941_le_puy_notre_dame_france@@"
+	dlc_id: eut2_fr
+}
+}

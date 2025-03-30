@@ -1,0 +1,99 @@
+SiiNunit
+{
+# Speed limit Indonesia // Batas Kecepatan Indonesia
+# Note [ID] : Tidak ada data resmi dari pemerintah soal batas kecepatan nasional.
+# Mungkin bagi ada yang tahu bisa memberitahu saya.
+
+# folder/file required (wajib pakai juga) : "material/ui/lp/indonesia/"
+#					   				      : "def/world/semaphore_model.sii & semaphore_profil.sii"
+
+# Note [ID] : Script dalam bahasa Inggris
+# Car : mobil ||| Truck : Truk ||| Bus : Bis
+# local_road : Jalan kolektor/lokal (jalan pedesaan atau kecamatan)
+# expressway : Jalan Arteri baik utama maupun sekunder (jalan lebar, perkotaan, jalan raya antar kabupaten/kota)
+# motorway/highway : Jalan Tol (itu saja...)
+
+# Created by Septian_MR
+# Creator of PJ Indo Map (Pejindo Blogs)
+
+country_speed_limit : .speed_limit.car {
+
+	vehicle_speed_class : car
+
+	lane_speed_class[] : local_road
+	limit[]		 : 	60
+	urban_limit[]:	40
+
+	lane_speed_class[] : expressway
+	limit[]		 : 80
+	urban_limit[]: 40
+
+	lane_speed_class[] : motorway
+	limit[]		 : 120
+	urban_limit[]: 120
+}
+
+country_speed_limit : .speed_limit.truck {
+
+	vehicle_speed_class: truck
+
+	lane_speed_class[] : local_road
+	limit[]		 : 60
+	urban_limit[]: 40
+	max_limit[]  : 60
+
+	lane_speed_class[] : expressway
+	limit[]		 : 80
+	urban_limit[]: 40
+	max_limit[]  : 80
+
+	lane_speed_class[] : motorway
+	limit[]		 : 80
+	urban_limit[]: 80
+	max_limit[]  : 80
+}
+
+country_speed_limit : .speed_limit.bus {
+
+	vehicle_speed_class : bus
+
+	lane_speed_class[]: local_road
+	limit[]		 : 60
+	urban_limit[]: 40
+	max_limit[]  : 60
+
+	lane_speed_class[] : expressway
+	limit[]		 : 80
+	urban_limit[]: 40
+	max_limit[]  : 80
+	
+	lane_speed_class[] : motorway
+	limit[]		 : 90
+	urban_limit[]: 90
+	max_limit[]  : 90
+}
+
+
+country_speed_limit : .speed_limit.train {
+
+	vehicle_speed_class: train
+
+	lane_speed_class[]: 	rail_train
+	urban_limit[]:  	40
+}
+
+country_speed_limit : .speed_limit.tram {
+
+	vehicle_speed_class: tram
+
+	lane_speed_class[]: 	rail_tram
+	urban_limit[]:  	40
+	
+	lane_speed_class[]: 	divided_road  # combined rail+road
+	urban_limit[]:  	40
+	
+	lane_speed_class[]: 	local_road # combined rail+road
+	urban_limit[]:  	40
+}
+
+}

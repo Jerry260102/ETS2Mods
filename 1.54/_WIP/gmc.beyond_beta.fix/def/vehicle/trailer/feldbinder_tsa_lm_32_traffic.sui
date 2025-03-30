@@ -1,0 +1,50 @@
+traffic_trailer : traffic.trailer.ffb_tsalm32
+{
+	accessories[]: .ffb_tsalm32.chassis
+	accessories[]: .ffb_tsalm32.rwheel
+	accessories[]: .ffb_tsalm32.rwheel2
+	accessories[]: .ffb_tsalm32.rwheel3
+	accessories[]: .ffb_tsalm32.paint_job
+
+	cargo_mass: 20000
+
+	spawn_ratio: 0.2
+
+	tags[]: low
+	tags[]: cistern
+	tags[]: medium
+	tags[]: food
+	tags[]: brand 
+	tags[]: feldbinder
+
+	company_paint_job: true
+
+}
+
+vehicle_accessory: .ffb_tsalm32.chassis
+{
+	data_path: "/def/vehicle/trailer/feldbinder_tsa_lm/ch_3_32.sii"
+}
+
+vehicle_wheel_accessory: .ffb_tsalm32.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .ffb_tsalm32.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .ffb_tsalm32.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_paint_job_accessory: .ffb_tsalm32.paint_job
+{
+	data_path: "/def/vehicle/trailer/feldbinder_tsa_lm/company_paint_job/default.sii"
+}

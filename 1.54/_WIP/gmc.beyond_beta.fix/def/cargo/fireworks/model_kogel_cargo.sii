@@ -1,0 +1,10 @@
+SiiNunit
+{
+cargo_model_match : .kogel_cargo
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/kogel.cargo/body/curtain_13.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kogel.cargo/body/curtain_15.sii"
+	compatible_body[]: "/def/vehicle/trailer/kogel_cargo/cargo_13_3.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/kogel_cargo/fireworks.sii"
+}
+}

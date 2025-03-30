@@ -1,0 +1,18 @@
+
+country_data: country.data.limpopo
+{
+	name: "Limpopo"
+	name_localized: "@@Limpopo@@"
+	country_code: "ZAF"
+	iso_country_code: lmp
+	pos:(175398.17, 2.43, 537578.63)
+	fuel_price: 1.12
+	country_id: 137
+	lights_mandatory: false
+	leftside_traffic: true
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cat@@"
+}
+

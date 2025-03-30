@@ -1,0 +1,52 @@
+traffic_trailer : traffic.tirsan_sri
+{
+	accessories[]: .tirsan_sri.chassis
+	accessories[]: .tirsan_sri.rwheel
+	accessories[]: .tirsan_sri.rwheel2
+	accessories[]: .tirsan_sri.rwheel3
+	accessories[]: .tirsan_sri.paint_job
+	
+	cargo_mass: 20000
+
+	spawn_ratio: 1
+
+	tags[]: high
+	tags[]: box
+	tags[]: reefer
+	tags[]: brand 
+	tags[]: medium
+	tags[]: tirsan
+	tags[]: basic
+
+	company_paint_job: true
+
+	base: traffic.trailer.scs_box.reefer.default
+}
+
+vehicle_accessory: .tirsan_sri.chassis
+{
+	data_path: "/def/vehicle/trailer/tirsan_sri/ch_3.sii"
+}
+
+vehicle_wheel_accessory: .tirsan_sri.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single_385_65_alu.sii"
+}
+
+vehicle_wheel_accessory: .tirsan_sri.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single_385_65_alu.sii"
+}
+
+vehicle_wheel_accessory: .tirsan_sri.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single_385_65_alu.sii"
+}
+
+vehicle_paint_job_accessory: .tirsan_sri.paint_job
+{
+	data_path: "/def/vehicle/trailer/tirsan_sri/company_paint_job/default.sii"
+}

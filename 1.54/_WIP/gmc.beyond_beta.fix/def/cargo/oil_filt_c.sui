@@ -1,0 +1,12 @@
+cargo_data: cargo.oil_filt_c
+{
+	name: "@@cn_oil_filters@@"
+	fragility: 0.4
+	group[]: containers
+	volume: 2.6
+	mass: 318.46
+	unit_reward_per_km: 0.5564
+	unit_load_time: 40
+	body_types[]: container
+	body_types[]: flatbed_cont
+}

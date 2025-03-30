@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_route_de_lancien_sierre_switzerland@@"
+	dlc_id: base
+}
+}

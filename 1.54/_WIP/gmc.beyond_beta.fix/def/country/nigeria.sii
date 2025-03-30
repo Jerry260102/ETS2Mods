@@ -1,0 +1,18 @@
+
+country_data: country.data.nigeria
+{
+	name: "Nigeria"
+	name_localized: "@@Nigeria@@"
+	country_code: "NGA"
+	iso_country_code: nga
+	pos:(-34202, 0, 250571)
+	fuel_price: 1.10
+	country_id: 130
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: false
+
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "@@tz_wat@@"
+}
+

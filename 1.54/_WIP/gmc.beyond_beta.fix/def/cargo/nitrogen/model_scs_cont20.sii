@@ -1,0 +1,26 @@
+SiiNunit
+{
+cargo_model_match : .scs_cont20
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.flatbed/body/flatbed_container_78.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.gooseneck/body/cont_20.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_gooseneck/red20.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/krone.boxliner/body/boxliner.sii"
+	compatible_body[]: "/def/vehicle/trailer/krone/boxliner/chassis_20.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/tirsan.shf/body/container_20.sii"
+	compatible_body[]: "/def/vehicle/trailer/tirsan_shf/ch_3.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/wielton.containerm/body/cont_20.sii"
+	compatible_body[]: "/def/vehicle/trailer/wielton_container_master/ch_3.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kogel.port/body/container_20.sii"
+	compatible_body[]: "/def/vehicle/trailer/kogel_port_duplex/ch_3_20.sii"
+	compatible_body[]: "/def/vehicle/trailer/kogel_port_triplex/ch_3_20.sii"
+	compatible_body[]: "/def/vehicle/trailer/kogel_port_tankplex/tankplex.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.shg/body/cont_20.sii"
+	compatible_body[]: "/def/vehicle/trailer/kassbohrer_shg/ch_3e_20.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.sll/body/cont_2_short.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.sll/body/cont_2_long.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.sll/body/cont_3_short.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.sll/body/cont_3_long.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_container/container_t75_nitrogen.sii"
+}
+}

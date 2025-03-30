@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_malmo_sweden@@"
+	dlc_id: eut2_north
+}
+}

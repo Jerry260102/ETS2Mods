@@ -1,0 +1,21 @@
+
+country_data: country.data.mongolia
+{
+	name: "Монгол Улс"
+	name_localized: "@@Mongolia@@"
+	country_code: "MN"
+	iso_country_code: mng
+	pos:(246823, 0, -46651)
+	fuel_price: 0.55
+	country_id: 71
+	lights_mandatory: false
+	driving_tired_offence: true
+		
+	time_zone: 480		# +8 hours in minutes
+	time_zone_name: "@@tz_ulat@@" #Ulaanbaatar Standard Time
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 24000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}
+

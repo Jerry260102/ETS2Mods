@@ -1,0 +1,18 @@
+
+country_data: country.data.somaliland
+{
+	name: "Somaliland"
+	name_localized: "@@Somaliland@@"
+	country_code: "SML"
+	iso_country_code: sml
+	pos:(214446, 0, 202756)
+	fuel_price: 0.10
+	country_id: 236
+	lights_mandatory: false
+	leftside_traffic: false
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_eest@@"
+}
+

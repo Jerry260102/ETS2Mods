@@ -1,0 +1,12 @@
+cargo_data: cargo.coal
+{
+	name: "@@cn_coal@@"
+	fragility: 0.1
+	maximum_distance: 800
+	group[]: bulk
+	volume: 1
+	mass: 1460
+	unit_reward_per_km: 0.6
+	unit_load_time: 40
+	body_types[]: dumper
+}

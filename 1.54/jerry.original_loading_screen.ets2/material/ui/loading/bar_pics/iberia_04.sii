@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_a32_arroyo_del_ojanco_spain@@"
+	dlc_id: eut2_iberia
+}
+}

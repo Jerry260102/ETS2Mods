@@ -1,0 +1,9 @@
+SiiNunit
+{
+cargo_model_match : .kass_sla
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.sla/body/short.sii"
+	compatible_body[]: "/def/vehicle/trailer/kassbohrer_sla/ch_3.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/kassbohrer_sla/wind_plant_tube.sii"
+}
+}

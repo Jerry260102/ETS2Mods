@@ -1,0 +1,40 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+
+overlay_def : .overlay {
+	
+
+  road_names[]: "swe_136"
+  road_names[]: "swe_137"
+  road_names[]: "swe_140"
+  road_names[]: "swe_141"
+  road_names[]: "swe_142"
+  road_names[]: "swe_143"
+  road_names[]: "swe_144"
+  road_names[]: "swe_145"
+  road_names[]: "swe_146"
+  road_names[]: "swe_147"
+  road_names[]: "swe_148"
+  road_names[]: "swe_149"
+  road_names[]: "swe_500"
+  road_names[]: "swe_924"
+  road_names[]: "swe_925"
+  road_names[]: "swe_930"  
+  road_names[]: "swe_934"
+  road_names[]: "swe_942"
+  road_names[]: "swe_943"
+  road_names[]: "swe_957"  
+  road_names[]: "swe_974"
+  road_names[]: "swe_989"
+  road_names[]: "swe_993"
+  road_names[]: "swe_994"
+  road_names[]: "swe_e22"  
+
+
+}	
+
+}

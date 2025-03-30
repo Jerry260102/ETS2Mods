@@ -1,0 +1,9 @@
+SiiNunit
+{
+cargo_model_match : .krone_reef
+{
+	compatible_body[]: "/def/vehicle/trailer/krone/coolliner/chassis.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/krone.coolliner/body/coolliner.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/krone_coolliner/med_vaccine.sii"
+}
+}

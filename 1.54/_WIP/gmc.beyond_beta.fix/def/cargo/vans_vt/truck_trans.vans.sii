@@ -1,0 +1,15 @@
+SiiNunit
+{
+trailer_def : trailer_def.vans_vt.truck_trans.vans
+{
+	trailer: trailer.truck_trans
+	gross_trailer_weight_limit: 15401
+	chassis_mass: 7000
+	body_mass: 0
+	axles: 3
+	volume: 100
+	body_type: _trucansvavt
+
+	mass_ratio[]: 1
+}
+}

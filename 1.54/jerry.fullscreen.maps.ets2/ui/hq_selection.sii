@@ -1,0 +1,177 @@
+SiiNunit
+{
+ui_blend_window : _nameless.008b96a81 {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: _nameless.008b96a80
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 7
+ my_children[0]: _nameless._.title
+ my_children[1]: _nameless._.confirm.btn
+ my_children[2]: _nameless._.window.bg
+ my_children[3]: _nameless._.portal
+ my_children[4]: _nameless._.tooltip
+ my_children[5]: _nameless.226.0050
+ my_children[6]: _nameless._.title.bg
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 900
+ coords_b: 0
+ area_l: -80
+ area_r: 1520
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+hq_selection_hdl : _nameless.008b96a80 {
+ window_link: _nameless.008b96a81
+}
+
+ui::text_common : _nameless._.title {
+ value: ""
+ look_template: txt.title.center
+ text: ""
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 895
+ coords_b: 849
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 10
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008b96a81
+}
+
+ui::button_common : _nameless._.confirm.btn {
+ value: "@@setup_hq@@"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 575
+ coords_r: 865
+ coords_t: 35
+ coords_b: 5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 200
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008b96a81
+}
+
+ui::text_common : _nameless._.window.bg {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 900
+ coords_b: 0
+ area_l: -80
+ area_r: 1520
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008b96a81
+}
+
+ui::portal : _nameless._.portal {
+ child_path: "/ui/hq_selection_map.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: false
+ my_children: 0
+ coords_l: -75
+ coords_r: 1515
+ coords_t: 895
+ coords_b: 5
+ area_l: -75
+ area_r: 1515
+ area_t: 895
+ area_b: 5
+ id: 100000
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008b96a81
+}
+
+ui::text_common : _nameless._.tooltip {
+ value: ""
+ look_template: txt.ttip_simple
+ text: ""
+ coords_l: 128
+ coords_r: 390
+ coords_t: 402
+ coords_b: 295
+ area_l: 0
+ area_r: 0
+ area_t: 0
+ area_b: 0
+ id: 110
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008b96a81
+}
+
+ui::overlay_point : _nameless.226.0050 {
+ overlay_anchor_type: bottomleft
+ value: "left|bottom"
+ look_template: txt.overlay.anchor
+ text: ""
+ coords_l: -75
+ coords_r: 191
+ coords_t: 56
+ coords_b: 5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 91111
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008b96a81
+}
+ui::text : _nameless._.title.bg {
+ text: "<color value=@@clr_bg_dark@@>\r\n<offset vshift=1><img src=/material/ui/white.mat width=1 height=-1>\r\n<offset vshift=-1><img src=/material/ui/white.mat yscale=stretch width=-1>\r\n<offset vshift=1><img src=/material/ui/white.mat width=1 height=-1>"
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 895
+ coords_b: 849
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 301
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008b96a81
+}
+}

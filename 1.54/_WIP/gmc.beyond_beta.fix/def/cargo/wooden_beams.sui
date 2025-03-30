@@ -1,0 +1,15 @@
+cargo_data: cargo.wooden_beams
+{
+	name: "@@cn_wooden_beams@@"
+	fragility: 0.2
+	group[]: containers
+	volume: 2.6
+	mass: 677.6
+	unit_reward_per_km: 0.611
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+	body_types[]: flatbed
+	body_types[]: flatbed_cont
+	body_types[]: log
+}

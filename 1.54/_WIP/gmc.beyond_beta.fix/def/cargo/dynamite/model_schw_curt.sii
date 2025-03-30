@@ -1,0 +1,9 @@
+SiiNunit
+{
+cargo_model_match : .schw_curt
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/schwmuller.curtain/body/curtain.sii"
+	compatible_body[]: "/def/vehicle/trailer/schw_curtain/chassis.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_box/dynamite.sii"
+}
+}

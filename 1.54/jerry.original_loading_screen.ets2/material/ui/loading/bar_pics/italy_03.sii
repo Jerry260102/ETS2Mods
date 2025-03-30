@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_ancona_italy@@"
+	dlc_id: eut2_it
+}
+}

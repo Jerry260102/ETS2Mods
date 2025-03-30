@@ -1,0 +1,13 @@
+cargo_data: cargo.largetubes
+{
+	name: "@@cn_largetubes@@"
+	fragility: 0.15
+	group[]: construction
+	volume: 40
+	mass: 11420
+	unit_reward_per_km: 10.027
+	unit_load_time: 1200
+	body_types[]: flatbed
+	body_types[]: flatbed_cont
+	body_types[]: log
+}

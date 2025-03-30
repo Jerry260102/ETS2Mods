@@ -1,0 +1,14 @@
+SiiNunit
+{
+cargo_model_match : .scs_cont40
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.flatbed/body/flatbed_container.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_flatbed/flat_cont_g.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_flatbed/flat_cont_r.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.gooseneck/body/cont_40.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_gooseneck/blue40.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/krone.boxliner/body/boxliner40.sii"
+	compatible_body[]: "/def/vehicle/trailer/krone/boxliner/chassis_40.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_container/container_40_t50_lpg.sii"
+}
+}

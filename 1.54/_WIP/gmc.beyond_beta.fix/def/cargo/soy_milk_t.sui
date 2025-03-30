@@ -1,0 +1,11 @@
+cargo_data: cargo.soy_milk_t
+{
+	name: "@@cn_soy_milk@@"
+	fragility: 0.3
+	group[]: liquid
+	volume: 1
+	mass: 1032.1
+	unit_reward_per_km: 0.877
+	unit_load_time: 40
+	body_types[]: foodtank
+}

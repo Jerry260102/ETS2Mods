@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_a7_e22_stevinsluizen_netherlands@@"
+	dlc_id: base
+}
+}

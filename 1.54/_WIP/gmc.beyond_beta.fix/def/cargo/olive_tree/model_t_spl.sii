@@ -1,0 +1,10 @@
+SiiNunit
+{
+cargo_model_match : .t_spl
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/tirsan.spl/body/dropside_al.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/tirsan.spl/body/dropside_steel.sii"
+	compatible_body[]: "/def/vehicle/trailer/tirsan_spl/ch_3.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/tirsan_spl/olive_13.sii"
+}
+}

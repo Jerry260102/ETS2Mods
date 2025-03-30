@@ -1,0 +1,52 @@
+traffic_trailer : traffic.trailer.scs_lowl_tra
+{
+	
+	accessories[]: .scs_lowlowd5.chassis
+	accessories[]: .scs_lowlowd5.rwheel
+	accessories[]: .scs_lowlowd5.rwheel2
+	accessories[]: .scs_lowlowd5.paint_job
+	accessories[]: .scs_lowlowd5.body
+	
+	cargo_mass: 20000
+	spawn_ratio: 1.3
+	base: traffic.trailer.scs_lowlowd
+	
+	tags[]: low
+	tags[]: lowboy
+	tags[]: loader
+	tags[]: construct
+	tags[]: long
+	tags[]: cargo
+	
+	cargoes[]: aircond
+	cargoes[]: roller
+	cargoes[]: tractor
+	cargoes[]: helicopter
+}
+
+vehicle_accessory: .scs_lowlowd5.chassis
+{
+    	data_path: "/def/vehicle/trailer/scs_lowloader/ch_2.sii"
+}
+
+vehicle_wheel_accessory: .scs_lowlowd5.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/t_wheel/overweight.sii"
+}
+
+vehicle_wheel_accessory: .scs_lowlowd5.rwheel2
+{
+	offset: 2
+    	data_path: "/def/vehicle/t_wheel/overweight.sii"
+}
+
+vehicle_paint_job_accessory: .scs_lowlowd5.paint_job
+{
+    	data_path: "/def/vehicle/trailer/scs_lowbed/custom_paint_job/red.sii"
+}
+
+vehicle_accessory: .scs_lowlowd5.body
+{
+	data_path: "/def/vehicle/trailer/scs_lowloader/accessory/short.sii"
+}

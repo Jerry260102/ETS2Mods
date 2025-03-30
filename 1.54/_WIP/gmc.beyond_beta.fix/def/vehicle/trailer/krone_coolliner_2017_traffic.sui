@@ -1,0 +1,48 @@
+traffic_trailer : traffic.trailer.krone.coolliner.default
+{
+	accessories[]: .krone.coolliner.default.tchassis
+	accessories[]: .krone.coolliner.default.trwheel0
+	accessories[]: .krone.coolliner.default.trwheel1
+	accessories[]: .krone.coolliner.default.trwheel2
+	accessories[]: .krone.coolliner.default.paint_job
+
+	cargo_mass: 20000
+
+	base: traffic.trailer.scs_box.reefer.default
+
+	company_paint_job: true
+
+	tags[]: high
+	tags[]: box
+	tags[]: reefer
+	tags[]: medium
+	tags[]: brand
+	tags[]: krone
+	tags[]: basic
+
+	spawn_ratio: 2
+
+}
+vehicle_accessory: .krone.coolliner.default.tchassis
+{
+	data_path: "/def/vehicle/trailer/krone/coolliner/chassis.sii"
+}
+vehicle_wheel_accessory: .krone.coolliner.default.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .krone.coolliner.default.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .krone.coolliner.default.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .krone.coolliner.default.paint_job
+{
+	data_path: "/def/vehicle/trailer/krone/coolliner/company_paint_job/default.sii"
+}

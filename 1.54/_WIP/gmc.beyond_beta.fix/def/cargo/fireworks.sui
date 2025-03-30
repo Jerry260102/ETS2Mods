@@ -1,0 +1,10 @@
+cargo_data: cargo.fireworks
+{
+	name: "@@cn_fireworks@@"
+	adr_class: 1
+	volume: 2.6
+	mass: 300
+	unit_reward_per_km: 0.7
+	unit_load_time: 78
+	body_types[]: curtainside
+}

@@ -1,0 +1,20 @@
+SiiNunit
+{
+cargo_model_match : .kass
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.scs/body/curtain_13.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.scs/body/curtain_13_paint.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.scx/body/curtain_13.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.scx/body/curtain_13_paint.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.scx/body/curtain_13_eco_combi_f.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.scx/body/curtain_13_eco_combi_f_paint.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.scx/body/curtain_13_eco_combi_r.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.scx/body/curtain_13_eco_combi_r_paint.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.scx/body/curtain_15.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.scx/body/curtain_15_paint.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.scx/body/curtain_4_13.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.scx/body/curtain_4_13_paint.sii"
+	compatible_body[]: "/def/vehicle/trailer/kassbohrer_scs/ch_3.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/kassbohrer_scs/explosives.sii"
+}
+}

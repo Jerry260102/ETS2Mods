@@ -1,0 +1,10 @@
+SiiNunit
+{
+model_def : model.benganj_01 {
+ 	model_desc: "/model/road_numbers_swe_islands/swe_road_numbers_01.pmd"
+	category: "benganj"
+	
+}
+}
+
+

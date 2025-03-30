@@ -1,0 +1,52 @@
+traffic_trailer : traffic.w_curtainm
+{
+	accessories[]: .w_curtainm.chassis
+	accessories[]: .w_curtainm.rwheel
+	accessories[]: .w_curtainm.rwheel2
+	accessories[]: .w_curtainm.rwheel3
+	accessories[]: .w_curtainm.paint_job
+	accessories[]: .w_curtainm.body
+	
+	cargo_mass: 20000
+	spawn_ratio: 1.2
+
+	tags[]: high
+	tags[]: box
+	tags[]: curtainsider
+	tags[]: medium
+
+	company_paint_job: true
+
+}
+
+vehicle_accessory: .w_curtainm.chassis
+{
+	data_path: "/def/vehicle/trailer/wielton_curtain_master/ch_3.sii"
+}
+
+vehicle_wheel_accessory: .w_curtainm.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .w_curtainm.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .w_curtainm.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_paint_job_accessory: .w_curtainm.paint_job
+{
+	data_path: "/def/vehicle/trailer/wielton_curtain_master/company_paint_job/default.sii"
+}
+vehicle_accessory: .w_curtainm.body
+{
+	data_path: "/def/vehicle/trailer/wielton_curtain_master/body.sii"
+}

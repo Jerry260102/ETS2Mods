@@ -1,0 +1,15 @@
+SiiNunit
+{
+trailer_def : trailer_def.car_f.car_trans_f1
+{
+	trailer: trailer.car_trans
+	gross_trailer_weight_limit: 17901
+	chassis_mass: 7500
+	body_mass: 0
+	axles: 2
+	volume: 100
+	body_type: _car__f1ca_f
+
+	mass_ratio[]: 1
+}
+}

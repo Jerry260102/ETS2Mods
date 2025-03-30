@@ -1,0 +1,83 @@
+SiiNunit
+{
+ui_blend_window : _nameless._.burger.menu.window {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: null
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.burger_menu
+ coords_l: 7
+ coords_r: 600
+ coords_t: 850
+ coords_b: 452
+ area_l: 7
+ area_r: 267
+ area_t: 850
+ area_b: 452
+ id: 201
+ layer: 19
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui_desktop_burger_menu : _nameless._.burger_menu {
+ categories_path: "/def/ui_desktop_ind_full.sii"
+ category_button_look: btn.burger.category
+ sub_menu_look: txt.burger_menu.sub_menu.bcg
+ link_button_look_middle: btn.burger.desktop.link
+ link_button_look_top: btn.burger.desktop.link.top
+ link_button_look_bottom: btn.burger.desktop.link.bottom
+ link_button_look_single: btn.burger.desktop.link.single
+ menu_top_margin: 28
+ menu_bottom_margin: 10
+ sub_menu_left_margin: 5
+ link_tooltip_background_look: txt.window.bcg_rect4
+ link_tooltip_look: txt.normal.center
+ link_tooltip_background_value: "@@clr_desktop_bg_main@@"
+ link_tooltip_margin: 20
+ link_tooltip_x_offset: 7
+ link_tooltip_width_limit: 310
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.burger_menu_.background
+ coords_l: 7
+ coords_r: 267
+ coords_t: 850
+ coords_b: 452
+ area_l: 7
+ area_r: 267
+ area_t: 850
+ area_b: 452
+ id: 211
+ layer: 21
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.burger.menu.window
+}
+
+ui::text_common : _nameless._.burger_menu_.background {
+ value: "@@burger_menu_header@@"
+ look_template: txt.burger_menu.bcg
+ text: ""
+ coords_l: -31
+ coords_r: 229
+ coords_t: 860
+ coords_b: 462
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 210
+ layer: 20
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.burger_menu
+}
+
+}

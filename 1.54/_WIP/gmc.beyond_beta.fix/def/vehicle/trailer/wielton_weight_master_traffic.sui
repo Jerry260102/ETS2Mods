@@ -1,0 +1,53 @@
+traffic_trailer : traffic.w_weightm
+{
+	accessories[]: .w_weightm.chassis
+	accessories[]: .w_weightm.rwheel
+	accessories[]: .w_weightm.rwheel2
+	accessories[]: .w_weightm.rwheel3
+	accessories[]: .w_weightm.paint_job
+	
+	cargo_mass: 20000
+
+	spawn_ratio: 2
+
+	tags[]: low
+	tags[]: dumper
+	tags[]: construct
+	tags[]: heavy
+	tags[]: medium
+	tags[]: brand 
+	tags[]: wielton
+
+
+	company_paint_job: true
+
+base: traffic.trailer.scs_dumper
+}
+
+vehicle_accessory: .w_weightm.chassis
+{
+	data_path: "/def/vehicle/trailer/wielton_weight_master/ch_3.sii"
+}
+
+vehicle_wheel_accessory: .w_weightm.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .w_weightm.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .w_weightm.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_paint_job_accessory: .w_weightm.paint_job
+{
+	data_path: "/def/vehicle/trailer/wielton_weight_master/company_paint_job/default.sii"
+}

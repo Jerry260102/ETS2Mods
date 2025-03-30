@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_m4_river_severn_united_kingdom@@"
+	dlc_id: base
+}
+}

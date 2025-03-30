@@ -1,0 +1,12 @@
+cargo_data: cargo.alu_ingot
+{
+	name: "@@cn_alu_ingots@@"
+	fragility: 0.15
+	group[]: construction
+	volume: 4
+	mass: 833
+	unit_reward_per_km: 0.695
+	unit_load_time: 78
+	body_types[]: flatbed
+	body_types[]: flatbed_cont
+}

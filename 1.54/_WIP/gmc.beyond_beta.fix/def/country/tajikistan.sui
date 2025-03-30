@@ -1,0 +1,21 @@
+
+country_data: country.data.tajikistan
+{
+	name: "Тоҷикистон"
+	name_localized: "@@Tajikistan@@"
+	country_code: "TJ"
+	iso_country_code: tjk
+	pos:(248400, 0, -27064)
+	fuel_price: 0.65
+	country_id: 85
+	lights_mandatory: true
+	driving_tired_offence: true
+		
+	time_zone: 300		# +5 hours in minutes
+	time_zone_name: "@@tz_tjt@@" #Tajikistan Time
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 24000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}
+

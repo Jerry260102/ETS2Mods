@@ -1,0 +1,8 @@
+SiiNunit
+{
+sign_template_def : sign_templ.bengan.city {
+ path: "/def/sign/template/visby_swe.sii"
+ 
+
+}
+}

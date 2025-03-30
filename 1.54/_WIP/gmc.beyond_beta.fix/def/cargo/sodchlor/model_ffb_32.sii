@@ -1,0 +1,9 @@
+SiiNunit
+{
+cargo_model_match : .ffb_32
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/feldbinder.tsaadr/chassis/ch_3_32.sii"
+	compatible_body[]: "/def/vehicle/trailer/feldbinder_tsa_adr/ch_3_32.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/feldbinder_tsaadr/sodchlor_ch32.sii"
+}
+}

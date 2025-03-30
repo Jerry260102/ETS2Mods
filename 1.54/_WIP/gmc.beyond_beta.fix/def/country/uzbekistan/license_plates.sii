@@ -1,0 +1,172 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	templates[]:" 0 2 111 22      "
+		
+	def0[]:"<font xscale=0.8 yscale=0.9 >01</font><offset vshift=-3>" 	// Tashkent City
+	def0[]:"<font xscale=0.8 yscale=0.9 >10</font><offset vshift=-3>" 	// Tashkent Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >20</font><offset vshift=-3>"	// Syrdarya Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >25</font><offset vshift=-3>"	// Jizzakh Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >30</font><offset vshift=-3>"	// Samarkand Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >40</font><offset vshift=-3>"	// Ferghana Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >50</font><offset vshift=-3>"	// Namangan Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >60</font><offset vshift=-3>"	// Andizhan Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >70</font><offset vshift=-3>"	// Kashkadarya Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >75</font><offset vshift=-3>"	// Surkhandarya Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >80</font><offset vshift=-3>"	// Bukhara Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >85</font><offset vshift=-3>"	// Navoi Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >90</font><offset vshift=-3>"	// Khorezm Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >95</font><offset vshift=-3>"	// Karakalpakstan Republic
+	
+	def1[]:"<font yscale=1.1 >0</font>"
+	def1[]:"<font yscale=1.1 >1</font>"
+	def1[]:"<font yscale=1.1 >2</font>"
+	def1[]:"<font yscale=1.1 >3</font>"
+	def1[]:"<font yscale=1.1 >4</font>"
+	def1[]:"<font yscale=1.1 >5</font>"
+	def1[]:"<font yscale=1.1 >6</font>"
+	def1[]:"<font yscale=1.1 >7</font>"
+	def1[]:"<font yscale=1.1 >8</font>"
+	def1[]:"<font yscale=1.1 >9</font>"
+
+	def2[]:"<font yscale=1.1 >A</font>"
+	def2[]:"<font yscale=1.1 >B</font>"
+	def2[]:"<font yscale=1.1 >C</font>"
+	def2[]:"<font yscale=1.1 >D</font>"
+	def2[]:"<font yscale=1.1 >E</font>"
+	def2[]:"<font yscale=1.1 >F</font>"
+	def2[]:"<font yscale=1.1 >G</font>"
+	def2[]:"<font yscale=1.1 >H</font>"
+	def2[]:"<font yscale=1.1 >J</font>"
+	def2[]:"<font yscale=1.1 >K</font>"
+	def2[]:"<font yscale=1.1 >L</font>"
+	def2[]:"<font yscale=1.1 >M</font>"
+	def2[]:"<font yscale=1.1 >N</font>"
+	def2[]:"<font yscale=1.1 >O</font>"
+	def2[]:"<font yscale=1.1 >P</font>"
+	def2[]:"<font yscale=1.1 >Q</font>"
+	def2[]:"<font yscale=1.1 >R</font>"
+	def2[]:"<font yscale=1.1 >S</font>"
+	def2[]:"<font yscale=1.1 >T</font>"
+	def2[]:"<font yscale=1.1 >U</font>"
+	def2[]:"<font yscale=1.1 >V</font>"
+	def2[]:"<font yscale=1.1 >W</font>"
+	def2[]:"<font yscale=1.1 >X</font>"
+	def2[]:"<font yscale=1.1 >Y</font>"
+	def2[]:"<font yscale=1.1 >Z</font>"	
+}
+
+license_plate_data : .lp.trailer
+{
+	type: trailer
+
+	templates[]:" 0 3 111 22      "
+
+	def0[]:"<font xscale=0.8 yscale=0.9 >01</font><offset vshift=-3>" 	// Tashkent City
+	def0[]:"<font xscale=0.8 yscale=0.9 >10</font><offset vshift=-3>" 	// Tashkent Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >20</font><offset vshift=-3>"	// Syrdarya Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >25</font><offset vshift=-3>"	// Jizzakh Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >30</font><offset vshift=-3>"	// Samarkand Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >40</font><offset vshift=-3>"	// Ferghana Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >50</font><offset vshift=-3>"	// Namangan Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >60</font><offset vshift=-3>"	// Andizhan Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >70</font><offset vshift=-3>"	// Kashkadarya Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >75</font><offset vshift=-3>"	// Surkhandarya Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >80</font><offset vshift=-3>"	// Bukhara Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >85</font><offset vshift=-3>"	// Navoi Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >90</font><offset vshift=-3>"	// Khorezm Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >95</font><offset vshift=-3>"	// Karakalpakstan Republic
+	
+	def1[]:"<font yscale=1.1 >0</font>"
+	def1[]:"<font yscale=1.1 >1</font>"
+	def1[]:"<font yscale=1.1 >2</font>"
+	def1[]:"<font yscale=1.1 >3</font>"
+	def1[]:"<font yscale=1.1 >4</font>"
+	def1[]:"<font yscale=1.1 >5</font>"
+	def1[]:"<font yscale=1.1 >6</font>"
+	def1[]:"<font yscale=1.1 >7</font>"
+	def1[]:"<font yscale=1.1 >8</font>"
+	def1[]:"<font yscale=1.1 >9</font>"
+	
+	def2[]:"<font yscale=1.1 >A</font>"
+	def2[]:"<font yscale=1.1 >B</font>"
+	def2[]:"<font yscale=1.1 >C</font>"
+	def2[]:"<font yscale=1.1 >D</font>"
+	def2[]:"<font yscale=1.1 >E</font>"
+	def2[]:"<font yscale=1.1 >F</font>"
+	def2[]:"<font yscale=1.1 >G</font>"
+	def2[]:"<font yscale=1.1 >H</font>"
+	def2[]:"<font yscale=1.1 >J</font>"
+	def2[]:"<font yscale=1.1 >K</font>"
+	def2[]:"<font yscale=1.1 >L</font>"
+	def2[]:"<font yscale=1.1 >M</font>"
+	def2[]:"<font yscale=1.1 >N</font>"
+	def2[]:"<font yscale=1.1 >O</font>"
+	def2[]:"<font yscale=1.1 >P</font>"
+	def2[]:"<font yscale=1.1 >Q</font>"
+	def2[]:"<font yscale=1.1 >R</font>"
+	def2[]:"<font yscale=1.1 >S</font>"
+	def2[]:"<font yscale=1.1 >T</font>"
+	def2[]:"<font yscale=1.1 >U</font>"
+	def2[]:"<font yscale=1.1 >V</font>"
+	def2[]:"<font yscale=1.1 >W</font>"
+	def2[]:"<font yscale=1.1 >X</font>"
+	def2[]:"<font yscale=1.1 >Y</font>"
+	def2[]:"<font yscale=1.1 >Z</font>"	
+
+	def3[]:"<font yscale=1.1 >0</font>"
+}
+
+license_plate_data : .lp.police
+{
+    type: police
+
+	templates[]:" 0 111  32      "
+	
+	def0[]:"<font xscale=0.8 yscale=0.9 >01</font><offset vshift=-3>" 	// Tashkent City
+	def0[]:"<font xscale=0.8 yscale=0.9 >10</font><offset vshift=-3>" 	// Tashkent Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >20</font><offset vshift=-3>"	// Syrdarya Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >25</font><offset vshift=-3>"	// Jizzakh Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >30</font><offset vshift=-3>"	// Samarkand Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >40</font><offset vshift=-3>"	// Ferghana Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >50</font><offset vshift=-3>"	// Namangan Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >60</font><offset vshift=-3>"	// Andizhan Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >70</font><offset vshift=-3>"	// Kashkadarya Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >75</font><offset vshift=-3>"	// Surkhandarya Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >80</font><offset vshift=-3>"	// Bukhara Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >85</font><offset vshift=-3>"	// Navoi Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >90</font><offset vshift=-3>"	// Khorezm Region
+	def0[]:"<font xscale=0.8 yscale=0.9 >95</font><offset vshift=-3>"	// Karakalpakstan Republic
+	
+	def1[]:"<font yscale=1.1 >0</font>"
+	def1[]:"<font yscale=1.1 >1</font>"
+	def1[]:"<font yscale=1.1 >2</font>"
+	def1[]:"<font yscale=1.1 >3</font>"
+	def1[]:"<font yscale=1.1 >4</font>"
+	def1[]:"<font yscale=1.1 >5</font>"
+	def1[]:"<font yscale=1.1 >6</font>"
+	def1[]:"<font yscale=1.1 >7</font>"
+	def1[]:"<font yscale=1.1 >8</font>"
+	def1[]:"<font yscale=1.1 >9</font>"
+
+    def2[]:"<font yscale=1.1 >B</font>"
+    def2[]:"<font yscale=1.1 >C</font>"
+    def2[]:"<font yscale=1.1 >D</font>"
+    def2[]:"<font yscale=1.1 >F</font>"
+    def2[]:"<font yscale=1.1 >G</font>"
+
+    def3[]:"<font yscale=1.1 >VS</font>"
+}
+
+}

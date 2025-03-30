@@ -1,0 +1,53 @@
+SiiNunit
+{
+sign_template : _nameless.afe.7eb0 {
+ template_name: "bengan city"
+ model_name: 1470
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 2
+ items[0]: _nameless.6ee.6dd0
+ items[1]: _nameless.8fbe.6f80
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.6ee.6dd0 {
+ atlas_path: "/def/sign/atlas/visby_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 163577856
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f5d67c9
+ coords_r: &3fcffb92
+ coords_t: &4009f37a
+ coords_b: &3fb00fea
+ z_order: 1
+}
+
+sign_template_text : _nameless.8fbe.6f80 {
+ text: "G\xc3\x96TEBORGS STAD"
+ font_face: "/font/sign/swe.font"
+ font_size: &3ef0a3d7
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3437101054
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3d6d44c0
+ coords_r: &401be705
+ coords_t: &3f9512bd
+ coords_b: &3ce0c7c0
+ z_order: 2
+}
+
+}

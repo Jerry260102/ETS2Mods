@@ -1,0 +1,11 @@
+SiiNunit
+{
+cargo_model_match : .w_dropsidem
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/wielton.dropsidem/body/dropside_635.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/wielton.dropsidem/body/dropside_835.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/wielton.dropsidem/body/dropside_1035.sii"
+	compatible_body[]: "/def/vehicle/trailer/wielton_dropside_master/ch_3.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/wielton_dropsidem/olive_13.sii"
+}
+}

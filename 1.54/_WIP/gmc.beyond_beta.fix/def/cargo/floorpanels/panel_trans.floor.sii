@@ -1,0 +1,15 @@
+SiiNunit
+{
+trailer_def : trailer_def.floorpanels.panel_trans.floor
+{
+	trailer: trailer.panel_trans.floor
+	gross_trailer_weight_limit: 30201
+	chassis_mass: 6800
+	body_mass: 0
+	axles: 2
+	volume: 100
+	body_type: _paneoorflls
+
+	mass_ratio[]: 1
+}
+}

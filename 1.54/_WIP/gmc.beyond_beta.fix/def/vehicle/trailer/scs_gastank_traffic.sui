@@ -1,0 +1,47 @@
+ traffic_trailer : traffic.trailer.scs_gastank
+{
+	accessories[]: .scs_gastank.chassis
+	accessories[]: .scs_gastank.rwheel
+	accessories[]: .scs_gastank.rwheel2
+	accessories[]: .scs_gastank.rwheel3
+	accessories[]: .scs_gastank.paint_job
+	
+	cargo_mass: 8000
+	
+	tags[]: low
+	tags[]: gastank
+	tags[]: gas
+	tags[]: short
+
+	spawn_ratio: 1.5
+	
+	company_paint_job: true
+}
+
+vehicle_accessory: .scs_gastank.chassis
+{
+    	data_path: "/def/vehicle/trailer/scs_gastank/chassis.sii"
+}
+
+vehicle_wheel_accessory: .scs_gastank.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .scs_gastank.rwheel2
+{
+	offset: 2
+    	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .scs_gastank.rwheel3
+{
+	offset: 4
+		data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_paint_job_accessory: .scs_gastank.paint_job
+{
+    	data_path: "/def/vehicle/trailer/scs_gastank/company_paint_job/default.sii"
+}

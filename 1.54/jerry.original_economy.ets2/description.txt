@@ -1,0 +1,7 @@
+﻿Returns the Default Economy of the Game
+
+[red]MUST BE LOADED ABOVE ANY MODS THAT MODIFY THE ECONOMY
+
+[blue]For Support/Map Combos/Reporting issues/VTC/Amazing Community,
+Check out GMC Logistics:
+[orange]https://discord.gg/gmclogistics

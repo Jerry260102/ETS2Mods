@@ -1,0 +1,18 @@
+
+country_data: country.data.tanzania
+{
+	name: "Tanzania"
+	name_localized: "@@Tanzania@@"
+	country_code: "TZA"
+	iso_country_code: tza
+	pos:(182739, 2.43, 352090)
+	fuel_price: 1.21
+	country_id: 141
+	lights_mandatory: false
+	leftside_traffic: true
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "@@tz_cat@@"
+}
+

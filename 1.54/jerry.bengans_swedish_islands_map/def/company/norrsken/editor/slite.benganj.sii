@@ -1,0 +1,7 @@
+SiiNunit
+{
+company_def : .bjslite {
+ city:  bjslite
+ prefab: 262
+}
+}

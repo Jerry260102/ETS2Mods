@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_pristina_kosovo@@"
+	dlc_id: eut2_balkanw
+}
+}

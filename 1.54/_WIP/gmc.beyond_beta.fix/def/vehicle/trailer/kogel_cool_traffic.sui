@@ -1,0 +1,54 @@
+traffic_trailer : traffic.trailer.kog_cool
+{
+	#trailer_definition: trailer_def.kogel.cool.ch_3.reefer
+
+	accessories[]: .kog_cool.chassis
+	accessories[]: .kog_cool.rwheel
+	accessories[]: .kog_cool.rwheel2
+	accessories[]: .kog_cool.rwheel3
+	accessories[]: .kog_cool.paint_job
+	
+	cargo_mass: 20000
+	
+	tags[]: high
+	tags[]: box
+	tags[]: reefer
+	tags[]: medium
+	tags[]: basic
+	tags[]: brand 
+	tags[]: kogel
+
+	spawn_ratio: 1.0
+
+	company_paint_job: true
+
+	base: traffic.trailer.scs_box.reefer.default
+}
+
+vehicle_accessory: .kog_cool.chassis
+{
+    	data_path: "/def/vehicle/trailer/kogel_cool/cool_13_3.sii"
+}
+
+vehicle_wheel_accessory: .kog_cool.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/t_wheel/single_385_65_alu_kogel.sii"
+}
+
+vehicle_wheel_accessory: .kog_cool.rwheel2
+{
+	offset: 2
+    	data_path: "/def/vehicle/t_wheel/single_385_65_alu_kogel.sii"
+}
+
+vehicle_wheel_accessory: .kog_cool.rwheel3
+{
+	offset: 4
+    	data_path: "/def/vehicle/t_wheel/single_385_65_alu_kogel.sii"
+}
+
+vehicle_paint_job_accessory: .kog_cool.paint_job
+{
+    	data_path: "/def/vehicle/trailer/kogel_cool/company_paint_job/default.sii"
+}

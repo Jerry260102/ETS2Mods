@@ -1,0 +1,12 @@
+cargo_data: cargo.ketchup
+{
+	name: "@@cn_ketchup@@"
+	fragility: 0.4
+	group[]: containers
+	volume: 2.6
+	mass: 465.2
+	unit_reward_per_km: 0.556
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

@@ -1,0 +1,42 @@
+SiiNunit
+{
+ui::window : _nameless.008416200 {
+ clip_children: true
+ window_handler: null
+ keep_aspect: center
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless.008416201
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui_job_map : _nameless.008416201 {
+ show_country_names: true
+ coords_l: 0
+ coords_r: 996
+ coords_t: 900
+ coords_b: 484
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 100000
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.008416200
+}
+
+}

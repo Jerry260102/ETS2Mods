@@ -1,0 +1,8 @@
+SiiNunit
+{
+loading_screen_def : .screen
+{
+	location: "@@ls_p4_zabljak_montenegro@@"
+	dlc_id: eut2_balkanw
+}
+}

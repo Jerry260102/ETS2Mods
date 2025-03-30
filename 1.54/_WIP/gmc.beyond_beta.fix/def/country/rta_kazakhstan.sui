@@ -1,0 +1,20 @@
+country_data: country.data.kazakhstan
+{
+	name: "Kазакстан" #Қазақстан
+	name_localized: "@@Kазакстан@@"
+	country_code: "KZ"
+	iso_country_code: kaz
+	pos:(200463, 0, -52571)
+	fuel_price: 0.45
+	country_id: 237
+	lights_mandatory: false
+	driving_tired_offence: true
+		
+	time_zone: 300		# +5 hours in minutes
+	time_zone_name: "@@tz_aqtt@@" #Aqtobe Time
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 24000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}
+

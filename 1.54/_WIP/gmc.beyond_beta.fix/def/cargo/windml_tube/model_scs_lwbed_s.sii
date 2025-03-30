@@ -1,0 +1,10 @@
+SiiNunit
+{
+cargo_model_match : .scs_lwbed_s
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.lowbed/body/short.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_lowbed/ch_3.sii"
+	compatible_body[]: "/def/vehicle/trailer/scs_lowbed/ch_4.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_lowbed/wind_plant_tube.sii"
+}
+}

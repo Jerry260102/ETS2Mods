@@ -1,0 +1,48 @@
+SiiNunit
+{
+ui::window : _nameless.00d46e650 {
+ window_handler: null
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless.00d46e651
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 900
+ coords_b: 0
+ area_l: -80
+ area_r: 1520
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui_job_map : _nameless.00d46e651 {
+ show_country_names: true
+ zoom_allowed: false
+ map_config_path: ""
+ fitting: false
+ my_children: 0
+ coords_l: -80
+ coords_r: 1510
+ coords_t: 900
+ coords_b: 120
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 100000
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.00d46e650
+}
+
+}

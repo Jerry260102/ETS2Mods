@@ -1,0 +1,49 @@
+traffic_trailer : traffic.trailer.krone.profiliner.default
+{
+	accessories[]: .krone.profiliner.default.tchassis
+	accessories[]: .krone.profiliner.default.trwheel0
+	accessories[]: .krone.profiliner.default.trwheel1
+	accessories[]: .krone.profiliner.default.trwheel2
+	accessories[]: .krone.profiliner.default.paint_job
+
+	cargo_mass: 20000
+	
+	tags[]: high
+	tags[]: box
+	tags[]: curtainsider
+	tags[]: medium
+	tags[]: brand
+	tags[]: krone
+	tags[]: basic
+
+	spawn_ratio: 4
+
+
+	base: traffic.trailer.scs_box.curtain.default
+
+	company_paint_job: true
+}
+vehicle_accessory: .krone.profiliner.default.tchassis
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .krone.profiliner.default.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .krone.profiliner.default.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .krone.profiliner.default.trwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/krone_385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .krone.profiliner.default.paint_job
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/default.sii"
+}
+

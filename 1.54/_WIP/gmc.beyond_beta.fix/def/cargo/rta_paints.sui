@@ -1,0 +1,12 @@
+cargo_data: cargo.rta_paints
+{
+	name: "@@rta_paints@@"
+	fragility: 0.7
+	group[]: containers
+	volume: 3.9
+	mass: 767.6
+	unit_reward_per_km: 0.635
+	unit_load_time: 117
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

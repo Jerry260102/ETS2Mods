@@ -1,0 +1,316 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	templates[]: " 000 111 2"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+	
+	def1[]:"<font xscale=0.8 yscale=0.8 >A</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >B</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >C</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >D</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >E</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >F</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >G</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >H</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >I</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >J</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >K</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >L</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >M</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >N</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >O</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >P</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >Q</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >R</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >S</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >T</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >U</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >V</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >W</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >X</font>"
+    def1[]:"<font xscale=0.8 yscale=0.8 >Y</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >Z</font>"
+
+	def2[]:"01"
+	def2[]:"02"
+	def2[]:"03"
+	def2[]:"04"
+	def2[]:"05"
+	def2[]:"06"
+	def2[]:"07"
+	def2[]:"08"
+	def2[]:"09"
+	def2[]:"10"
+	def2[]:"11"
+	def2[]:"12"
+	def2[]:"13"
+	def2[]:"14"
+	def2[]:"15"
+	def2[]:"16"
+	def2[]:"17"
+
+}
+license_plate_data : .lp.truck
+{
+    type: truck
+
+	templates[]: " 000 111 2"
+
+	def1[]:"<font xscale=0.8 yscale=0.8 >A</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >B</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >C</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >D</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >E</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >F</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >G</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >H</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >I</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >J</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >K</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >L</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >M</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >N</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >O</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >P</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >Q</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >R</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >S</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >T</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >U</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >V</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >W</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >X</font>"
+    def1[]:"<font xscale=0.8 yscale=0.8 >Y</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >Z</font>"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def2[]:"01"
+	def2[]:"02"
+	def2[]:"03"
+	def2[]:"04"
+	def2[]:"05"
+	def2[]:"06"
+	def2[]:"07"
+	def2[]:"08"
+	def2[]:"09"
+	def2[]:"10"
+	def2[]:"11"
+	def2[]:"12"
+	def2[]:"13"
+	def2[]:"14"
+	def2[]:"15"
+	def2[]:"16"
+
+}
+license_plate_data : .lp.bus
+{
+    type: bus
+
+	templates[]: " 000 11  2"
+
+	def1[]:"<font xscale=0.8 yscale=0.8 >A</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >B</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >C</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >D</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >E</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >F</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >G</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >H</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >I</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >J</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >K</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >L</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >M</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >N</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >O</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >P</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >Q</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >R</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >S</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >T</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >U</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >V</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >W</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >X</font>"
+    def1[]:"<font xscale=0.8 yscale=0.8 >Y</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >Z</font>"
+	
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def2[]:"01"
+	def2[]:"02"
+	def2[]:"03"
+	def2[]:"04"
+	def2[]:"05"
+	def2[]:"06"
+	def2[]:"07"
+	def2[]:"08"
+	def2[]:"09"
+	def2[]:"10"
+	def2[]:"11"
+	def2[]:"12"
+	def2[]:"13"
+	def2[]:"14"
+	def2[]:"15"
+	def2[]:"16"
+
+}
+license_plate_data : .lp.trailer
+{
+	type: trailer
+
+	templates[]: " 00 111  2"
+
+	def1[]:"<font xscale=0.8 yscale=0.8 >A</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >B</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >C</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >D</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >E</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >F</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >G</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >H</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >I</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >J</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >K</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >L</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >M</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >N</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >O</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >P</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >Q</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >R</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >S</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >T</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >U</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >V</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >W</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >X</font>"
+    def1[]:"<font xscale=0.8 yscale=0.8 >Y</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >Z</font>"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def2[]:"01"
+	def2[]:"02"
+	def2[]:"03"
+	def2[]:"04"
+	def2[]:"05"
+	def2[]:"06"
+	def2[]:"07"
+	def2[]:"08"
+	def2[]:"09"
+	def2[]:"10"
+	def2[]:"11"
+	def2[]:"12"
+	def2[]:"13"
+	def2[]:"14"
+	def2[]:"15"
+	def2[]:"16"
+
+}
+
+license_plate_data : .lp.police
+{
+	type: police
+
+	background_front: police_lp
+	background_rear: police_lp
+
+	templates[]: "30000425"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"E"
+	def1[]:"K"
+	def1[]:"M"
+	def1[]:"H"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"C"
+	def1[]:"T"
+	def1[]:"I"
+	def1[]:"X"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def2[]:"01" # Нур-Султан (Астана), Казахстан
+	def2[]:"02" # Алматы, Казахстан
+	def2[]:"03" # Акмолинская область, Казахстан
+	def2[]:"04" # Актюбинская область, Казахстан
+	def2[]:"05" # Алматинская область, Казахстан
+	def2[]:"06" # Атырауская область, Казахстан
+	def2[]:"07" # Западно-Казахстанская область
+	def2[]:"08" # Жамбылская область, Казахстан
+	def2[]:"09" # Карагандинская область, Казахстан
+	def2[]:"10" # Костанайская область, Казахстан
+	def2[]:"11" # Кызылординская область, Казахстан
+	def2[]:"12" # Мангистауская область, Казахстан
+	def2[]:"13" # Южно-Казахстанская область, Казахстан
+	def2[]:"14" # Павлодарская область, Казахстан
+	def2[]:"15" # Северо-Казахстанская область, Казахстан
+	def2[]:"16" # Восточно-Казахстанская область, Казахстан
+
+	def3[]: "<color value=FFFFFFFF><align right=106>"
+	def4[]: "</align><ret><font xscale=0.9 yscale=0.9><align left=96>"
+	def5[]: "</align></font>"
+}
+
+}

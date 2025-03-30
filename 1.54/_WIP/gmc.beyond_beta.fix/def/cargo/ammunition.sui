@@ -1,0 +1,10 @@
+cargo_data: cargo.ammunition
+{
+	name: "@@cn_ammunition@@"
+	adr_class: 1
+	volume: 2.6
+	mass: 570
+	unit_reward_per_km: 0.753
+	unit_load_time: 78
+	body_types[]: curtainside
+}

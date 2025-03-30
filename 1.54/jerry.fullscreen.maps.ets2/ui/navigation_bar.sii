@@ -1,0 +1,128 @@
+SiiNunit
+{
+ui_blend_window : _nameless.2680.c838 {
+ blend_x_shift: 0
+ blend_y_shift: -1100
+ window_handler: _nameless.2667.5850
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.links
+ my_children[1]: _nameless._.previous.overlay
+ my_children[2]: _nameless._.next.overlay
+ my_children[3]: _nameless.223.60d0
+ coords_l: -80
+ coords_r: 1520
+ coords_t: &42a80001
+ coords_b: 0
+ area_l: -80
+ area_r: 1520
+ area_t: &42a80001
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+navigation_bar_hdl : _nameless.2667.5850 {
+ button_row_id: 100
+ button_row_limit: 3
+ window_link: _nameless.2680.c838
+}
+
+ui::button_row : _nameless._.links {
+ row_align: center
+ label_indent: 0
+ item_distance: 0
+ min_item_width: 0
+ button_row_type: dynamic
+ value_list: ""
+ id_list: ""
+ width_list: ""
+ list_delimiter: "~~"
+ look_template_list: ""
+ look_template: btn.screen_link.nav_bar
+ button_type: radio
+ button_tab_base: -1
+ p_pml_as_reference: false
+ use_blend_buttons: false
+ fitting: false
+ my_children: 0
+ coords_l: 78
+ coords_r: 1362
+ coords_t: 70
+ coords_b: 0
+ area_l: 78
+ area_r: 1362
+ area_t: 70
+ area_b: 0
+ id: 100
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2680.c838
+}
+
+ui::text_common : _nameless._.previous.overlay {
+ value: "<font face=/font/overlay_glyphs_xbox.font xscale=1.2 yscale=1.2>\xee\xa3\x83</font>"
+ look_template: txt.ovr_icon
+ text: ""
+ coords_l: 13
+ coords_r: 73
+ coords_t: 65
+ coords_b: 5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 252
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2680.c838
+}
+
+ui::text_common : _nameless._.next.overlay {
+ value: "<font face=/font/overlay_glyphs_xbox.font xscale=1.2 yscale=1.2>\xee\xa3\x86</font>"
+ look_template: txt.ovr_icon
+ text: ""
+ coords_l: 1367
+ coords_r: 1427
+ coords_t: 65
+ coords_b: 5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 253
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2680.c838
+}
+
+ui::text_common : _nameless.223.60d0 {
+ value: "@@clr_desktop_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 70
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2680.c838
+}
+
+}

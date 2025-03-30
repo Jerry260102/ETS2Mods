@@ -1,0 +1,10 @@
+SiiNunit
+{
+cargo_model_match : .kass_30
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.stc/body/tank_30.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/kassbohrer.stc/body/tank_30_paint.sii"
+	compatible_body[]: "/def/vehicle/trailer/kassbohrer_sbt/ch_3.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/kassbohrer_stc/sodchlor_ch30.sii"
+}
+}

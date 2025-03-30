@@ -1,0 +1,8 @@
+SiiNunit
+{
+cargo_model_match : .scs_chem2
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/scs.chemtank/chassis/ch_2.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_chemtank/sulfuric_ch2.sii"
+}
+}

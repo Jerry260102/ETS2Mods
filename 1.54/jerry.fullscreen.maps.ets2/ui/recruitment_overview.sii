@@ -1,0 +1,274 @@
+SiiNunit
+{
+ui_blend_window : _nameless.0066d2231 {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: _nameless.0066d2230
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 7
+ my_children[0]: _nameless._.window.background
+ my_children[1]: _nameless._.map
+ my_children[2]: _nameless._.title.2
+ my_children[3]: _nameless._.hire.online.button
+ my_children[4]: _nameless.233.4690
+ my_children[5]: _nameless.21c.9550
+ my_children[6]: _nameless._.title.2.bg
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 900
+ coords_b: 0
+ area_l: -80
+ area_r: 1520
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+recruit_map_hdl : _nameless.0066d2230 {
+ window_link: _nameless.0066d2231
+}
+
+ui::text_common : _nameless._.window.background {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 860
+ coords_b: 70
+ area_l: -80
+ area_r: 1520
+ area_t: 860
+ area_b: 70
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::portal : _nameless._.map {
+ child_path: "/ui/recruitment_map.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless.0094f9b90
+ coords_l: -75
+ coords_r: 1515
+ coords_t: 855
+ coords_b: 75
+ area_l: -75
+ area_r: 1515
+ area_t: 855
+ area_b: 75
+ id: 100000
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::text_common : _nameless.0094f9b90 {
+ value: ""
+ look_template: txt.ttip_simple
+ text: ""
+ coords_l: 261
+ coords_r: 417
+ coords_t: 474
+ coords_b: 409
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 2500
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.map
+}
+
+ui::text_common : _nameless._.title.2 {
+ value: "@@recruit_map_info@@"
+ look_template: txt.emph.big.center
+ text: ""
+ coords_l: &41400040
+ coords_r: 1429
+ coords_t: 855
+ coords_b: 809
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::button_common : _nameless._.hire.online.button {
+ value: "@@recruit_map_hire@@"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 535
+ coords_r: 905
+ coords_t: 105
+ coords_b: 75
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 100
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::overlay_point : _nameless.233.4690 {
+ overlay_anchor_type: bottomleft
+ value: "left|bottom"
+ look_template: txt.overlay.anchor
+ text: ""
+ coords_l: -75
+ coords_r: 80
+ coords_t: 118
+ coords_b: 75
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 91111
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::group : _nameless.21c.9550 {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless.00e9529f1
+ my_children[1]: _nameless.0066d22311
+ my_children[2]: _nameless.0066d223f
+ my_children[3]: _nameless.0066d2235
+ coords_l: -75
+ coords_r: 239
+ coords_t: 855
+ coords_b: 771
+ area_l: -75
+ area_r: 239
+ area_t: 855
+ area_b: 777
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+ui::text_common : _nameless.00e9529f1 {
+ value: "@@clr_white@@|@@recruit_map_unknown@@"
+ look_template: txt.normal.color.left
+ text: ""
+ coords_l: -20
+ coords_r: 229
+ coords_t: 817
+ coords_b: 786
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.21c.9550
+}
+
+ui::text_common : _nameless.0066d22311 {
+ value: "@@clr_white@@|@@recruit_map_unlocked@@"
+ look_template: txt.normal.color.left
+ text: ""
+ coords_l: -20
+ coords_r: 229
+ coords_t: 848
+ coords_b: 817
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.21c.9550
+}
+
+ui::text : _nameless.0066d223f {
+ text: "<img src=/material/ui/button/recruit_pin_n.mat left=p16 top=p16><br offset=-18>\r\n<img src=/material/ui/icon/tdealer_unknown.mat>"
+ coords_l: -63
+ coords_r: -11
+ coords_t: 848
+ coords_b: 786
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.21c.9550
+}
+
+ui::text : _nameless.0066d2235 {
+ text: "<color value=C0000000><img src=/material/ui/white.mat width=1 height=-1><img src=/material/ui/white.mat width=-1 yscale=stretch><img src=/material/ui/white.mat width=1 height=-1>"
+ coords_l: -75
+ coords_r: 239
+ coords_t: 855
+ coords_b: 776
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.21c.9550
+}
+
+ui::text : _nameless._.title.2.bg {
+ text: "<color value=@@clr_bg_dark@@>\r\n<offset vshift=1><img src=/material/ui/white.mat width=1 height=-1>\r\n<offset vshift=-1><img src=/material/ui/white.mat yscale=stretch width=-1>\r\n<offset vshift=1><img src=/material/ui/white.mat width=1 height=-1>"
+ coords_l: -80
+ coords_r: 1520
+ coords_t: 855
+ coords_b: 809
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 301
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066d2231
+}
+
+}

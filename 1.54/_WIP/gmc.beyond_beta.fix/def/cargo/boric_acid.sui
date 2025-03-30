@@ -1,0 +1,12 @@
+cargo_data: cargo.boric_acid
+{
+	name: "@@cn_boric_acid@@"
+	fragility: 0.2
+	group[]: containers
+	volume: 2.6
+	mass: 511.5
+	unit_reward_per_km: 0.765
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

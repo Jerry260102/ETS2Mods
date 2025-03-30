@@ -1,0 +1,12 @@
+cargo_data: cargo.sq_tub
+{
+	name: "@@cn_square_tubing@@"
+	fragility: 0.5
+	group[]: construction
+	volume: 40
+	mass: 12195
+	unit_reward_per_km: 10.432
+	unit_load_time: 1200
+	body_types[]: flatbed
+	body_types[]: flatbed_cont
+}

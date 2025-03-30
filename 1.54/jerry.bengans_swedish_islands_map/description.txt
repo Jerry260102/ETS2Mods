@@ -1,0 +1,17 @@
+[orange]Original Swedish Islands Map addon by BenganJ.
+[orange]Maintained/Updated by Jerry GMC Master Fixer
+
+[green]MISS YOU BENGAN
+
+[normal]Map addon of the swedish islands Gotland and Öland
+[normal]located at the east coast of Sweden. 16 new "cities"
+[normal]added for you to deliver to/from!
+
+[normal]It should be compatible with any map that hasn't modified
+[normal]sectors in the very vicinity of the city Kalmar.
+
+[red]All the map DLC's for ETS2 are needed!
+
+[blue]For Support/Map Combos/Reporting issues/VTC/Amazing Community,
+Check out GMC Logistics:
+[orange]https://discord.gg/gmclogistics

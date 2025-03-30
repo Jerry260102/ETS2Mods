@@ -1,0 +1,21 @@
+SiiNunit
+{
+
+@include "/def/city/visby.benganj.sii"
+@include "/def/city/slite.benganj.sii"
+@include "/def/city/ljugarn.benganj.sii"
+@include "/def/city/klintehamn.benganj.sii"
+@include "/def/city/hemse.benganj.sii"
+@include "/def/city/faaro.benganj.sii"
+@include "/def/city/faarosund.benganj.sii"
+@include "/def/city/hoburg.benganj.sii"
+@include "/def/city/faerjestaden.benganj.sii"
+@include "/def/city/moerbylaanga.benganj.sii"
+@include "/def/city/borgholm.benganj.sii"
+@include "/def/city/byxelkrok.benganj.sii"
+@include "/def/city/ottenby.benganj.sii"
+@include "/def/city/loettorp.benganj.sii"
+@include "/def/city/palmelund.benganj.sii"
+@include "/def/city/gaardby.benganj.sii"
+
+}

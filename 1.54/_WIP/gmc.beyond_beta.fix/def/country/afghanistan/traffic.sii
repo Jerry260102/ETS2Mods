@@ -1,0 +1,25 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+#
+# NOTE: To override a traffic info in your mod, just create a new definition
+# in your definition file (see above) with the same value for 'object' attribute as the one being overridden
+# For each 'object' the LAST LOADED traffic info is used
+#
+
+#################################################
+########### police
+#################################################
+
+country_traffic_info : .country.info.traffic.humvee.police_af {
+	object: traffic.humvee.police_af
+	spawn_ratio: 1.00
+}
+
+}

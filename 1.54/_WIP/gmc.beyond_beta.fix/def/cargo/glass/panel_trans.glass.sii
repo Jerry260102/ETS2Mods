@@ -1,0 +1,15 @@
+SiiNunit
+{
+trailer_def : trailer_def.glass.panel_trans.glass
+{
+	trailer: trailer.panel_trans.glass
+	gross_trailer_weight_limit: 28021
+	chassis_mass: 6800
+	body_mass: 0
+	axles: 2
+	volume: 100
+	body_type: _paneassglss
+
+	mass_ratio[]: 1
+}
+}
